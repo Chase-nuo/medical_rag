@@ -1,0 +1,33 @@
+# ---------- 语料原始文件 ----------
+# 1020 篇 PMC OA 的 txt/json（约 51 MB，可由 fetch_pmc_oa.py / expand_corpus.py 重新抓取）
+# 分析产物 CSV（manifest / corpus_*.csv / chunk_size_simulation.csv）仍然纳入版本管理
+data/pmc_oa/PMC*/
+data/pmc_oa/_batch*/
+data/pmc_oa/_speedtest/
+
+# ---------- 模型缓存 ----------
+# bge-m3 tokenizer 缓存（约 16 MB，可用 ollama pull bge-m3 重新下载）
+data/tokenizer/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 向量库（阶段④ 产出，体积大且可重建） ----------
+data/chroma/
+data/chunks/
+
+# ---------- IDE / 工具 ----------
+.idea/
+.vscode/
+.codebuddy/
+
+# ---------- 系统 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store

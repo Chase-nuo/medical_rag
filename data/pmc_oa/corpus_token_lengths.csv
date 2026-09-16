@@ -1,0 +1,1021 @@
+pmcid,title,lang,lines_full,chars_core,cjk_chars_core,cjk_ratio,tokens_full,tokens_body,tokens_core,chars_per_token_core,removed_pct,tail_cut,n_paras,para_tok_p50,para_tok_p90,para_tok_max,tab_lines
+PMC5444287,A Comparative Analysis of Structural Brain MRI in the Diagnosis of Alz,en,54,0,0,0.0,447,0,0,0.0,100.0,False,0,0,0,0,0
+PMC12726608,Hypertension's underestimated role in dementia,en,70,1503,0,0.0,744,314,314,4.787,57.8,False,9,2,76,100,0
+PMC2024828,Proceedings: Humoral immunity in human lung neoplasms,en,36,1231,0,0.0,681,327,327,3.765,52.0,False,1,326,326,326,0
+PMC12438852,The relationship between depressive symptoms and medication adherence ,en,72,1752,0,0.0,752,353,353,4.963,53.1,False,12,5,76,77,0
+PMC10737162,AGE-SPECIFIC POPULATION ATTRIBUTABLE FRACTIONS FOR THE IMPACT OF HYPER,en,58,1686,0,0.0,939,433,433,3.894,53.9,False,2,216,388,431,0
+PMC12760238,Mechanisms of Generating Health Disparities in the Risk of Alzheimer’s,en,47,1932,0,0.0,835,450,450,4.293,46.1,False,2,224,403,448,0
+PMC13137938,Methodological Considerations in Interpreting Mortality Trends in Aort,en,96,3344,0,0.0,1607,1149,691,4.839,57.0,True,19,10,96,131,0
+PMC11093495,A commentary on ‘Organ preservation strategies after neoadjuvant chemo,en,110,4800,0,0.0,2003,1423,1044,4.598,47.9,True,26,11,135,265,0
+PMC11254205,A commentary on ‘Impact of lymphadenectomy extent on immunotherapy eff,en,107,4535,0,0.0,2001,1452,1065,4.258,46.8,True,26,11,158,233,0
+PMC7598962,Type 2 Myocardial Infarction Resulted from the Left Thoracic Stomach,en,85,4947,0,0.0,1813,1365,1261,3.923,30.4,True,14,45,222,499,13
+PMC5287964,Not only for melanoma. Subcutaneous pseudoprogression in lung squamous,en,111,5716,0,0.0,2148,1652,1363,4.194,36.5,True,27,24,158,250,0
+PMC11203558,Immune Checkpoint Inhibitors in Non-Small Cell Lung Cancer (NSCLC) Tre,en,82,6075,0,0.0,4122,3579,1513,4.015,63.3,True,7,84,617,866,0
+PMC10574155,"Type 1 and Type 2 Diabetes Mellitus: Commonalities, Differences and th",en,117,6474,0,0.0,5988,5498,1541,4.201,74.3,True,13,136,171,181,0
+PMC5895306,Statin in the treatment of patients with myocardial infarction: A meta,en,160,7069,0,0.0,4584,4092,1707,4.141,62.8,True,37,19,130,198,0
+PMC8028515,Prevalence of Type II Diabetes Mellitus Among Adult Population in Medi,en,149,7551,0,0.0,2772,2285,1719,4.393,38.0,True,42,30,110,136,0
+PMC2808666,Chronic kidney disease and small renal tumors: What urologists should ,en,100,7587,0,0.0,3004,2632,1815,4.18,39.6,True,22,20,256,286,0
+PMC10754309,A Rare Pathology Masquerading as Myocardial Infarction,en,75,7390,0,0.0,2608,2184,1833,4.032,29.7,True,12,89,329,682,0
+PMC10924494,Ultrasound Guided Biopsy among Patients with Lung Lesions Undergoing P,en,298,7536,0,0.0,2837,2381,1873,4.023,34.0,True,102,4,59,172,62
+PMC5815687,Synchronous diffuse large B-cell lymphoma of the stomach and small cel,en,134,7516,0,0.0,3394,2824,1942,3.87,42.8,True,31,33,144,343,0
+PMC11392149,Assessment of surgery delay-associated risk in resectable stages I–III,en,151,7913,0,0.0,2990,2408,2039,3.881,31.8,True,33,10,206,285,29
+PMC10795236,A rare case: Endobronchial solitary mixed papilloma,en,144,8519,0,0.0,3408,2708,2131,3.998,37.5,True,40,15,178,369,0
+PMC8283556,Analysis of Estimated and Measured Glomerular Filtration Rates and the,en,153,7109,0,0.0,4008,2569,2145,3.314,46.5,True,25,83,172,332,12
+PMC6392996,Concomitant coronary and pulmonary embolism associated with patent for,en,132,8799,0,0.0,3391,2899,2180,4.036,35.7,True,29,32,188,333,0
+PMC10725226,Diabetes Mellitus among Patients with Non-alcoholic Fatty Liver Diseas,en,200,8597,0,0.0,3321,2875,2192,3.922,34.0,True,64,7,95,308,24
+PMC10924502,Diabetes Mellitus among Patients with Acute Ischemic Stroke Admitted t,en,235,9555,0,0.0,3758,3275,2226,4.292,40.8,True,74,4,104,243,31
+PMC9297346,Diabetes Mellitus among Adult Outpatients Visiting a Tertiary Care Cen,en,198,9471,0,0.0,4145,3620,2266,4.18,45.3,True,55,19,111,223,15
+PMC8500622,Risk factors for anemia in patients with chronic kidney disease: A pro,en,151,9815,0,0.0,3978,3414,2267,4.33,43.0,True,40,16,171,257,0
+PMC5207586,Sudden death due to ventricular double rupture as a complication of in,en,127,9024,0,0.0,3983,3485,2271,3.974,43.0,True,28,49,178,517,0
+PMC8137086,The effect of concomitant chronic kidney disease on the recurrence of ,en,160,9612,0,0.0,3913,3418,2272,4.231,41.9,True,45,10,183,240,0
+PMC12778126,Thoracic splenosis initially misdiagnosed as lung neoplasms: An unusua,en,126,9063,0,0.0,3404,2902,2286,3.965,32.8,True,34,15,199,411,0
+PMC5728893,Tonsillar metastasis of nonsmall cell lung cancer with G719S mutation ,en,135,9556,0,0.0,3624,3142,2341,4.082,35.4,True,36,52,162,239,0
+PMC5728943,Endobronchial hamartoma mimicking malignant lung tumor contralateral e,en,130,8729,0,0.0,3336,2806,2360,3.699,29.3,True,33,36,178,541,0
+PMC5369930,Giant hepatic metastasis in a patient with coin-like small cell lung c,en,127,9445,0,0.0,3527,3037,2411,3.917,31.6,True,32,33,197,270,0
+PMC3207949,Mucoepidermoid carcinoma of the lung: a case report,en,101,9040,0,0.0,2883,2427,2427,3.725,15.8,False,24,20,333,564,0
+PMC6741394,Primary Pulmonary Involvement in Mucosa-associated Lymphoid Tissue Lym,en,117,9620,0,0.0,4097,3518,2445,3.935,40.3,True,24,132,193,262,0
+PMC4772370,Sudden death associated with silent myocardial infarction in a 35-year,en,149,9427,0,0.0,3367,2862,2448,3.851,27.3,True,44,18,125,419,7
+PMC6300886,Heterogeneity of Alzheimer’s disease: consequence for drug trials?,en,134,11083,0,0.0,4088,3607,2549,4.348,37.6,True,37,10,213,307,0
+PMC5301382,Early detection of myocardial infarction following blunt chest trauma ,en,162,10654,0,0.0,4223,3644,2600,4.098,38.4,True,46,10,135,637,0
+PMC10579777,Dyslipidemia among Patients with Type 2 Diabetes Mellitus Visiting a T,en,284,10886,0,0.0,4168,3702,2646,4.114,36.5,True,90,5,98,190,52
+PMC9107826,Silent Myocardial Infarction and Acute Multiorgan Failure in a COVID-1,en,114,10350,0,0.0,3882,3400,2708,3.822,30.2,True,27,54,258,335,0
+PMC5406079,Risk factors and prognosis of pulmonary embolism in patients with lung,en,124,11819,0,0.0,3966,3512,2737,4.318,31.0,True,31,41,205,283,0
+PMC3620691,Delayed ventricular septal rupture complicating acute inferior wall my,en,99,10449,0,0.0,3271,2785,2785,3.752,14.9,False,24,38,386,602,0
+PMC11018926,Uniportal video-assisted thoracoscopic segmentectomy for fetal adenoca,en,150,11504,0,0.0,4952,4291,2870,4.008,42.0,True,33,62,241,335,0
+PMC4169830,Recurrent hypoglycaemia in type-1 diabetes mellitus may unravel the as,en,149,11666,0,0.0,4335,3850,2893,4.032,33.3,True,42,14,192,337,0
+PMC6824746,Paget disease of bone in an elderly patient with chronic renal disease,en,152,12184,0,0.0,4204,3618,2926,4.164,30.4,True,44,18,209,334,0
+PMC12276399,A Novel CLTC::RPS6KB1 Fusion in a Poorly Differentiated Carcinoma Invo,en,135,11920,0,0.0,4658,4157,2997,3.977,35.7,True,29,81,210,299,10
+PMC3607605,Increasing Trends of Diabetes Mellitus and Body Weight: A Ten Year Obs,en,198,12605,0,0.0,4866,4257,3018,4.177,38.0,True,49,50,141,282,21
+PMC11485294,Insufficient evidence for an association between iatrogenic Alzheimer',en,141,12207,0,0.0,4219,3451,3028,4.031,28.2,True,26,119,275,367,10
+PMC2888343,"Prevalence, Awareness, Treatment, and Control of Hypertension in Rural",en,189,11920,0,0.0,3962,3551,3109,3.834,21.5,True,47,17,216,239,44
+PMC11044850,Risk of Long-Term Ischemic Stroke in Patients With Traumatic Brain Inj,en,204,12533,0,0.0,5426,4685,3133,4.0,42.3,True,23,160,228,474,25
+PMC8213256,The use of cisplatin in patients after kidney transplantation with chr,en,156,12764,0,0.0,5183,4639,3157,4.043,39.1,True,38,19,223,818,0
+PMC5571705,Two-portal versus three-port video-assist thoracoscopic surgery for ea,en,144,13192,0,0.0,4692,4180,3171,4.16,32.4,True,38,32,221,462,0
+PMC5457896,Case report of 2 sudden deaths after surgery for bone fracture: Useful,en,131,12264,0,0.0,4181,3638,3198,3.835,23.5,True,33,51,334,464,0
+PMC10089046,Occluded Coronary Artery among Non-ST Elevation Myocardial Infarction ,en,247,12437,0,0.0,5356,4816,3215,3.868,40.0,True,48,33,169,355,78
+PMC7757917,Use of Intracoronary Thrombolysis for Huge Thrombus Burden in an Ectat,en,111,12912,0,0.0,4756,4353,3224,4.005,32.2,True,24,128,240,343,0
+PMC6813084,The cost of lost productivity due to premature lung cancer-related mor,en,203,13864,0,0.0,5247,4769,3248,4.268,38.1,True,55,24,165,267,26
+PMC9226727,Gestational Diabetes Mellitus among Pregnant Women Delivering in a Ter,en,199,13997,0,0.0,5331,4931,3333,4.2,37.5,True,48,17,186,459,34
+PMC5457881,Atrial fibrillation was changed into sinus bradycardia in a ROS1-posit,en,126,13055,0,0.0,4911,4380,3362,3.883,31.5,True,29,55,424,486,0
+PMC5266063,Weight loss before a diagnosis of type 2 diabetes mellitus is a risk f,en,167,14961,0,0.0,5410,4885,3444,4.344,36.3,True,38,81,193,508,0
+PMC4667510,Transient Neonatal Diabetes Mellitus followed by recurrent asymptomati,en,136,14153,0,0.0,4412,3886,3546,3.991,19.6,True,39,59,204,504,0
+PMC5457885,Marked response to nab-paclitaxel in EGFR mutated lung neuroendocrine ,en,146,13447,0,0.0,5757,5176,3548,3.79,38.4,True,33,29,371,511,0
+PMC5228690,Bortezomib combined with lenalidomide as the first-line treatment for ,en,122,14086,0,0.0,5055,4511,3562,3.955,29.5,True,25,69,289,666,0
+PMC7436637,Imminent risk of COVID-19 in diabetes mellitus and undiagnosed diabete,en,85,15451,0,0.0,4015,3588,3588,4.306,10.6,False,17,218,496,559,0
+PMC9252224,End-Stage Renal Disease among Patients Undergoing Haemodialysis at a T,en,213,14083,0,0.0,5401,4859,3654,3.854,32.3,True,55,25,188,276,34
+PMC6000097,Radiofrequency Ablation for Lung Neoplasms with Isolated Postsurgical ,zh,177,6993,3031,0.433,5939,5417,3675,1.903,38.1,True,49,28,215,366,0
+PMC4422624,Reduced CSF Water Influx in Alzheimer’s Disease Supporting the β-Amylo,en,206,14616,0,0.0,6213,5549,3683,3.969,40.7,True,35,81,232,476,31
+PMC6392978,Therapeutic efficacy of neuromuscular electrical stimulation and elect,en,179,15906,0,0.0,6188,5700,3727,4.268,39.8,True,46,55,191,244,0
+PMC1395330,Left ventricular free wall impeding rupture in post-myocardial infarct,en,102,14805,0,0.0,4151,3728,3728,3.971,10.2,False,25,72,452,663,0
+PMC5944517,Immunological markers as predictors of developing steroid-induced diab,en,208,15340,0,0.0,5400,4776,3728,4.115,31.0,True,65,42,135,289,0
+PMC5738010,A case report of tongue metastasis from lung squamous cell carcinoma a,en,160,14242,0,0.0,5543,5035,3736,3.812,32.6,True,43,33,210,532,0
+PMC5976344,Lung cancer screening CT-based coronary artery calcification in predic,en,208,15739,0,0.0,6157,5668,3738,4.211,39.3,True,65,13,151,461,0
+PMC5313025,"Rapid intracranial response to osimertinib, without radiotherapy, in n",en,167,14946,0,0.0,6894,6273,3793,3.94,45.0,True,36,83,237,658,0
+PMC4998775,Improving the Blood Pressure Control With the ProActive Attitude of Hy,en,187,17719,0,0.0,6556,6024,3802,4.66,42.0,True,47,56,198,350,0
+PMC5999662,Stereotactic Body Radiaton Therapy for 15 Patients with Small Lung Neo,zh,195,7276,2916,0.401,5889,5378,3825,1.902,35.0,True,49,18,203,593,25
+PMC4575702,The clinical pattern of renal diseases in the nephrology in-patient un,en,163,15312,0,0.0,5707,5166,3871,3.956,32.2,True,41,12,297,540,8
+PMC5815792,Significant efficacy and well safety of apatinib combined with radioth,en,135,15368,0,0.0,5430,4943,3883,3.958,28.5,True,34,52,292,588,0
+PMC4177929,Likelihood and Predictors of ST-Elevation in Patients Hospitalized for,en,214,15054,0,0.0,7933,7129,3893,3.867,50.9,True,46,32,267,304,20
+PMC9155036,Delays in Presentation by Patients with ST Elevation Myocardial Infarc,en,201,17045,0,0.0,6391,5984,3921,4.347,38.6,True,39,50,247,361,46
+PMC5708966,Responses to crizotinib and disease monitoring with circulating tumor ,en,156,15185,0,0.0,6258,5751,3967,3.828,36.6,True,37,59,298,432,0
+PMC5485046,"Renal safety of canagliflozin, a sodium glucose co‐transporter 2 inhib",en,164,15485,0,0.0,6148,5439,3969,3.901,35.4,True,25,125,348,622,9
+PMC5571687,Pemetrexed-carboplatin with intercalated icotinib in the treatment of ,en,162,15878,0,0.0,6153,5567,4010,3.96,34.8,True,41,63,203,640,0
+PMC5402593,Comparative clinical implications of admission electrocardiographic fi,en,153,16579,0,0.0,5930,5411,4019,4.125,32.2,True,40,74,233,374,0
+PMC6299491,Perceived family support among older persons in diabetes mellitus self,en,197,19246,0,0.0,5301,4720,4022,4.785,24.1,True,64,15,154,529,0
+PMC6247241,Familial history of hypertension-induced impairment on heart rate vari,en,141,16428,0,0.0,5943,5429,4038,4.068,32.1,True,28,145,315,369,8
+PMC5617704,The prognostic value of shock index for the outcomes of acute myocardi,en,211,16624,0,0.0,5790,5300,4041,4.114,30.2,True,69,40,145,253,0
+PMC6392805,Effects of slow breathing rate on heart rate variability and arterial ,en,210,16477,0,0.0,6182,5693,4045,4.073,34.6,True,67,21,175,422,0
+PMC4616658,Metachronous Primary Adenocarcinoma of Lung During Adjuvant Imatinib M,en,135,16425,0,0.0,6521,5903,4065,4.041,37.7,True,27,99,347,629,0
+PMC11238481,Stereotactic body radiation therapy for multiple lung cancers in a pat,en,200,16490,0,0.0,6405,5525,4073,4.049,36.4,True,61,12,255,484,0
+PMC4567586,A community-driven hypertension treatment group in rural Honduras,en,232,18279,0,0.0,5750,5232,4077,4.483,29.1,True,60,54,163,254,40
+PMC10627647,The relationship between Alzheimer disease and thyroiditis: A two-samp,en,196,16831,0,0.0,7334,6838,4089,4.116,44.2,True,39,12,338,615,0
+PMC11444230,The role of first-trimester systemic immune-inflammation index for the,en,170,16322,0,0.0,6026,5503,4119,3.963,31.6,True,41,79,220,258,14
+PMC13452781,In-hospital outcomes among patients admitted for myocardial infarction,en,206,17326,0,0.0,7325,6727,4169,4.156,43.1,True,34,87,329,429,50
+PMC5571721,Age threshold for moderate and severe periodontitis among Korean adult,en,178,18004,0,0.0,6894,6394,4174,4.313,39.5,True,39,96,251,283,0
+PMC6076114,A case report of pediatric calciphylaxis–a rare and potentially fatal ,en,203,16969,0,0.0,6288,5754,4250,3.993,32.4,True,61,24,207,383,0
+PMC7727236,Inverse association of diabetes and dialysis with the severity of femo,en,228,17460,0,0.0,7107,6200,4265,4.094,40.0,True,57,16,242,426,32
+PMC5999988,Radiofrequency Ablation for the Treatment of Lung Neoplasms: A Retrosp,zh,231,8537,3521,0.412,5880,5359,4276,1.996,27.3,True,56,23,203,500,47
+PMC7794905,Association between Gene Polymorphisms of Vitamin D Receptor and Gesta,en,270,18307,0,0.0,10386,9784,4282,4.275,58.8,True,36,72,324,749,0
+PMC5403074,High expression of CD8 predicts favorable prognosis in patients with l,en,167,16918,0,0.0,6235,5661,4298,3.936,31.1,True,45,80,228,483,0
+PMC4517989,Hearing Loss is Associated With Risk of Alzheimer’s Disease: A Case-Co,en,225,17952,0,0.0,7268,6657,4299,4.176,40.9,True,48,31,212,396,37
+PMC4616386,Meta-analysis of Cholesteryl Ester Transfer Protein TaqIB Polymorphism,en,187,16221,0,0.0,7756,7192,4304,3.769,44.5,True,49,70,240,356,0
+PMC7654398,SARS‐CoV‐2 infection associated acute kidney injury in patients with p,en,201,17059,0,0.0,6930,6288,4309,3.959,37.8,True,43,27,317,409,26
+PMC4796473,Erectile Dysfunction Among Male Hypertensives in a Tertiary Health Fac,en,231,18023,0,0.0,6278,5854,4313,4.179,31.3,True,40,96,226,359,85
+PMC5304385,Comparisons of serum miRNA expression profiles in patients with diabet,en,190,16198,0,0.0,6513,5979,4313,3.756,33.8,True,46,54,216,463,13
+PMC6000574,Interpretation of IASLC/ATS/ERS International Multidisciplinary Classi,zh,165,6636,4624,0.697,6114,5718,4366,1.52,28.6,True,43,92,226,278,15
+PMC9423753,The Diagnostic Dilemma of Ruptured Liver Metastasis in a Patient with ,en,127,17316,0,0.0,5885,5441,4386,3.948,25.5,True,25,149,329,706,7
+PMC4554129,Brain Metabolism of Less-Educated Patients With Alzheimer Dementia Stu,en,155,18858,0,0.0,6691,6006,4398,4.288,34.3,True,37,77,270,542,0
+PMC2999601,Three-dimension structure of ventricular myocardial fibers after myoca,en,148,17196,0,0.0,4771,4405,4405,3.904,7.7,False,46,36,210,1218,0
+PMC5521921,Assessment of optic disc and ganglion cell layer in diabetes mellitus ,en,156,17676,0,0.0,6237,5764,4411,4.007,29.3,True,41,101,232,414,0
+PMC10754314,Angiographic Predictors of Viability During Intervention for a ST Elev,en,217,17455,0,0.0,7185,6738,4418,3.951,38.5,True,43,79,280,380,51
+PMC3262743,The Chinese version of the Myocardial Infarction Dimensional Assessmen,en,144,17882,0,0.0,4892,4426,4426,4.04,9.5,False,33,73,273,979,16
+PMC3736467,Ambulatory Blood Pressure Monitoring in a Cohort of Children Referred ,en,120,19245,0,0.0,4851,4426,4426,4.348,8.8,False,24,136,336,975,15
+PMC9446016,Hearing Loss in Patients with Diabetes Mellitus,en,259,18524,0,0.0,6237,5828,4440,4.172,28.8,True,74,48,118,246,39
+PMC5794406,Prognostic impact of left ventricular mass change in patients with ST-,en,156,17484,0,0.0,6176,5639,4441,3.937,28.1,True,41,63,256,426,0
+PMC5585474,Comparative assessment of the efficacy and safety of acarbose and metf,en,185,18023,0,0.0,6122,5500,4463,4.038,27.1,True,53,54,205,374,0
+PMC12114311,Chronic Hepatitis E Virus Infection Without Liver Injury in a Patient ,en,196,18094,0,0.0,7863,7188,4466,4.052,43.2,True,39,77,301,435,29
+PMC3912196,Autoantibody Profiling for Lung Cancer Screening Longitudinal Retrospe,en,179,18914,0,0.0,7166,6503,4507,4.197,37.1,True,28,140,344,419,36
+PMC3083341,N-terminal-pro-brain natriuretic peptide is decreased in insulin depen,en,163,16786,0,0.0,5110,4551,4551,3.688,10.9,False,42,71,144,1577,10
+PMC11219383,"Genetically Proxied Therapeutic Effect of Metformin Use, Blood Pressur",en,218,17542,0,0.0,6902,6181,4557,3.849,34.0,True,61,11,256,479,20
+PMC4985413,Characterization of Benign Myocarditis Using Quantitative Delayed-Enha,en,166,16856,0,0.0,6576,5985,4569,3.689,30.5,True,47,92,190,464,0
+PMC10659497,Cross-phenotype associations between Alzheimer’s Disease and its comor,en,227,17953,0,0.0,10663,10266,4574,3.925,57.1,True,39,103,269,366,0
+PMC5457871,Evidence of elemene injection combined radiotherapy in lung cancer tre,en,236,20113,0,0.0,6802,6271,4582,4.39,32.6,True,73,18,185,365,0
+PMC5880091,Can increased vigilance for chronic kidney disease in hospitalised pat,en,207,18637,0,0.0,7101,6632,4586,4.064,35.4,True,57,25,225,364,17
+PMC12245100,Identification of risk factors in myocardial infarction with non-obstr,en,253,18111,0,0.0,6688,5981,4608,3.93,31.1,True,71,28,172,506,35
+PMC5585497,Efficacy of nanoparticle albumin-bound paclitaxel regimens for relapse,en,198,18775,0,0.0,7164,6453,4609,4.074,35.7,True,52,59,195,340,0
+PMC6171234,An open-label pilot study on preventing glucocorticoid-induced diabete,en,195,18224,0,0.0,6714,6178,4616,3.948,31.2,True,55,42,215,319,9
+PMC2632987,Inter-practice variation in diagnosing hypertension and diabetes melli,en,204,21299,0,0.0,5920,5552,4643,4.587,21.6,True,58,65,174,340,19
+PMC10065091,Depressive symptoms among older adults with diabetes mellitus: a cross,en,306,20531,0,0.0,8417,7593,4645,4.42,44.8,True,63,41,160,589,80
+PMC6604195,Screening for chronic kidney disease in rural Malawi: results from a d,en,279,17877,0,0.0,7311,6786,4661,3.835,36.2,True,77,18,155,522,40
+PMC3732752,Neuronal Autophagy: Self-eating or Self-cannibalism in Alzheimer’s Dis,en,126,18961,0,0.0,7858,7327,4667,4.063,40.6,True,17,170,661,821,0
+PMC6683563,The longitudinal effect of subclinical hypothyroidism on urine microal,en,268,17124,0,0.0,7418,6880,4672,3.665,37.0,True,72,12,171,534,41
+PMC6814951,Risk factors for hypertension among young adults (18-35) years attendi,en,254,18085,0,0.0,6305,5914,4675,3.868,25.9,True,45,33,351,627,103
+PMC4616451,Adiponectin as a Protective Factor Against the Progression Toward Type,en,196,19363,0,0.0,7272,6622,4681,4.137,35.6,True,56,78,147,378,0
+PMC5067668,Influence of age on androgen deprivation therapy-associated Alzheimer’,en,135,17189,0,0.0,5180,4682,4682,3.671,9.6,False,28,101,275,1353,14
+PMC2649159,Recent developments in Alzheimer's disease therapeutics,en,164,18083,0,0.0,5011,4688,4688,3.857,6.4,False,53,21,197,1360,20
+PMC5779336,"Lung Cancer Incidence Trends Among Men and Women — United States, 2005",en,203,17131,0,0.0,5587,5207,4689,3.653,16.1,True,40,34,240,1620,68
+PMC12224910,Immunotherapy for hypertensive end-organ damage: a new therapeutic str,en,259,19390,0,0.0,13454,12810,4697,4.128,65.1,True,53,16,287,430,0
+PMC9518626,Effect of vegetarian diets on renal function in patients with chronic ,en,173,18794,0,0.0,6924,6327,4718,3.983,31.9,True,42,83,230,1034,8
+PMC5708934,Salvage chemoradiotherapy with cisplatin and vinorelbine for postopera,en,185,19529,0,0.0,7236,6639,4719,4.138,34.8,True,49,58,247,623,0
+PMC4333880,A meta-analysis of prospective studies on the role of physical activit,en,180,20687,0,0.0,6971,6466,4721,4.382,32.3,True,43,66,245,697,20
+PMC5059092,From biportal to uniportal video-assisted thoracoscopic anatomical lun,en,165,18650,0,0.0,7062,6376,4723,3.949,33.1,True,40,71,302,582,0
+PMC3767941,Awareness of hypertension and factors associated with uncontrolled hyp,en,248,19977,0,0.0,7790,7391,4743,4.212,39.1,True,55,84,157,274,47
+PMC2600791,Nephrotic syndrome and kidney failure due to immunocomplex-mediated re,en,131,18015,0,0.0,5231,4760,4760,3.785,9.0,False,35,77,292,1155,0
+PMC9825023,A systematic review and meta-analysis of the association between sarco,en,288,20612,0,0.0,8353,7790,4762,4.328,43.0,True,90,10,180,341,13
+PMC5706061,Impact of the delay to start treatment in patients with lung cancer tr,en,238,20135,0,0.0,6042,5595,4776,4.216,21.0,True,57,58,158,442,78
+PMC4521845,Gout and Risk of Myocardial Infarction: A Systematic Review and Meta-A,en,276,19648,0,0.0,9498,8763,4784,4.107,49.6,True,58,47,222,402,10
+PMC8152353,Longitudinal study of primary progressive aphasia in a patient with pa,en,255,19003,0,0.0,6257,5561,4787,3.97,23.5,True,77,12,210,498,45
+PMC6054391,Body mass index ≥23 is a risk factor for insulin resistance and diabet,en,221,18638,0,0.0,8493,7333,4788,3.893,43.6,True,49,39,277,360,20
+PMC8789717,Wearable cardioverter-defibrillators after myocardial infarction: a re,en,202,19235,0,0.0,8137,7353,4799,4.008,41.0,True,48,24,268,765,25
+PMC5992231,Recent Findings in the Genetics of Blood Pressure: How to Apply in Pra,en,136,21079,0,0.0,6870,6382,4807,4.385,30.0,True,31,15,492,839,0
+PMC9957054,"Association between Polymorphism of Genes IL-1A, NFKB1, PAR1, TP53, an",en,316,19017,0,0.0,12277,11618,4862,3.911,60.4,True,44,109,209,490,0
+PMC6210689,Lack of Association of Coffee Consumption with the Prevalence of Self-,en,223,19445,0,0.0,9025,8114,4867,3.995,46.1,True,46,31,322,561,29
+PMC3371754,Intelligent ZHENG Classification of Hypertension Depending on ML-kNN a,en,191,20308,0,0.0,5272,4878,4878,4.163,7.5,False,60,32,228,744,36
+PMC5959434,Early tumor shrinkage served as a prognostic factor for patients with ,en,182,19584,0,0.0,7031,6513,4881,4.012,30.6,True,53,22,268,641,0
+PMC3066207,Psoriasis and Hypertension Severity: Results from a Case-Control Study,en,263,20680,0,0.0,7283,6813,4912,4.21,32.6,True,48,62,220,544,82
+PMC3721924,Relationship between Tei index of myocardial performance and left vent,en,217,18874,0,0.0,7174,6717,4917,3.839,31.5,True,48,108,188,449,45
+PMC5999712,Survival after Radiofrequency Ablation for 100 Cases of Lung Neoplasms,zh,185,8627,4250,0.493,6639,6087,4918,1.754,25.9,True,51,51,235,421,9
+PMC9608980,Polypharmacy in Older Adults with Alzheimer’s Disease,en,220,20331,0,0.0,12048,11592,4922,4.131,59.1,True,38,108,280,622,12
+PMC4912299,Risk Factors for Long-Term Mortality and Progressive Chronic Kidney Di,en,174,19356,0,0.0,7203,6446,4928,3.928,31.6,True,46,35,292,628,0
+PMC4753919,Small-Cell Lung Cancer Transformation in Patients With Pulmonary Adeno,en,123,20361,0,0.0,6741,6245,4930,4.13,26.9,True,26,62,685,957,0
+PMC10185944,Myocardial infarction in a 33-year-old with inflammatory bowel disease,en,244,19451,0,0.0,6895,6304,4934,3.942,28.4,True,90,28,161,259,0
+PMC5473552,Association of Alzhemier's disease with hepatitis C among patients wit,en,267,21067,0,0.0,10242,8760,4954,4.253,51.6,True,40,89,276,437,56
+PMC11676660,Impact of the COVID-19 pandemic on lung cancer diagnosis in northern P,en,234,21211,0,0.0,7314,6375,4962,4.275,32.2,True,50,78,185,411,43
+PMC8136679,Attitude towards diabetes mellitus among adult communities in Gondar c,en,326,21135,0,0.0,8225,7493,4982,4.242,39.4,True,72,42,155,453,70
+PMC11112893,A comparison of oral bacteriome isolated from periodontal pockets of p,en,300,21479,0,0.0,8660,7952,5009,4.288,42.2,True,84,24,186,410,39
+PMC8670729,Metabolic syndrome in hypertensive and non‐hypertensive subjects,en,275,19746,0,0.0,7552,6785,5023,3.931,33.5,True,72,27,186,445,39
+PMC10081979,Identification of Chromatin Regulatory Factors Related to Immunity and,en,221,19940,0,0.0,9883,9381,5034,3.961,49.1,True,53,28,298,808,26
+PMC10578575,ABO blood groups are not associated to gestational diabetes mellitus i,en,545,19755,0,0.0,13430,12325,5041,3.919,62.5,True,48,51,298,457,62
+PMC4656957,Diabetes mellitus and renal involvement in chronic viral liver disease,en,132,21403,0,0.0,5511,5050,5050,4.238,8.4,False,33,84,375,1159,0
+PMC5287973,Reactive oxygen species modulator 1 (Romo1) as a novel diagnostic mark,en,149,20742,0,0.0,6996,6455,5057,4.102,27.7,True,38,100,318,428,0
+PMC7065699,Association between Bioactive Molecules in Breast Milk and Type 1 Diab,en,307,20708,0,0.0,11179,10768,5064,4.089,54.7,True,80,7,198,301,25
+PMC11918843,Association between lipoprotein(a) and coronary heart disease risk in ,en,202,18754,0,0.0,7019,6493,5073,3.697,27.7,True,45,46,285,580,39
+PMC10444873,A novel index for measuring the impact of devices on hypertension,en,252,21758,0,0.0,6585,5962,5082,4.281,22.8,True,82,41,158,357,23
+PMC8430558,Self-Reported Diabetes Mellitus and Tooth Extraction Due to Periodonta,en,253,21620,0,0.0,7786,6958,5093,4.245,34.6,True,54,75,244,300,60
+PMC5708951,Association between the number of natural teeth and diabetic retinopat,en,188,21426,0,0.0,7868,7182,5106,4.196,35.1,True,50,72,250,587,0
+PMC13459720,Clinical profile of acute myocardial infarction: the Registry of Acute,en,245,21882,0,0.0,7226,6338,5115,4.278,29.2,True,70,41,172,408,23
+PMC4602932,Impact of Admission Systolic Blood Pressure and Antecedent Hypertensio,en,160,21397,0,0.0,7512,6975,5138,4.164,31.6,True,40,59,412,458,0
+PMC7137510,Relationship between body composition indicators and risk of type 2 di,en,289,19991,0,0.0,7656,6712,5145,3.886,32.8,True,70,15,215,313,53
+PMC11210264,The association between diabetes mellitus and prostate cancer: a meta-,en,267,22032,0,0.0,8753,8241,5156,4.273,41.1,True,62,53,192,423,0
+PMC10256605,Implementation of the 2018 ESC/ESH Guidelines for the management of hy,en,221,21989,0,0.0,8349,6213,5165,4.257,38.1,True,49,48,264,482,12
+PMC5403080,Subclinical hypothyroidism and the risk of chronic kidney disease in T,en,220,20042,0,0.0,8178,7555,5169,3.877,36.8,True,60,63,215,375,0
+PMC5427558,Concordant clear cell “mesonephric” carcinoma of the bladder and lung ,en,195,19857,0,0.0,7008,6481,5190,3.826,25.9,True,58,11,310,707,3
+PMC4016044,Acute Myocardial Infarction in Sub-Saharan Africa: The Need for Data,en,243,23203,0,0.0,8098,7232,5193,4.468,35.9,True,58,65,244,378,15
+PMC6028095,Serum uric acid and arterial hypertension—Data from Sephar III survey,en,274,20519,0,0.0,7089,6343,5202,3.944,26.6,True,65,71,181,324,61
+PMC5079310,Impact of performance grading on annual numbers of acute myocardial in,en,188,22559,0,0.0,7558,6967,5204,4.335,31.1,True,50,105,188,290,0
+PMC3956417,Simple Method for Evaluation of Planum Temporale Pyramidal Neurons Shr,en,128,20439,0,0.0,5582,5211,5211,3.922,6.6,False,35,60,385,1001,0
+PMC12096032,Triple synchronous primary lung adenocarcinoma: A diagnostic challenge,en,170,20142,0,0.0,5798,5220,5220,3.859,10.0,False,44,93,185,861,21
+PMC8741798,Interrelationship between 2019-nCov receptor DPP4 and diabetes mellitu,en,298,19961,0,0.0,7911,7414,5239,3.81,33.8,True,70,10,277,849,83
+PMC12711146,Preoperative glycemic response to a very low-calorie diet predicts lon,en,302,19799,0,0.0,8125,7450,5260,3.764,35.3,True,85,50,132,383,44
+PMC5604672,The role of serum angiopoietin-2 levels in progression and prognosis o,en,217,21422,0,0.0,8587,8044,5263,4.07,38.7,True,57,39,275,413,0
+PMC5895397,High scavenger receptor class B type I expression is related to tumor ,en,218,20174,0,0.0,8385,7795,5272,3.827,37.1,True,60,18,264,443,0
+PMC5120955,Ratio of lymph node to primary tumor SUVmax multiplied by maximal tumo,en,176,20545,0,0.0,7841,7248,5299,3.877,32.4,True,47,75,268,435,0
+PMC11460644,Investigation of serum Metrnl levels in pregnant women with gestationa,en,259,20278,0,0.0,8035,7489,5300,3.826,34.0,True,49,87,254,487,68
+PMC4759941,Hypertension unawareness among Chinese patients with first-ever stroke,en,246,22488,0,0.0,7640,7021,5306,4.238,30.5,True,61,55,224,428,31
+PMC4616625,Type 1 Diabetes and Increased Risk of Subsequent Asthma: A Nationwide ,en,152,20989,0,0.0,7394,6727,5316,3.948,28.1,True,37,73,409,642,0
+PMC11645421,The Effect of Eight Weeks of High-Intensity Interval Training on Folli,en,275,21890,0,0.0,8056,7535,5320,4.115,34.0,True,90,52,123,217,19
+PMC4748920,Recent Trends in Hospitalization for Acute Myocardial Infarction in Be,en,183,22618,0,0.0,8804,8245,5333,4.241,39.4,True,41,72,298,654,0
+PMC9843455,Identification of Key Genes and Biological Pathways Related to Myocard,en,259,21046,0,0.0,7722,7217,5349,3.935,30.7,True,78,59,129,316,32
+PMC8791222,The effects of metformin and alendronate in attenuating bone loss and ,en,252,20788,0,0.0,11248,10674,5357,3.881,52.4,True,59,77,222,384,0
+PMC5348162,Genetic characterization drives personalized therapy for early-stage n,en,169,21218,0,0.0,8338,7766,5367,3.953,35.6,True,40,58,363,890,0
+PMC8904105,Expression Levels and Genetic Polymorphism of Scavenger Receptor Class,en,218,20572,0,0.0,7031,6622,5368,3.832,23.7,True,51,50,309,439,47
+PMC6195263,Modeling the impact of obesity on the lifetime risk of chronic kidney ,en,281,21086,0,0.0,8971,7622,5383,3.917,40.0,True,53,48,279,436,67
+PMC5312986,Chaperonin (HSP60) and annexin-2 are candidate biomarkers for non-smal,en,188,22728,0,0.0,8060,7445,5388,4.218,33.2,True,47,36,310,681,0
+PMC11024783,Impact of Pulsed Electromagnetic Field Therapy and Aerobic Exercise on,en,152,24363,0,0.0,8494,8025,5389,4.521,36.6,True,27,114,415,1778,9
+PMC9761000,The effect of increase in blood glucose level on hearing loss,en,244,20540,0,0.0,8973,8425,5421,3.789,39.6,True,60,21,229,501,20
+PMC5419913,Glycated hemoglobin level is an independent predictor of major adverse,en,199,21492,0,0.0,9087,8398,5452,3.942,40.0,True,47,75,344,491,0
+PMC4241593,The proposed role of plasma NT pro-brain natriuretic peptide in assess,en,269,20465,0,0.0,8970,8325,5462,3.747,39.1,True,56,73,185,578,61
+PMC4501756,Meta-Analysis of the Associations of p-Cresyl Sulfate (PCS) and Indoxy,en,232,21479,0,0.0,9412,8771,5485,3.916,41.7,True,53,54,279,649,12
+PMC9690494,A Study on Types of Medication Adherence in Hypertension among Older P,en,260,22957,0,0.0,9694,9073,5487,4.184,43.4,True,58,38,217,428,43
+PMC5728822,Assessment of change in glucose metabolism in white matter of amyloid-,en,187,23108,0,0.0,8098,7585,5511,4.193,31.9,True,51,62,286,481,0
+PMC3721535,Relationship between left ventricular geometric pattern and systolic a,en,234,19488,0,0.0,8276,7815,5526,3.527,33.2,True,44,88,187,1071,62
+PMC8197013,miR155 Deficiency Reduces Myofibroblast Density but Fails to Improve C,en,183,21233,0,0.0,9237,8564,5553,3.824,39.9,True,46,65,300,524,0
+PMC5428615,Clinical characteristics and outcomes of patients with myocarditis mim,en,166,22596,0,0.0,8436,7866,5567,4.059,34.0,True,35,120,446,496,0
+PMC3721905,Early diastolic functional abnormalities in normotensive offspring of ,en,266,21124,0,0.0,8740,8115,5568,3.794,36.3,True,56,86,188,344,52
+PMC12539876,Management and optimization of chronic renal insufficiency in the sett,en,269,22079,0,0.0,9442,8786,5573,3.962,41.0,True,74,62,178,366,20
+PMC6000495,Clinical Application and Advances in Radiofrequency Ablation of Lung N,zh,222,10042,4889,0.487,9189,8714,5580,1.8,39.3,True,52,42,280,560,17
+PMC6381520,Awareness of hypertension and depressive symptoms: a cross-sectional s,en,243,22598,0,0.0,7258,6668,5584,4.047,23.1,True,56,35,284,678,50
+PMC10835556,Serum and salivary adiponectin levels as predictive markers for diabet,en,210,21291,0,0.0,6076,5617,5617,3.79,7.6,False,44,32,230,2181,43
+PMC8688487,Undiagnosed diabetes mellitus and associated factors among adults in E,en,262,24285,0,0.0,9369,8651,5631,4.313,39.9,True,64,51,200,453,34
+PMC12040632,Expression Pattern Study of miR-200a and XIAP Gene in the Non-small Ce,en,271,22047,0,0.0,7592,7115,5635,3.913,25.8,True,82,20,198,907,64
+PMC11346952,An approach to integrated management of diabetes in tuberculosis patie,en,265,25055,0,0.0,8432,7587,5646,4.438,33.0,True,65,11,236,505,45
+PMC5072944,Radiation-induced heart disease in lung cancer radiotherapy: A dosimet,en,209,24722,0,0.0,10017,9448,5656,4.371,43.5,True,48,89,272,435,0
+PMC6221621,The ratio of urinary sodium and potassium and chronic kidney disease p,en,203,22094,0,0.0,8206,7672,5675,3.893,30.8,True,57,49,229,666,0
+PMC7098606,Knowledge and associated factors towards diabetes mellitus among adult,en,377,24956,0,0.0,8230,7403,5677,4.396,31.0,True,81,29,174,564,107
+PMC5207554,Impact of disease-management programs on metabolic control in patients,en,204,25188,0,0.0,8514,7907,5681,4.434,33.3,True,49,94,254,479,0
+PMC10803342,Expression levels and clinical significance of ferroptosis-related gen,en,189,22281,0,0.0,8031,7511,5697,3.911,29.1,True,57,36,255,652,0
+PMC7835148,Risk factors for pancreas and lung neuroendocrine neoplasms: a case–co,en,354,21763,0,0.0,10289,9194,5724,3.802,44.4,True,64,27,274,770,110
+PMC9360707,Breastfeeding mobile application for mothers with gestational diabetes,en,276,26855,0,0.0,7915,7227,5751,4.67,27.3,True,98,19,185,349,6
+PMC5931551,Paraneoplastic limbic encephalitis associated with lung cancer,en,213,23684,0,0.0,8118,7536,5755,4.115,29.1,True,42,127,294,420,50
+PMC13346366,GLP-1 receptor agonists in atherosclerotic cardiovascular disease and ,en,328,22033,0,0.0,12125,11169,5764,3.823,52.5,True,61,55,240,571,70
+PMC11637408,Association between Angiotensin-converting enzyme (ACE) insertion/dele,en,676,22204,0,0.0,16070,15117,5770,3.848,64.1,True,63,66,188,593,87
+PMC5153917,Desire for predictive testing for Alzheimer’s disease and impact on ad,en,256,26375,0,0.0,7246,6693,5773,4.569,20.3,True,66,63,240,390,57
+PMC11249421,Continued decline in the incidence of myocardial infarction beyond the,en,202,25854,0,0.0,9243,8503,5786,4.468,37.4,True,55,68,248,436,0
+PMC12868036,"Effect of patient education in improving quality of life, fatigue and ",en,317,24457,0,0.0,13807,12912,5808,4.211,57.9,True,79,24,225,466,12
+PMC3493278,Cardiovascular disease prevalence in patients with inflammatory arthri,en,192,23785,0,0.0,6308,5808,5808,4.095,7.9,False,55,47,231,979,19
+PMC5396487,Effective Universal Coverage of Diabetes Mellitus Type 2 in Chile,en,229,26276,0,0.0,8280,7850,5829,4.508,29.6,True,55,72,238,385,45
+PMC5747262,Abnormal elevation of myocardial necrosis biomarkers after coronary ar,en,263,23243,0,0.0,8057,7355,5831,3.986,27.6,True,77,34,200,433,19
+PMC4582323,Patient classification of hypertension in Traditional Chinese Medicine,en,267,22922,0,0.0,6460,5836,5836,3.928,9.7,False,93,28,133,1158,14
+PMC11346707,Impact of Hypertension on the Dose-Response Association Between Physic,en,240,25512,0,0.0,9832,9080,5838,4.37,40.6,True,63,37,277,476,0
+PMC4616690,Efficacy of Adenosine in Patients With Acute Myocardial Infarction Und,en,248,22653,0,0.0,9948,9402,5843,3.877,41.3,True,75,37,195,319,0
+PMC5266065,Usefulness of 3-dimensional stereotactic surface projection FDG PET im,en,191,23600,0,0.0,8195,7645,5856,4.03,28.5,True,54,84,267,437,0
+PMC3971618,Characterisation of left ventricular function by tissue Doppler imagin,en,280,22268,0,0.0,9110,8439,5874,3.791,35.5,True,66,76,191,539,52
+PMC9453102,Evidence and Potential Mechanisms of Traditional Chinese Medicine for ,en,376,24094,0,0.0,14498,13796,5904,4.081,59.3,True,67,47,209,367,0
+PMC8973653,Metformin is associated with favorable outcomes in patients with COVID,en,194,23553,0,0.0,8017,7532,5907,3.987,26.3,True,44,24,371,701,34
+PMC3721772,Impact of income on the profile of cardiovascular risk factors among h,en,218,23675,0,0.0,7582,7203,5922,3.998,21.9,True,45,120,264,580,58
+PMC10518896,Short-Term Mortality Associated With Hypertensive Emergencies: A Prosp,en,332,24787,0,0.0,7515,7022,5923,4.185,21.2,True,85,23,221,442,93
+PMC5570270,Influence of coronary architecture on the variability in myocardial in,en,211,22929,0,0.0,9311,8167,5942,3.859,36.2,True,50,66,301,497,0
+PMC4022589,Diabetes Mellitus and Poorer Prognosis in Hepatocellular Carcinoma: A ,en,254,24463,0,0.0,11256,10618,5944,4.116,47.2,True,42,52,327,772,37
+PMC10714632,Post-traumatic stress disorder among heart disease patients: a clinica,en,306,26195,0,0.0,9565,8668,5958,4.397,37.7,True,92,22,161,369,23
+PMC8467937,Common Metabolites in Two Different Hypertensive Mouse Models: A Serum,en,218,24442,0,0.0,11981,11278,5958,4.102,50.3,True,38,133,358,594,0
+PMC13316862,Relationship between lower urinary system symptoms and urinary inconti,en,241,22831,0,0.0,8376,7666,5963,3.829,28.8,True,55,72,261,587,47
+PMC3951206,Limited health literacy is associated with low glomerular filtration i,en,239,24125,0,0.0,9349,8720,5975,4.038,36.1,True,43,75,346,563,45
+PMC8954358,UGT1A1 Gene Polymorphism Contributes as a Risk Factor for Lung Cancer:,en,295,22214,0,0.0,11835,11110,5989,3.709,49.4,True,69,93,168,340,42
+PMC3623866,Mass Spectrometry Quantification Revealed Accumulation of C-Terminal F,en,191,22724,0,0.0,8461,7828,5999,3.788,29.1,True,41,114,332,661,16
+PMC5023915,Increased GABA concentrations in type 2 diabetes mellitus are related ,en,205,25728,0,0.0,8621,7969,6000,4.288,30.4,True,56,87,259,432,0
+PMC4839801,The Incidence of Cardiovascular Events Is Comparable Between Normoalbu,en,171,25465,0,0.0,8581,8041,6024,4.227,29.8,True,44,78,360,849,0
+PMC7913410,The clinical profiles and outcomes of HIV-negative cryptococcal mening,en,320,23976,0,0.0,8948,7894,6039,3.97,32.5,True,71,10,278,716,67
+PMC5326029,"Hypertension in the Ferlo (Northern Senegal): prevalence, awareness, t",en,252,25026,0,0.0,8664,8135,6040,4.143,30.3,True,64,31,258,439,45
+PMC8111520,"Diagnosis of gestational diabetes in Uganda: The reactions of women, f",en,244,26826,0,0.0,7712,7177,6044,4.438,21.6,True,81,66,155,298,11
+PMC6502320,Alzheimer's disease: Estimating its prevalence rate in a French geogra,en,233,27233,0,0.0,9281,8266,6051,4.501,34.8,True,55,46,260,787,5
+PMC5682784,Identification of differential expressed PE exosomal miRNA in lung ade,en,255,22750,0,0.0,11121,10447,6052,3.759,45.6,True,54,66,282,415,0
+PMC8778233,Right Heart Pulmonary Circulation Unit Response to Exercise in Patient,en,433,23615,0,0.0,15556,13961,6062,3.896,61.0,True,39,92,341,1068,0
+PMC11510088,The Role of Vericiguat in Early Phases of Anterior Myocardial Infarcti,en,220,25019,0,0.0,10451,9885,6087,4.11,41.8,True,52,93,277,621,20
+PMC3860441,Systems Biology in the study of Neurological Disorders: Focus on Alzhe,en,162,27352,0,0.0,7727,7183,6087,4.494,21.2,True,48,119,276,404,0
+PMC5609608,Heart rate variability based on risk stratification for type 2 diabete,en,289,23543,0,0.0,8860,8379,6117,3.849,31.0,True,78,46,197,591,43
+PMC7706226,Investigating the prevalence of hypertension and its associated risk f,en,302,23713,0,0.0,9083,8269,6119,3.875,32.6,True,74,68,221,399,69
+PMC7117725,Prevalence of anemia in predialysis chronic kidney disease: Is the stu,en,718,21950,0,0.0,15691,14877,6124,3.584,61.0,True,45,103,258,942,77
+PMC5851744,Effect of hypoglycemic agents on survival outcomes of lung cancer pati,en,223,25503,0,0.0,9214,8670,6129,4.161,33.5,True,63,37,274,504,0
+PMC3608613,Longer Telomere Length in Peripheral White Blood Cells Is Associated w,en,249,24366,0,0.0,10175,9359,6132,3.974,39.7,True,45,58,378,449,46
+PMC5464539,"Obesity, metabolic factors and risk of different histological types of",en,535,23929,0,0.0,14697,11332,6136,3.9,58.2,True,50,51,352,593,13
+PMC9446362,P300 latency and amplitude in Alzheimer's disease: a systematic review,en,261,24421,0,0.0,9212,8579,6148,3.972,33.3,True,57,90,165,910,48
+PMC7793332,Correlates of Residual Thrombus Burden in Successfully Thrombolysed Pa,en,239,23783,0,0.0,8335,7733,6149,3.868,26.2,True,67,25,279,492,36
+PMC5507536,ANK1 is up-regulated in laser captured microglia in Alzheimer’s brain;,en,300,24089,0,0.0,11113,9489,6154,3.914,44.6,True,64,63,225,334,20
+PMC4113441,"Awareness, Treatment, Control of Diabetes Mellitus and the Risk Factor",en,294,25086,0,0.0,8853,8002,6179,4.06,30.2,True,46,81,296,847,104
+PMC12520724,Relationship between dietary inflammatory index and risk of gestationa,en,305,23782,0,0.0,9817,8787,6180,3.848,37.0,True,67,61,226,691,72
+PMC4602448,High Body Mass Index Reduces Glomerular Filtration Rate Decline in Typ,en,187,24378,0,0.0,9397,8834,6182,3.943,34.2,True,46,49,399,606,0
+PMC12116197,Incidence of Cardiovascular Events in Hypertensive Patients Based on t,en,319,26808,0,0.0,12723,12057,6192,4.329,51.3,True,54,110,254,541,0
+PMC3747268,Myocardial Salvage is Reduced in Primary PCI-Treated STEMI Patients wi,en,230,23473,0,0.0,9237,8520,6202,3.785,32.9,True,56,81,258,402,29
+PMC4730636,Anemia and risk for cognitive decline in chronic kidney disease,en,327,25406,0,0.0,8766,7870,6205,4.094,29.2,True,75,19,268,447,73
+PMC13313068,Decoding inflammation: first-trimester biomarkers as predictive tools ,en,267,21511,0,0.0,8574,8120,6219,3.459,27.5,True,59,49,256,679,71
+PMC9276513,Cardiac Magnetic Resonance Assessment of the Protective Effect of Remo,en,172,24266,0,0.0,6748,6221,6221,3.901,7.8,False,48,26,275,1726,6
+PMC9338576,Video-assisted thoracoscopic treatment as two-day surgery for lung neo,en,318,25889,0,0.0,8178,7600,6223,4.16,23.9,True,94,12,202,349,61
+PMC6544065,Non-Medical Strategies to Improve Pregnancy Outcomes of Women with Ges,en,232,27122,0,0.0,8182,7756,6239,4.347,23.7,True,71,43,230,308,31
+PMC10259789,Self-management of type 2 diabetes mellitus in pregnancy and breastfee,en,782,27772,0,0.0,17000,15919,6251,4.443,63.2,True,68,77,216,392,34
+PMC5052499,The prognostic value of blood glucose level on admission in non-diabet,en,276,24832,0,0.0,6646,6258,6258,3.968,5.8,False,102,32,95,1854,0
+PMC4016835,Gender Specific Association of RAS Gene Polymorphism with Essential Hy,en,337,25284,0,0.0,14646,14238,6273,4.031,57.2,True,40,139,400,532,0
+PMC4603123,Adiponectin is Not Associated With Blood Pressure in Normotensives and,en,204,24793,0,0.0,10698,10079,6277,3.95,41.3,True,43,88,321,725,0
+PMC5302066,"The impact of gender, level of amputation and diabetes on prosthetic f",en,271,24951,0,0.0,8995,8526,6278,3.974,30.2,True,67,93,190,263,50
+PMC10150548,Guillain–Barre syndrome after myocardial infarction: a case report and,en,258,23967,0,0.0,8429,7687,6281,3.816,25.5,True,64,10,357,987,51
+PMC8042020,COPD significantly increases cerebral and cardiovascular events in hyp,en,258,24115,0,0.0,9730,9149,6285,3.837,35.4,True,53,79,294,386,61
+PMC4985410,Assessment of Left Ventricular Ejection Fraction Calculation on Long-a,en,231,24955,0,0.0,8320,7706,6295,3.964,24.3,True,77,52,192,338,0
+PMC9229324,Biomarkers Predictive for In-Hospital Mortality in Patients with Diabe,en,341,25193,0,0.0,13000,11530,6295,4.002,51.6,True,52,102,275,462,0
+PMC3244409,Plasma Biomarkers of Brain Atrophy in Alzheimer's Disease,en,267,26261,0,0.0,9606,8707,6316,4.158,34.2,True,60,61,287,432,25
+PMC8265258,"Chronic kidney diseases among homeless and slum dwellers in Accra, Gha",en,237,23990,0,0.0,6778,6318,6318,3.797,6.8,False,42,18,435,1607,84
+PMC12237589,"Comprehensive Assessment of the Impact of Blood Pressure, Body Mass In",en,246,25096,0,0.0,9387,8438,6321,3.97,32.7,True,54,90,272,460,27
+PMC8565009,The association between diabetes mellitus and HRQoL of older people in,en,329,25594,0,0.0,8506,7925,6322,4.048,25.7,True,76,19,211,606,100
+PMC7311953,Diabetes in Pregnancy and Risk of Antepartum Depression: A Systematic ,en,282,26857,0,0.0,13476,12785,6339,4.237,53.0,True,58,90,269,502,0
+PMC9003277,Role of Beta-Carotene in Lung Cancer Primary Chemoprevention: A System,en,287,24656,0,0.0,8561,8049,6350,3.883,25.8,True,80,60,171,596,47
+PMC6417234,Prevalence of diabetes mellitus among tuberculosis patients in Sub-Sah,en,369,26488,0,0.0,12988,12134,6353,4.169,51.1,True,91,8,253,429,32
+PMC11216020,Functional autoantibodies against G protein-coupled receptors in hepat,en,241,24454,0,0.0,10431,9544,6359,3.846,39.0,True,64,73,253,416,0
+PMC8319704,Morbidity and mortality outcomes of COVID-19 patients with and without,en,348,25880,0,0.0,9258,8328,6359,4.07,31.3,True,76,17,227,504,91
+PMC3809380,Higher Incidence of Lung Adenocarcinomas Induced by DMBA in Connexin 4,en,207,22919,0,0.0,6731,6369,6369,3.599,5.4,False,50,78,251,1808,53
+PMC5515760,Correlation of iodine uptake and perfusion parameters between dual-ene,en,205,25504,0,0.0,8865,8397,6376,4.0,28.1,True,61,93,214,374,0
+PMC6837603,A prospective study assessing feasibility of performing percutaneous n,en,362,25100,0,0.0,10028,9530,6387,3.93,36.3,True,105,42,133,273,53
+PMC10916801,"Genetic polymorphisms in the angiotensin converting enzyme, actinin 3 ",en,278,23060,0,0.0,9411,8660,6389,3.609,32.1,True,64,65,219,970,60
+PMC5657061,The effect of renal denervation in an experimental model of chronic re,en,277,25259,0,0.0,9134,8374,6391,3.952,30.0,True,71,24,235,514,44
+PMC12503227,Histological Analysis of Arterial and Venous Grafts Used in Coronary B,en,415,21376,0,0.0,10748,9596,6403,3.338,40.4,True,78,53,175,552,111
+PMC9714856,Interpretation of pre-morbid cardiac 3T MRI findings in overweight and,en,891,23908,0,0.0,20946,19721,6408,3.731,69.4,True,62,75,217,536,39
+PMC10509015,Immune checkpoint inhibitor– and phosphatidylinositol-3-kinase inhibit,en,250,25038,0,0.0,10568,9902,6414,3.904,39.3,True,53,108,271,387,32
+PMC12483167,Association of copeptin levels in the postpartum period with gestation,en,230,23476,0,0.0,8496,7982,6420,3.657,24.4,True,44,73,357,863,66
+PMC10100199,Predictors and characteristics of Rib fracture following SBRT for lung,en,310,26929,0,0.0,8671,7989,6424,4.192,25.9,True,62,23,325,503,118
+PMC6950911,Cardiac surgery in acute myocardial infarction: crystalloid versus blo,en,286,24637,0,0.0,9067,8515,6430,3.832,29.1,True,97,10,239,553,26
+PMC9376236,Impact of preexisting diabetes mellitus on cardiovascular and all-caus,en,383,24411,0,0.0,10591,9963,6432,3.795,39.3,True,60,32,177,1962,118
+PMC9152091,"THIRSTY FOR FRUCTOSE: Arginine Vasopressin, Fructose, and the Pathogen",en,189,26690,0,0.0,12490,11924,6437,4.146,48.5,True,30,242,399,505,0
+PMC11600683,"The relationship between serum levels of LOX-1, hs-cTnT, NGAL, and ren",en,270,24405,0,0.0,10419,9687,6443,3.788,38.2,True,71,26,281,437,22
+PMC11801616,Impact of type 2 diabetes mellitus on results in the animal naming tes,en,332,25215,0,0.0,10069,9007,6469,3.898,35.8,True,64,50,233,749,40
+PMC5690724,Subcellular localization of β-arrestin1 and its prognostic value in lu,en,199,25428,0,0.0,9296,8693,6473,3.928,30.4,True,54,111,260,463,0
+PMC3966818,Molecular Topology as Novel Strategy for Discovery of Drugs with Aβ Lo,en,240,25718,0,0.0,9803,8869,6479,3.969,33.9,True,59,52,259,768,12
+PMC5218460,The Systematic Evaluation of Identifying the Infarct Related Artery Ut,en,319,24468,0,0.0,10659,9445,6484,3.774,39.2,True,57,29,347,898,81
+PMC9228912,"Prevalence, complications and factors associated with severely elevate",en,238,25398,0,0.0,7261,6484,6484,3.917,10.7,False,51,63,260,2037,49
+PMC4603066,An Increased Risk of Reversible Dementia May Occur After Zolpidem Deri,en,179,25724,0,0.0,9546,8814,6485,3.967,32.1,True,43,106,345,557,0
+PMC5305035,Mapping the methylation status of the miR-145 promoter in saphenous ve,en,233,24950,0,0.0,9305,8606,6485,3.847,30.3,True,55,82,253,476,35
+PMC7469006,Beneficial Effects of Vitamin K Status on Glycemic Regulation and Diab,en,270,25579,0,0.0,17057,16602,6497,3.937,61.9,True,43,73,426,760,17
+PMC10606350,The Clinical and Molecular Profile of Lung Cancer Patients Harboring t,en,248,25325,0,0.0,9723,8914,6498,3.897,33.2,True,54,121,230,498,54
+PMC5371492,Head-to-head comparison of 11C-PiB and 18F-FC119S for Aβ imaging in he,en,212,24305,0,0.0,9535,8808,6498,3.74,31.9,True,56,107,240,490,0
+PMC1559722,Negative association of endothelial nitric oxide gene polymorphism wit,en,215,23749,0,0.0,6976,6503,6503,3.652,6.8,False,52,45,278,1774,43
+PMC7727251,Non-pharmacological interventions for the prevention of type 2 diabete,en,288,26939,0,0.0,8685,7987,6508,4.139,25.1,True,97,7,172,1460,18
+PMC3721765,Relationship between left ventricular diastolic function and geometric,en,237,22910,0,0.0,8002,7575,6514,3.517,18.6,True,59,80,241,872,51
+PMC11300943,The Effect of Bone Marrow Mesenchymal Stem Cells on Nestin and Sox-2 G,en,262,24822,0,0.0,9628,9041,6520,3.807,32.3,True,82,69,164,289,14
+PMC9038861,Feasibility of diffusion-weighted magnetic resonance imaging in evalua,en,278,26576,0,0.0,8969,8220,6525,4.073,27.2,True,88,24,184,535,23
+PMC7774736,Incidence trends of lung and gastroenteropancreatic neuroendocrine neo,en,263,24396,0,0.0,9433,8796,6528,3.737,30.8,True,54,114,252,432,57
+PMC4670225,Quality and Cost of Diabetes Mellitus Care in Community Health Centers,en,326,26800,0,0.0,8647,8054,6543,4.096,24.3,True,48,46,305,988,132
+PMC4739587,Interleukin-6 Is a Risk Factor for Atrial Fibrillation in Chronic Kidn,en,283,23986,0,0.0,13081,11404,6547,3.664,50.0,True,45,135,343,651,45
+PMC4736777,"Diabetes Mellitus in Outpatients in Debre Berhan Referral Hospital, Et",en,321,26749,0,0.0,6932,6564,6564,4.075,5.3,False,81,23,162,2086,103
+PMC10503878,Beyond Conventional Control: Insights Into Drug-Resistant Hypertension,en,225,29068,0,0.0,8647,8195,6565,4.428,24.1,True,71,37,241,429,0
+PMC9704679,The impact of increasing expenditure on National Essential Public Heal,en,1014,27598,0,0.0,21553,20739,6565,4.204,69.5,True,64,54,271,572,90
+PMC4902352,Body Mass Index and Cancer Mortality Among Korean Older Middle-Aged Me,en,222,26422,0,0.0,10201,9599,6569,4.022,35.6,True,53,105,268,451,0
+PMC9339419,Empagliflozin in the treatment of heart failure and type 2 diabetes me,en,148,24089,0,0.0,7012,6589,6589,3.656,6.0,False,28,33,316,3849,0
+PMC11411240,Comparison of histopathological and triphenyl tetrazolium chloride tes,en,417,26286,0,0.0,8300,7657,6592,3.988,20.6,True,135,19,130,381,70
+PMC11580841,Age- and amyloid-β-dependent initiation of neurofibrillary tau tangles,en,207,23953,0,0.0,10068,9397,6596,3.631,34.5,True,52,126,277,448,0
+PMC6079422,The Impact of Type 2 Diabetes Mellitus on Long-Term Prognosis in Patie,en,167,26875,0,0.0,7069,6618,6618,4.061,6.4,False,44,84,297,1531,12
+PMC8209386,Dysregulation of the Excitatory Renal Reflex in the Sympathetic Activa,en,213,24882,0,0.0,10439,9757,6618,3.76,36.6,True,52,103,323,512,5
+PMC6010458,Uncontrolled hypertension increases risk of all-cause and cardiovascul,en,213,26481,0,0.0,8904,8291,6631,3.994,25.5,True,50,26,375,575,37
+PMC7021702,Fractional Anisotropy changes in Parahippocampal Cingulum due to Alzhe,en,239,26923,0,0.0,11253,10599,6646,4.051,40.9,True,52,106,278,586,18
+PMC10236766,Risk prediction of gestational diabetes mellitus in women with polycys,en,226,26106,0,0.0,9481,8940,6661,3.919,29.7,True,54,60,361,469,31
+PMC9181472,Polysomnographic Evaluation of Sleep Bruxism Intensity and Sleep Archi,en,285,26260,0,0.0,10875,10138,6663,3.941,38.7,True,66,61,240,439,48
+PMC5604625,Shared polymorphisms and modifiable behavior factors for myocardial in,en,211,26429,0,0.0,10567,10081,6665,3.965,36.9,True,56,41,307,544,0
+PMC3742514,Decreases in Electrocardiographic R-Wave Amplitude and QT Interval Pre,en,219,26058,0,0.0,11033,10373,6688,3.896,39.4,True,46,124,283,501,21
+PMC6889673,Expression profiles of long noncoding RNAs and messenger RNAs in the b,en,300,25662,0,0.0,12099,11607,6690,3.836,44.7,True,98,22,189,322,0
+PMC8249442,Bidirectional association between periodontal disease and diabetes mel,en,245,29021,0,0.0,10951,10341,6691,4.337,38.9,True,69,10,270,653,0
+PMC5478118,The association between serum uric acid and the incidence of prediabet,en,297,26818,0,0.0,10786,9311,6694,4.006,37.9,True,86,16,235,505,49
+PMC8983729,Impact of weather changes on hospital admissions for hypertension,en,232,27596,0,0.0,8657,8093,6698,4.12,22.6,True,56,96,296,427,38
+PMC5572005,Effect of charted mental illness on reperfusion therapy in hospitalize,en,169,29595,0,0.0,9231,8665,6708,4.412,27.3,True,49,157,238,343,0
+PMC6023630,Metabolic Syndrome-Related Features in Controlled and Resistant Hypert,en,272,25937,0,0.0,9873,9404,6717,3.861,32.0,True,63,54,232,789,60
+PMC8379120,Prognostic ability of mid-term worsening renal function after percutan,en,283,24702,0,0.0,9452,8436,6724,3.674,28.9,True,51,12,373,1065,73
+PMC5423430,Non-dipper hypertension is associated with slow coronary flow among hy,en,286,24495,0,0.0,8872,8445,6743,3.633,24.0,True,61,87,235,747,85
+PMC4051660,Changes in QTc Interval in the Citalopram for Agitation in Alzheimer's,en,549,27633,0,0.0,12326,10196,6747,4.096,45.3,True,58,75,278,627,38
+PMC3960483,Treatment Strategies to Prevent Renal Damage in Hypertensive Children,en,259,29550,0,0.0,13168,12787,6750,4.378,48.7,True,61,114,237,371,0
+PMC12969435,Managing Acute Myocardial Infarction in Remote Oman: Real-world data f,en,292,28534,0,0.0,10036,9464,6768,4.216,32.6,True,77,46,198,381,51
+PMC11353311,Impact of the COVID-19 Pandemic on the Diagnosis of Malignant Neoplasi,en,327,28597,0,0.0,10803,9982,6770,4.224,37.3,True,78,60,197,538,72
+PMC11288809,Random forest model used to predict the medical out-of-pocket costs of,en,315,29633,0,0.0,11731,11073,6786,4.367,42.2,True,66,79,188,1135,60
+PMC10278792,Association between Depressive Symptom Trajectory and Chronic Kidney D,en,324,27154,0,0.0,11601,10846,6810,3.987,41.3,True,56,67,278,703,38
+PMC5591166,Global longitudinal strain predicts incident atrial fibrillation and s,en,190,28117,0,0.0,10275,9724,6826,4.119,33.6,True,51,17,352,1574,0
+PMC6705707,Alcohol Use and the Risk of Developing Alzheimer’s Disease,en,211,30613,0,0.0,10865,10498,6830,4.482,37.1,True,51,123,292,453,6
+PMC12067569,Psychological insulin resistance among patients with diabetes mellitus,en,363,30180,0,0.0,9134,8696,6834,4.416,25.2,True,109,39,151,608,71
+PMC4894669,Etiology of endocrine arterial hypertensions: about a series of cases,en,203,24142,0,0.0,7326,6834,6834,3.533,6.7,False,63,21,368,1149,10
+PMC8356939,Management of diabetes mellitus at the household level using community,en,254,30756,0,0.0,7336,6835,6835,4.5,6.8,False,62,53,310,636,71
+PMC11711671,Atopic dermatitis and diabetes mellitus—is there a link?,en,231,26197,0,0.0,7448,6838,6838,3.831,8.2,False,58,24,182,3431,9
+PMC5520342,Circulating sortilin level as a potential biomarker for coronary ather,en,300,25836,0,0.0,9616,8870,6862,3.765,28.6,True,69,24,292,573,68
+PMC5105280,Obesity and diabetes mellitus association in rural community of Katana,en,357,26852,0,0.0,9481,8675,6867,3.91,27.6,True,100,44,167,802,57
+PMC7400945,The Effects of Legume Consumption on Markers of Glycaemic Control in I,en,673,28920,0,0.0,17308,16793,6876,4.206,60.3,True,49,139,296,477,0
+PMC11001573,Multifactorial prevention program for cardiovascular disease in primar,en,266,27759,0,0.0,9222,8553,6885,4.032,25.3,True,70,44,236,717,47
+PMC1236936,Validation of self reported diagnosis of hypertension in a cohort of u,en,253,27881,0,0.0,7320,6905,6905,4.038,5.7,False,82,55,158,1450,41
+PMC6594608,Oral extracellular vesicles in early pregnancy can identify patients a,en,267,27091,0,0.0,12127,10655,6906,3.923,43.1,True,63,72,294,344,20
+PMC3713042,Assessment of the Magnitude of Contextual and Individual Demographic E,en,282,29584,0,0.0,10713,10068,6912,4.28,35.5,True,62,82,273,636,49
+PMC4409366,Association between Inflammation and Cardiac Geometry in Chronic Kidne,en,299,23678,0,0.0,11901,10603,6919,3.422,41.9,True,53,81,292,636,61
+PMC3117886,No Elevated Plasma Catecholamine Levels during Sleep in Newly Diagnose,en,194,28862,0,0.0,8778,8194,6920,4.171,21.2,True,49,95,340,510,17
+PMC8610118,Identification of the function and mechanism of m6A reader IGF2BP2 in ,en,250,25915,0,0.0,13675,13101,6922,3.744,49.4,True,54,83,359,454,0
+PMC11925477,Association between pre-existing cardiovascular risk factors and post-,en,286,29080,0,0.0,10922,10294,6928,4.197,36.6,True,67,80,239,380,49
+PMC10315765,Metabolic reprogramming heterogeneity in chronic kidney disease,en,250,26794,0,0.0,14887,14300,6944,3.859,53.4,True,49,11,394,753,0
+PMC5485944,Cholesterol Crystal Embolism and Chronic Kidney Disease,en,270,27651,0,0.0,12278,11867,6945,3.981,43.4,True,56,91,299,407,41
+PMC4197296,Uncontrolled hypertension among hypertensive patients on treatment in ,en,229,30585,0,0.0,8767,8277,6951,4.4,20.7,True,57,127,243,329,36
+PMC13229207,P2X7 receptor and neuroinflammation in neurodegenerative disorders: an,en,246,26915,0,0.0,11127,10540,6953,3.871,37.5,True,60,108,240,510,13
+PMC11608614,"Reproducibility of daytime hypertension, night-time hypertension, and ",en,263,28742,0,0.0,10993,10457,6955,4.133,36.7,True,65,37,283,541,20
+PMC1501045,Under- treatment and under diagnosis of hypertension: a serious proble,en,239,27811,0,0.0,7501,6962,6962,3.995,7.2,False,62,44,241,1782,49
+PMC9954858,Machine Learning System for Lung Neoplasms Distinguished Based on Scle,en,251,28710,0,0.0,10449,9489,6977,4.115,33.2,True,67,98,216,410,20
+PMC3850679,Vitamin D insufficiency and deficiency with stages of chronic kidney d,en,198,24165,0,0.0,7411,6983,6983,3.461,5.8,False,47,70,283,1873,33
+PMC5131971,Are Urinary Tubular Injury Markers Useful in Chronic Kidney Disease? A,en,327,27017,0,0.0,10730,9756,6987,3.867,34.9,True,76,67,228,526,40
+PMC4057506,"Cefepime neurotoxicity in the intensive care unit: a cause of severe, ",en,200,26898,0,0.0,7512,7005,7005,3.84,6.7,False,51,64,285,1413,31
+PMC5079314,Risk of hospitalization for hypoglycemia among older Korean people wit,en,193,30837,0,0.0,9551,9071,7016,4.395,26.5,True,49,77,382,599,0
+PMC10798730,Meta-analysis of risk factors for posttraumatic stress disorder in myo,en,304,29022,0,0.0,9025,8541,7024,4.132,22.2,True,99,13,194,530,33
+PMC4818501,Mitochondrial DNA damage and vascular function in patients with diabet,en,250,27954,0,0.0,9425,8602,7028,3.978,25.4,True,50,79,370,700,55
+PMC10455679,Assessment of Hypertensive Patients’ Complex Metabolic Status Using Da,en,273,30080,0,0.0,13251,12467,7032,4.278,46.9,True,52,116,309,428,0
+PMC10133371,"Diabetes mellitus, coronary artery disease and heart disease (Update 2",en,206,27733,0,0.0,8016,7049,7049,3.934,12.1,False,51,52,260,1994,0
+PMC10380655,Myocardial Infarction Susceptibility and the MTNR1B Polymorphisms,en,341,29285,0,0.0,14579,13853,7068,4.143,51.5,True,45,86,366,601,0
+PMC5260128,Non-high-density lipoprotein cholesterol predicts nonfatal recurrent m,en,344,27499,0,0.0,11683,11045,7074,3.887,39.5,True,82,11,246,983,80
+PMC12057956,Association between hypertension and self-perception of health status:,en,1073,29637,0,0.0,25568,24257,7083,4.184,72.3,True,59,103,251,506,122
+PMC10343850,Prediction of miRNA–Disease Associations by Cascade Forest Model Based,en,340,27430,0,0.0,12389,11914,7089,3.869,42.8,True,82,57,202,523,0
+PMC5675402,Increasing prevalence of diabetes mellitus in a developing country and,en,279,29709,0,0.0,9194,8397,7093,4.188,22.9,True,52,129,221,897,85
+PMC12995263,Association Between Depression and Increased Odds of Inpatient Mortali,en,283,28323,0,0.0,10377,9755,7094,3.993,31.6,True,62,88,255,440,66
+PMC2831070,Genetic Variability in CLU and Its Association with Alzheimer's Diseas,en,254,26640,0,0.0,10054,9332,7095,3.755,29.4,True,59,77,273,477,32
+PMC8873103,The Relationship Between Diabetes Mellitus and Cancers and Its Underly,en,352,29461,0,0.0,20415,19910,7107,4.145,65.2,True,65,41,286,432,0
+PMC3830791,Effects of Metoprolol and Nebivolol on Exercise Blood Pressure in Pati,en,216,26944,0,0.0,7488,7124,7124,3.782,4.9,False,42,113,290,2036,64
+PMC7382460,Impact of an active lifestyle on heart rate variability and oxidative ,en,234,28312,0,0.0,9959,9301,7133,3.969,28.4,True,65,68,267,443,15
+PMC4411519,Diabetes screening: a pending issue in hypertense/obese patients,en,308,27228,0,0.0,9631,9009,7137,3.815,25.9,True,97,14,191,612,38
+PMC4569584,The Association of Handgrip Strength and Type 2 Diabetes Mellitus in S,en,288,29375,0,0.0,11411,10496,7147,4.11,37.4,True,60,88,248,810,50
+PMC13037665,Computed Tomography-Guided Percutaneous Core Needle Biopsy of Lung Les,en,385,28905,0,0.0,10208,9511,7150,4.043,30.0,True,62,53,346,455,177
+PMC10575723,Endogenous adenine mediates kidney injury in diabetic models and predi,en,312,26699,0,0.0,16427,13299,7165,3.726,56.4,True,48,116,336,605,0
+PMC8776520,The Association of Lung Cancer and Sarcoidosis: A Systematic Review,en,176,29339,0,0.0,9119,8572,7168,4.093,21.4,True,41,36,388,1838,20
+PMC10179038,Potential Biomarkers to Distinguish Type 1 Myocardial Infarction in Tr,en,315,28179,0,0.0,14913,14277,7175,3.927,51.9,True,50,119,331,440,0
+PMC11267951,Dietary adherence and associated factors among hypertensive patients i,en,387,30471,0,0.0,12802,12185,7180,4.244,43.9,True,79,20,242,670,108
+PMC8702745,Myocardial Infarction Complications After Surgery in Vietnam: Estimate,en,353,28572,0,0.0,10453,9643,7185,3.977,31.3,True,77,32,230,694,91
+PMC7069391,Cerebral Blood Flow Response to Simulated Hypovolemia in Essential Hyp,en,275,28540,0,0.0,10983,10284,7196,3.966,34.5,True,77,54,242,360,0
+PMC11965360,Global research trends of tumor microenvironment in non-small cell lun,en,286,28537,0,0.0,10808,10217,7239,3.942,33.0,True,70,36,271,1040,44
+PMC4978855,Ethnic difference in the prevalence of pre-diabetes and diabetes melli,en,306,29670,0,0.0,9235,8727,7245,4.095,21.5,True,83,55,209,405,91
+PMC8636005,Innate Lymphoid Cells and Myocardial Infarction,en,229,27895,0,0.0,12686,12083,7249,3.848,42.9,True,51,105,322,569,5
+PMC10918930,A cross-sectional study determining prevalence and factors associated ,en,315,28141,0,0.0,11816,10772,7262,3.875,38.5,True,70,29,303,667,67
+PMC4259326,A Clinical Index to Predict Progression from Mild Cognitive Impairment,en,320,31133,0,0.0,11324,10273,7263,4.287,35.9,True,69,103,230,407,66
+PMC10266637,PTPN22 intron polymorphism rs1310182 (c.2054-852T>C) is associated wit,en,286,26694,0,0.0,12614,11570,7278,3.668,42.3,True,52,77,314,596,36
+PMC5268044,EGFR-TKIs versus taxanes agents in therapy for nonsmall-cell lung canc,en,268,26901,0,0.0,12379,11725,7282,3.694,41.2,True,73,58,251,442,0
+PMC11771898,Alzheimer’s disease image classification based on enhanced residual at,en,979,31359,0,0.0,18458,17431,7287,4.303,60.5,True,103,36,134,750,17
+PMC12482560,GDF15 attenuates myocardial infarction-induced injury by preserving mi,en,242,28076,0,0.0,11927,11178,7290,3.851,38.9,True,68,23,305,531,0
+PMC3937145,Effect of pegloticase on renal function in patients with chronic kidne,en,233,26315,0,0.0,7803,7295,7295,3.607,6.5,False,72,37,221,2041,15
+PMC6515018,Regional Variation in Comorbid Prediabetes and Diabetes and Associated,en,357,31251,0,0.0,16361,15768,7295,4.284,55.4,True,54,111,274,776,0
+PMC9411953,Analysis of Clinicopathologic Features of 9 Cases of SMARCA4-deficient,zh,238,14561,4612,0.317,9805,9139,7300,1.995,25.5,True,65,34,322,693,22
+PMC11189917,Deep Ensemble learning and quantum machine learning approach for Alzhe,en,214,31331,0,0.0,9312,8817,7307,4.288,21.5,True,58,68,313,1050,32
+PMC7222568,Impact of type 2 diabetes mellitus on mid-term mortality for hypertrop,en,353,28218,0,0.0,10350,9497,7309,3.861,29.4,True,95,14,244,628,81
+PMC10754311,Post-Infarction Ventricular Septal Defect: A quarter century experienc,en,257,30095,0,0.0,10264,9871,7314,4.115,28.7,True,73,93,205,328,27
+PMC8757580,Risk factors for type 1 and type 2 myocardial infarction,en,246,29861,0,0.0,13385,12316,7316,4.082,45.3,True,50,85,345,475,27
+PMC8746801,Dietary Acid Load and Relationship with Albuminuria and Glomerular Fil,en,237,31272,0,0.0,11211,10630,7318,4.273,34.7,True,53,114,281,522,0
+PMC6064622,Impact of serum cholesterol esterification rates on the development of,en,305,27390,0,0.0,10806,10207,7324,3.74,32.2,True,75,24,366,768,66
+PMC11537125,Acetate-producing bacterium Paenibacillus odorifer hampers lung cancer,en,235,31422,0,0.0,12386,11644,7343,4.279,40.7,True,43,130,390,605,0
+PMC6586400,Are associations between psychosocial stressors and incident lung canc,en,363,30766,0,0.0,11214,9901,7347,4.188,34.5,True,47,137,262,938,148
+PMC3721881,Global cardiovascular risk profiles of untreated hypertensives in an u,en,271,31076,0,0.0,10247,9678,7348,4.229,28.3,True,64,119,212,319,60
+PMC1361785,Left ventricular geometric patterns in newly presenting nigerian hyper,en,261,26935,0,0.0,7782,7351,7351,3.664,5.5,False,65,22,217,2418,51
+PMC6393031,High red cell distribution width at the time of ST segment elevation m,en,248,27322,0,0.0,10984,10399,7354,3.715,33.0,True,73,67,250,465,0
+PMC4381682,The Impact of Incarceration on Obesity: Are Prisoners with Chronic Dis,en,255,31099,0,0.0,7737,7359,7359,4.226,4.9,False,62,94,208,1583,72
+PMC6202421,Prediction of potential disease-associated microRNAs by composite netw,en,254,23976,0,0.0,10961,10388,7359,3.258,32.9,True,62,82,293,483,0
+PMC4203334,Overexpression of type VI collagen in neoplastic lung tissues,en,208,27734,0,0.0,11043,10449,7368,3.764,33.3,True,51,172,266,459,0
+PMC10765730,In-hospital outcomes of transcatheter aortic valve replacement in pati,en,310,28525,0,0.0,11914,11148,7384,3.863,38.0,True,79,12,285,625,54
+PMC5207550,Efficacy of an early home-based cardiac rehabilitation program for pat,en,256,31616,0,0.0,10285,9632,7389,4.279,28.2,True,81,29,256,460,0
+PMC5405955,Transplantation of induced mesenchymal stem cells for treating chronic,en,295,28795,0,0.0,10495,9375,7403,3.89,29.5,True,78,66,220,610,20
+PMC4222027,A multifaceted strategy using mobile technology to assist rural primar,en,261,32284,0,0.0,8057,7407,7407,4.359,8.1,False,89,20,180,1789,5
+PMC11972561,Tumor marker elevations in chronic kidney disease: a retrospective stu,en,332,28046,0,0.0,10129,9539,7408,3.786,26.9,True,85,25,263,519,82
+PMC11483014,NIAGADS: A Comprehensive National Data Repository for Alzheimer’s Dise,en,444,32226,0,0.0,25168,24419,7412,4.348,70.5,True,45,179,309,458,0
+PMC13019561,Quantifying Change in Proteinuria After Acute Kidney Injury Among Pati,en,323,29086,0,0.0,11609,10912,7452,3.903,35.8,True,74,71,204,474,38
+PMC10804508,The correlation between tumor radiological features and spread through,en,253,28939,0,0.0,10427,9456,7454,3.882,28.5,True,70,11,271,866,30
+PMC4247067,Analysis on associated factors of uncontrolled hypertension among elde,en,369,28116,0,0.0,10476,9923,7470,3.764,28.7,True,87,29,200,1017,104
+PMC10148459,Diagnostic accuracy of left atrial function and strain for differentia,en,296,28064,0,0.0,11750,11097,7479,3.752,36.3,True,72,29,296,634,56
+PMC10056269,Current and Future Therapeutical Options in Alport Syndrome,en,269,29612,0,0.0,12721,12228,7483,3.957,41.2,True,72,91,272,451,22
+PMC4085089,Gestational diabetes and risk of cardiovascular disease: a scoping rev,en,261,32600,0,0.0,9602,8954,7492,4.351,22.0,True,74,51,277,445,36
+PMC4522127,Does oral sodium bicarbonate therapy improve function and quality of l,en,339,32511,0,0.0,10548,9807,7492,4.339,29.0,True,82,12,254,477,71
+PMC8288490,Knockdown of Myeloid Cell Leukemia-1 by MicroRNA-101 Increases Sensiti,en,246,27687,0,0.0,10930,10394,7495,3.694,31.4,True,71,46,323,532,15
+PMC6490907,Cardiovascular disease risk factor prevalence and estimated 10-year ca,en,374,29360,0,0.0,10745,9642,7498,3.916,30.2,True,66,59,239,968,128
+PMC6723949,Polypharmacy in Type 2 Diabetes Mellitus: Insights from an Internal Me,en,261,29337,0,0.0,10322,9812,7499,3.912,27.3,True,54,51,395,845,75
+PMC2287188,Association of dopaminergic pathway gene polymorphisms with chronic re,en,322,25305,0,0.0,10746,10308,7519,3.365,30.0,True,67,32,369,1174,82
+PMC10134524,Diagnostic value of neutrophil gelatinase-associated lipocalin (NGAL) ,en,292,29375,0,0.0,10369,9505,7529,3.902,27.4,True,85,36,219,447,39
+PMC3286451,Helicobacter pylori Seropositivity and Risk of Lung Cancer,en,254,27810,0,0.0,11093,10448,7574,3.672,31.7,True,49,116,341,485,50
+PMC9517047,Potential Protective Role of Galectin-3 in Patients with Gonarthrosis ,en,280,27156,0,0.0,12845,12234,7575,3.585,41.0,True,59,70,320,701,53
+PMC6510908,Association between serum Na–Cl level and renal function decline in ch,en,256,27351,0,0.0,9578,8934,7576,3.61,20.9,True,68,44,321,713,41
+PMC5614644,CCL11 is increased in the CNS in chronic traumatic encephalopathy but ,en,240,30061,0,0.0,16106,14033,7589,3.961,52.9,True,49,121,342,610,4
+PMC6930276,Intravoxel Incoherent Motion Magnetic Resonance Imaging with Integrate,en,166,29094,0,0.0,9947,9418,7601,3.828,23.6,True,40,122,522,912,9
+PMC3464381,Metformin in non-Diabetic Patients Presenting with ST Elevation Myocar,en,285,30367,0,0.0,11170,10592,7627,3.982,31.7,True,81,43,234,1019,23
+PMC6875401,Diabetes Mellitus among Adult Tuberculosis Patients Attending Tubercul,en,354,29701,0,0.0,7996,7633,7633,3.891,4.5,False,104,36,137,2157,105
+PMC6400970,Optimal cardiac strategy based on the history of myocardial infarction,en,253,29921,0,0.0,9907,9372,7635,3.919,22.9,True,44,39,460,993,95
+PMC3679066,"TUSC1, a Putative Tumor Suppressor Gene, Reduces Tumor Cell Growth In ",en,187,29511,0,0.0,10890,10202,7637,3.864,29.9,True,47,138,431,614,0
+PMC5554219,Circulating CD40 and sCD40L Predict Changes in Renal Function in Subje,en,253,27162,0,0.0,10867,10344,7647,3.552,29.6,True,49,108,344,1099,44
+PMC2430541,Endothelial nitric oxide synthase gene polymorphisms and cardiovascula,en,265,27819,0,0.0,8105,7654,7654,3.635,5.6,False,63,37,277,1601,91
+PMC6982778,"8-Oxo-7,8-Dihydro-2′-Deoxyguanosine (8-oxodG) and 8-Hydroxy-2′-Deoxygu",en,272,29218,0,0.0,14459,13869,7669,3.81,47.0,True,64,99,264,433,12
+PMC3210140,The effect of breast cancer awareness month on internet search activit,en,197,34629,0,0.0,8088,7677,7677,4.511,5.1,False,52,65,343,2116,13
+PMC5531470,Corticotropin-releasing factor receptor-1 modulates biomarkers of DNA ,en,232,29385,0,0.0,12292,10939,7686,3.823,37.5,True,60,62,304,768,14
+PMC4055488,Gene-Wide Analysis Detects Two New Susceptibility Genes for Alzheimer',en,682,27865,0,0.0,22314,11650,7699,3.619,65.5,True,58,87,295,736,23
+PMC1247618,Lung Cancer in Railroad Workers Exposed to Diesel Exhaust,en,278,31129,0,0.0,11438,10771,7707,4.039,32.6,True,50,167,345,424,65
+PMC6451770,Does pregnancy complication history improve cardiovascular disease ris,en,350,32545,0,0.0,15455,14158,7712,4.22,50.1,True,76,27,318,478,43
+PMC9627198,Genetic risk score to improve prediction and treatment in gestational ,en,242,30264,0,0.0,13160,12640,7715,3.923,41.4,True,52,72,358,1173,22
+PMC5464887,Identification of STXBP2 as a novel susceptibility locus for myocardia,en,249,26784,0,0.0,10883,10105,7718,3.47,29.1,True,51,80,506,699,40
+PMC11016838,Medical Measures in Hypertensives Considered Resistant,en,339,32677,0,0.0,18093,17367,7742,4.221,57.2,True,61,52,349,631,65
+PMC7907127,Choriocapillaris microvasculature dysfunction in systemic hypertension,en,272,30147,0,0.0,11266,10394,7754,3.888,31.2,True,65,83,323,460,33
+PMC5882250,Long-Term Outcomes in Patients With Type 2 Myocardial Infarction and M,en,231,32109,0,0.0,11644,11088,7762,4.137,33.3,True,68,62,310,488,0
+PMC8668094,Prevalence and predictive risk factors of hypertension in patients hos,en,955,32799,0,0.0,20094,18992,7771,4.221,61.3,True,65,88,296,602,92
+PMC1877813,Does the aldosterone: renin ratio predict the efficacy of spironolacto,en,279,31573,0,0.0,8335,7783,7783,4.057,6.6,False,99,15,144,2224,0
+PMC4803201,Health Insurance Coverage and Hypertension Control in China: Results f,en,413,31156,0,0.0,10835,10084,7785,4.002,28.1,True,63,77,272,1290,176
+PMC6371567,sRAGE and early signs of cardiac target organ damage in mild hypertens,en,386,29250,0,0.0,11708,10939,7798,3.751,33.4,True,123,12,177,562,36
+PMC11908747,Cutaneous manifestations of diabetes mellitus: a narrative review,en,266,31730,0,0.0,13645,12480,7806,4.065,42.8,True,59,117,278,762,12
+PMC9424486,A meta-analysis of genome-wide gene expression differences identifies ,en,299,30497,0,0.0,11186,10326,7822,3.899,30.1,True,73,48,262,772,37
+PMC13094361,Enhancing Diagnostic Pathways for Bronchopulmonary Neuroendocrine Tumo,en,302,33206,0,0.0,10285,9714,7823,4.245,23.9,True,69,91,270,565,79
+PMC3598715,The prevalence of traditional herbal medicine use among hypertensives ,en,312,33420,0,0.0,8257,7825,7825,4.271,5.2,False,73,54,188,1885,91
+PMC12051716,Exploring Knowledge of Hypertension and Treatment Adherence in Hyperte,en,316,34033,0,0.0,9431,8876,7841,4.34,16.9,True,68,54,274,398,116
+PMC3569684,Long-term Exposure to PM2.5 and Incidence of Acute Myocardial Infarcti,en,207,32247,0,0.0,10535,9945,7864,4.101,25.4,True,45,188,306,666,34
+PMC3600316,The Effect of Alpha-Lipoic Acid on Mitochondrial Superoxide and Glucoc,en,288,28592,0,0.0,12487,12060,7865,3.635,37.0,True,83,71,244,489,0
+PMC4226256,Current ICD10 codes are insufficient to clearly distinguish acute myoc,en,201,30197,0,0.0,8326,7882,7882,3.831,5.3,False,52,71,310,1415,34
+PMC11254288,Intentional wedge resection versus segmentectomy for ≤2 cm ground-glas,en,348,28979,0,0.0,11358,10594,7897,3.67,30.5,True,86,18,304,629,67
+PMC10150103,Predictive model of diabetes mellitus in patients with idiopathic infl,en,340,31309,0,0.0,12328,11585,7901,3.963,35.9,True,60,64,300,1258,105
+PMC9771776,High prevalence of dyslipidaemia among persons with diabetes mellitus ,en,390,31844,0,0.0,12687,11834,7903,4.029,37.7,True,102,13,206,437,72
+PMC9127560,Association of Alzheimer Disease With Life Expectancy in People With D,en,389,34186,0,0.0,15716,13792,7920,4.316,49.6,True,101,21,213,331,0
+PMC9129905,Modifiable Risk Factors for Alzheimer Disease and Related Dementias Am,en,242,27879,0,0.0,9021,8603,7921,3.52,12.2,True,56,50,284,2426,70
+PMC9855828,CISD1 Is a Breast Cancer Prognostic Biomarker Associated with Diabetes,en,352,29135,0,0.0,11622,11113,7922,3.678,31.8,True,72,43,345,584,122
+PMC4495630,Cardiovascular mortality among a cohort of hypertensive and normotensi,en,385,34568,0,0.0,11120,10549,7932,4.358,28.7,True,115,60,146,448,56
+PMC12280729,The Epidemiology of Alzheimer's Disease Modifiable Risk Factors and Pr,en,317,34519,0,0.0,18031,17574,7945,4.345,55.9,True,73,63,282,391,0
+PMC9368588,Effects of Tobacco Smoking on the Survivability of Patients with Multi,en,378,30129,0,0.0,11374,10823,7973,3.779,29.9,True,60,50,316,906,161
+PMC3599954,Overt diabetes mellitus among newly diagnosed Ugandan tuberculosis pat,en,341,30849,0,0.0,8455,7978,7978,3.867,5.6,False,82,65,169,2055,93
+PMC5299097,Assessment and classification of patients with myocardial injury and i,en,262,33281,0,0.0,11637,11137,8000,4.16,31.3,True,61,101,271,923,22
+PMC6512017,The Burden of Undiagnosed Diabetes Mellitus in Adult African Populatio,en,244,30952,0,0.0,8418,8028,8028,3.856,4.6,False,71,30,176,3418,18
+PMC4676825,"Gastrointestinal symptoms, inflammation and hypoalbuminemia in chronic",en,309,29015,0,0.0,11062,10549,8032,3.612,27.4,True,78,60,284,759,69
+PMC5835263,Mitochondrial Genome Mutations Associated with Myocardial Infarction,en,266,27372,0,0.0,8539,8034,8034,3.407,5.9,False,68,50,192,2665,68
+PMC9367874,How Is It to Live with Diabetes Mellitus? The Voices of the Diabetes M,en,317,37145,0,0.0,9673,9136,8035,4.623,16.9,True,120,24,204,477,11
+PMC9355720,Finding Lung-Cancer-Related lncRNAs Based on Laplacian Regularized Lea,en,331,27810,0,0.0,12202,11687,8037,3.46,34.1,True,88,56,232,482,52
+PMC12482903,A meta-analysis about the relationship of serum nesfatin-1 levels in p,en,306,30741,0,0.0,8651,8038,8038,3.824,7.1,False,93,35,170,2116,38
+PMC9743545,"The costs of interventions for type 2 diabetes mellitus, hypertension ",en,339,34136,0,0.0,12545,11892,8054,4.238,35.8,True,97,16,200,1194,41
+PMC13494960,Current Status of Multidisciplinary Team Consultation for Lung Cancer ,zh,168,17337,6535,0.377,8592,8057,8057,2.152,6.2,False,44,22,309,2488,0
+PMC3877372,Effects of Baseline CSF α-Synuclein on Regional Brain Atrophy Rates in,en,232,30152,0,0.0,12400,10772,8057,3.742,35.0,True,61,105,302,579,9
+PMC3750602,Prevalence of herbal and dietary supplement usage in Thai outpatients ,en,380,32635,0,0.0,11123,10637,8081,4.038,27.3,True,67,97,261,823,150
+PMC3859216,Connected speech as a marker of disease progression in autopsy-proven ,en,257,35093,0,0.0,11062,10525,8092,4.337,26.8,True,53,135,345,573,42
+PMC6372132,Wave intensity analysis in the internal carotid artery of hypertensive,en,235,31367,0,0.0,10075,9515,8093,3.876,19.7,True,64,117,259,496,26
+PMC10820232,Left Ventricular Mass Index Predicts Renal Function Decline in Patient,en,318,29973,0,0.0,12448,11858,8098,3.701,34.9,True,74,61,231,1124,75
+PMC1247478,"Lead, Diabetes, Hypertension, and Renal Function: The Normative Aging ",en,255,32763,0,0.0,10337,9488,8117,4.036,21.5,True,58,74,352,592,54
+PMC4848912,Additive Effect of Non-Alcoholic Fatty Liver Disease on Metabolic Synd,en,272,28328,0,0.0,11945,11380,8125,3.487,32.0,True,57,87,329,1169,68
+PMC3544747,Comparing Cognitive and Somatic Symptoms of Depression in Myocardial I,en,238,35959,0,0.0,11955,10916,8130,4.423,32.0,True,54,159,297,531,30
+PMC3438025,Association between human cartilage glycoprotein 39 (YKL-40) and arter,en,292,28740,73,0.003,8659,8139,8139,3.531,6.0,False,80,49,209,1220,71
+PMC6970546,High-Sensitivity Cardiac Troponin and the Universal Definition of Myoc,en,282,34224,0,0.0,12462,11489,8143,4.203,34.7,True,78,60,266,572,0
+PMC12342259,Association between homocysteine levels and hypertension prevalence as,en,304,31124,0,0.0,11811,10959,8151,3.818,31.0,True,61,98,290,764,77
+PMC9394018,Undergraduate nursing students’ knowledge of and attitudes toward peop,en,352,35439,0,0.0,11321,10614,8160,4.343,27.9,True,75,23,262,843,109
+PMC8696230,Treatment of hypertension with angiotensin‐converting enzyme inhibitor,en,345,29107,0,0.0,12063,11004,8161,3.567,32.3,True,77,34,330,651,78
+PMC3946345,Acupuncture Modulates Resting State Hippocampal Functional Connectivit,en,317,33123,0,0.0,12378,11599,8164,4.057,34.0,True,76,72,258,457,51
+PMC12811966,Passive smoking and the risk of hypertension in nonsmoking adults: a s,en,287,31847,0,0.0,13081,12635,8166,3.9,37.6,True,72,31,338,1338,38
+PMC9420096,A stronger association of diabetes mellitus with impaired hyperaemia u,en,257,34780,0,0.0,12507,11679,8167,4.259,34.7,True,80,38,276,577,0
+PMC12212162,Recognition and diagnosis of Alzheimer’s Disease using T1-weighted mag,en,326,34821,0,0.0,11172,10743,8170,4.262,26.9,True,99,58,204,314,46
+PMC6739800,Incidence of Acute Kidney Injury in Patients with Chronic Renal Insuff,en,211,29827,0,0.0,8622,8173,8173,3.649,5.2,False,50,43,362,2510,29
+PMC7595287,"Prevalence, placenta development, and perinatal outcomes of women with",en,371,32058,0,0.0,14477,13595,8177,3.921,43.5,True,66,107,258,403,95
+PMC10487958,Symptoms in Hypertensive Patients Presented to the Emergency Medical S,en,350,35735,0,0.0,11603,11044,8212,4.352,29.2,True,101,66,180,396,57
+PMC8266602,Performance of the GRACE 2.0 score in patients with type 1 and type 2 ,en,314,31822,0,0.0,13327,11922,8215,3.874,38.4,True,66,69,309,569,55
+PMC2753644,Chronic Obstructive Pulmonary Disease and Altered Risk of Lung Cancer ,en,330,31283,0,0.0,11814,11051,8219,3.806,30.4,True,57,80,351,468,107
+PMC10768552,Prevalence of gestational diabetes mellitus and associated factors amo,en,257,31205,0,0.0,8846,8226,8226,3.793,7.0,False,53,95,343,2046,71
+PMC4376775,Differential MR Delayed Enhancement Patterns of Chronic Myocardial Inf,en,269,31541,0,0.0,12198,11406,8237,3.829,32.5,True,66,71,264,596,0
+PMC12352845,Cannabidiol improves learning and memory deficits and alleviates anxie,en,260,31974,0,0.0,15819,14637,8239,3.881,47.9,True,56,132,327,441,0
+PMC12492052,Contemporary Incidence and Survival of Lung Neuroendocrine Neoplasms,en,334,30254,0,0.0,11670,10445,8249,3.668,29.3,True,80,35,231,913,48
+PMC11988729,Assessing the Impact of Hypertension on Health-Related Quality of Life,en,328,33636,0,0.0,12155,11503,8254,4.075,32.1,True,57,89,346,755,119
+PMC4144969,Establishment of a Model of Renal Impairment with Mild Renal Insuffici,en,283,32255,0,0.0,11425,10749,8264,3.903,27.7,True,84,46,218,571,15
+PMC10901917,The influence of chronic renal insufficiency on multi-therapeutic moda,en,362,30553,0,0.0,10836,10055,8267,3.696,23.7,True,63,67,370,687,145
+PMC9368716,Nine-Year Trends in Atrial Fibrillation Prevalence among Romanian Adul,en,292,30896,0,0.0,12248,11568,8273,3.735,32.5,True,81,83,230,472,39
+PMC7828433,Role of Omentin in Obesity Paradox in Lung Cancer,en,303,32427,0,0.0,16223,15833,8318,3.898,48.7,True,51,29,488,659,2
+PMC2706218,Profile and predictor of health-related quality of life among hyperten,en,327,33515,0,0.0,8703,8325,8325,4.026,4.3,False,67,80,301,1302,134
+PMC9977539,A Systematic Review and Meta-Analysis of Influences of Chronic Kidney ,en,274,31623,0,0.0,8814,8332,8332,3.795,5.5,False,86,23,189,2261,25
+PMC7404689,Dysautonomia in Alzheimer's Disease,en,224,34287,0,0.0,13895,13313,8335,4.114,40.0,True,51,152,341,411,11
+PMC13451477,Empagliflozin’s Effects on Carotid Ultrasound Parameters in Type 2 Dia,en,310,32204,0,0.0,11888,11327,8336,3.863,29.9,True,71,107,229,550,78
+PMC12651626,Contribution of Final-Year Medical Students to Hypertension Diagnosis ,en,330,35160,0,0.0,13896,12814,8348,4.212,39.9,True,71,70,263,723,70
+PMC3865210,Deficiency of Ataxia Telangiectasia Mutated Kinase Modulates Cardiac R,en,266,30112,0,0.0,13401,12818,8366,3.599,37.6,True,78,80,238,485,4
+PMC7840028,Are Ethiopian diabetic patients protected from financial hardship?,en,959,33830,0,0.0,18562,17845,8374,4.04,54.9,True,100,64,181,641,136
+PMC10010752,Racial and Ethnic Differences in Subjective Cognitive Decline — United,en,307,27675,0,0.0,9474,9084,8375,3.304,11.6,True,61,37,249,1449,127
+PMC3566173,Pregnancy Outcomes of Anti-Hypertensives for Women with Chronic Hypert,en,357,32111,0,0.0,11739,11054,8396,3.825,28.5,True,76,86,236,632,104
+PMC8336333,"The prevalence, relative risk factors and MTHFR C677T genotype of H ty",en,336,32245,0,0.0,12547,11629,8401,3.838,33.0,True,81,32,279,502,55
+PMC11594033,Prevalence and Determinants of Household Self-Reported Diabetes Mellit,en,374,33957,0,0.0,12110,11602,8427,4.03,30.4,True,53,60,463,836,176
+PMC4625452,Renal disease and accidental falls: a review of published evidence,en,400,35023,0,0.0,11729,11106,8430,4.155,28.1,True,115,45,170,1000,67
+PMC8880395,Health care seeking behaviour and financial protection of patients wit,en,375,33792,0,0.0,12659,11446,8432,4.008,33.4,True,56,32,434,819,150
+PMC4154221,Outdoor Particulate Matter Exposure and Lung Cancer: A Systematic Revi,en,272,33752,0,0.0,11788,10932,8436,4.001,28.4,True,51,124,268,971,69
+PMC5489649,TET1-mediated DNA hypomethylation regulates the expression of MUC4 in ,en,308,30103,0,0.0,11918,11307,8451,3.562,29.1,True,78,23,289,565,48
+PMC10113056,Relationship between Changes in Blood Glucose and Blood Lipid Levels a,en,228,33591,0,0.0,8916,8454,8454,3.973,5.2,False,64,52,323,1886,31
+PMC9645600,"Primary hypertension, anti-hypertensive medications and the risk of se",en,272,33363,0,0.0,13235,11736,8472,3.938,36.0,True,55,112,361,619,43
+PMC4776390,Abnormal phosphorylation of Tie2/Akt/eNOS signaling pathway and decrea,en,280,31750,0,0.0,12743,12046,8476,3.746,33.5,True,76,20,341,825,23
+PMC13154082,Integrated Echo-Hemodynamic Framework for VA-ECMO in Right Ventricular,en,317,31392,0,0.0,9777,9140,8479,3.702,13.3,True,90,48,288,393,48
+PMC9592305,Efficacy and safety of dual antiplatelet therapy after percutaneous co,en,420,27834,0,0.0,14005,13290,8479,3.283,39.5,True,82,18,244,1457,95
+PMC3907022,Clustering of transcriptional profiles identifies changes to insulin s,en,297,33228,0,0.0,14315,13848,8483,3.917,40.7,True,75,74,272,510,0
+PMC5690584,Abnormal brain white matter microstructure is associated with both pre,en,353,34400,0,0.0,13669,12480,8487,4.053,37.9,True,72,83,292,314,95
+PMC12289147,Use of automated quantitative pupillometric evaluation for monitoring ,en,264,30911,0,0.0,10445,9881,8496,3.638,18.7,True,64,101,318,965,49
+PMC10694352,Free triiodothyronine (FT3)-to-free thyroxine (FT4) ratio identified a,en,301,31496,0,0.0,11284,10634,8501,3.705,24.7,True,74,56,280,838,64
+PMC6319708,Thoracic aortic calcification across the clinical dysglycemic continuu,en,349,29737,0,0.0,14370,13012,8513,3.493,40.8,True,45,136,468,817,72
+PMC10331967,Efficacy of mHealth and education-led peer counseling for patients wit,en,375,38939,0,0.0,11512,10639,8515,4.573,26.0,True,135,23,148,421,10
+PMC6944834,"Trends in the prevalence, awareness, treatment and control of diabetes",en,377,32008,0,0.0,12382,11674,8515,3.759,31.2,True,65,72,235,1027,119
+PMC4215861,Atlas-Based Quantification of Cardiac Remodeling Due to Myocardial Inf,en,329,32786,0,0.0,12985,11533,8528,3.845,34.3,True,55,124,382,586,106
+PMC11059984,Resveratrol Has Histone 4 and Beta-Defensin 1-Mediated Favorable Bioth,en,321,30533,0,0.0,11441,10721,8530,3.579,25.4,True,87,53,271,578,58
+PMC5344074,Validation of self-reported diabetes in a representative sample of São,en,384,32691,0,0.0,10763,10119,8535,3.83,20.7,True,85,73,179,1183,141
+PMC10365959,Research Progress of Klotho in Lung Neoplasms,zh,188,18870,5076,0.269,9201,8563,8563,2.204,6.9,False,45,113,283,3419,0
+PMC6555784,Analysis of 2897 hospitalization events for patients with chronic kidn,en,374,33364,0,0.0,11334,10555,8574,3.891,24.4,True,95,38,206,578,95
+PMC9005286,Toll-Like Receptors/TNF-α Pathway Crosstalk and Impact on Different Si,en,372,32608,0,0.0,16901,16554,8591,3.796,49.2,True,63,90,327,530,0
+PMC8901279,Efficacy of statins on renal function in patients with chronic kidney ,en,383,29764,0,0.0,14036,13431,8596,3.463,38.8,True,53,22,303,2098,126
+PMC3112133,Implementing a hypertension management programme in a rural area: loca,en,343,36922,0,0.0,9104,8599,8599,4.294,5.5,False,113,26,191,1521,146
+PMC8414895,Estimates of Type 2 Diabetes Mellitus Burden Attributable to Particula,en,288,32829,0,0.0,12362,11518,8605,3.815,30.4,True,59,55,285,2427,34
+PMC6634561,Inequalities in Structural Social Capital and Health between Migrant a,en,320,34804,0,0.0,9065,8626,8626,4.035,4.8,False,81,26,238,1962,113
+PMC6324382,Factors Associated With Return to Work After Acute Myocardial Infarcti,en,417,33277,0,0.0,15261,11928,8627,3.857,43.5,True,67,35,305,1393,131
+PMC9055740,The incidence of gestational diabetes mellitus among women with polycy,en,381,34214,0,0.0,14338,13708,8628,3.965,39.8,True,89,10,264,1479,80
+PMC5800125,Endocrine Disrupting Chemicals Mediated through Binding Androgen Recep,en,293,34252,0,0.0,18869,18334,8633,3.968,54.2,True,55,165,315,415,6
+PMC5463396,CKD.QLD: establishment of a chronic kidney disease [CKD] registry in Q,en,363,37859,0,0.0,11878,11142,8647,4.378,27.2,True,130,22,169,496,0
+PMC3349540,Non-replication study of a genome-wide association study for hypertens,en,343,33433,0,0.0,11447,10898,8662,3.86,24.3,True,119,31,216,409,122
+PMC11075875,Prevalence of undiagnosed diabetes mellitus and associated factors amo,en,795,34837,0,0.0,19333,18361,8672,4.017,55.1,True,78,61,240,1082,125
+PMC12017104,"Incidence Trends of Type 2 Diabetes Mellitus, Medication-Induced Diabe",en,322,35081,0,0.0,14051,13326,8677,4.043,38.2,True,71,102,312,386,0
+PMC11975859,Knowledge domains and hotspots of the association between hypertension,en,330,39397,0,0.0,13264,12475,8698,4.529,34.4,True,78,51,282,909,54
+PMC3770576,Mitochondrial Haplotypes Associated with Biomarkers for Alzheimer’s Di,en,350,34130,0,0.0,16316,15059,8698,3.924,46.7,True,57,113,364,684,34
+PMC8582182,Antihypertensive treatments and risks of lung Cancer: a large populati,en,282,33908,0,0.0,11272,10657,8710,3.893,22.7,True,69,23,358,842,66
+PMC8742505,Assessment of erythrocyte morphology in patients with type 2 diabetes ,en,206,31163,0,0.0,9270,8711,8711,3.577,6.0,False,54,72,418,1732,22
+PMC9733606,Computed tomography coronary angiography in non-ST-segment elevation m,en,291,35626,0,0.0,17205,16677,8711,4.09,49.4,True,56,93,391,488,37
+PMC6863566,Factors associated with medication adherence among people with diabete,en,450,37820,0,0.0,14679,13421,8714,4.34,40.6,True,63,81,339,802,163
+PMC13166505,"Trends, pathological classification of renal diseases proved by biopsy",en,328,32146,0,0.0,11417,10844,8716,3.688,23.7,True,100,18,202,1088,41
+PMC7171657,"Effects of Flash Glucose Monitoring on Dietary Variety, Physical Activ",en,218,32564,0,0.0,9086,8719,8719,3.735,4.0,False,46,61,424,2241,49
+PMC9901094,Impact of free maternity services on outcomes related to hypertensive ,en,428,35976,0,0.0,10859,10028,8721,4.125,19.7,True,110,11,211,468,129
+PMC9195252,Prevalence and prognosis of left ventricular diastolic dysfunction in ,en,389,30822,0,0.0,11779,11038,8725,3.533,25.9,True,96,12,221,901,103
+PMC5089099,Effects of flavopiridol on critical regulation pathways of CD133high/C,en,237,32514,0,0.0,11521,10954,8733,3.723,24.2,True,72,104,246,688,0
+PMC7914443,Protein Expression of Angiotensin-Converting Enzyme 2 (ACE2) is Upregu,en,243,33517,0,0.0,13321,12734,8734,3.838,34.4,True,64,91,321,507,9
+PMC9477943,Evaluating the efficacy and mechanism of metformin targets on reducing,en,299,35973,0,0.0,13089,11730,8734,4.119,33.3,True,86,30,269,676,0
+PMC3103416,Evaluation of the impact of genetic polymorphisms in glutathione-relat,en,249,31161,0,0.0,9368,8735,8735,3.567,6.8,False,82,38,250,2069,44
+PMC13280542,Hormone secretion predicts poor prognosis in lung neuroendocrine neopl,en,295,34006,0,0.0,11718,11317,8736,3.893,25.4,True,70,84,341,534,66
+PMC12255961,Management of Elevated Blood Pressure and Hypertension in Hospitalized,en,224,38553,0,0.0,11499,10851,8741,4.411,24.0,True,56,157,367,441,14
+PMC11134622,Current status of electronic health literacy among pregnant women with,en,425,41558,0,0.0,13548,12810,8745,4.752,35.5,True,119,23,184,688,66
+PMC2065870,Interactions between the adducin 2 gene and antihypertensive drug ther,en,269,35447,0,0.0,12588,12138,8748,4.052,30.5,True,59,122,343,570,37
+PMC4605027,Induction of substantial myocardial regeneration by an active fraction,en,221,34087,0,0.0,12576,11940,8765,3.889,30.3,True,57,80,387,799,0
+PMC7526458,IL-10 provides cardioprotection in diabetic myocardial infarction via ,en,295,32365,0,0.0,13070,12267,8774,3.689,32.9,True,78,109,238,404,0
+PMC4960337,Smoking Cessation Carries a Short-Term Rising Risk for Newly Diagnosed,en,173,32006,0,0.0,9241,8785,8785,3.643,4.9,False,32,114,417,4061,9
+PMC1947951,Resequencing PNMT in European hypertensive and normotensive individual,en,306,32746,0,0.0,13272,12816,8794,3.724,33.7,True,63,104,337,694,60
+PMC9626446,Is dietary intake of antioxidant vitamins associated with reduced adve,en,366,34411,0,0.0,12652,12131,8810,3.906,30.4,True,83,63,258,1188,80
+PMC6280809,Prognostic value of plasma NT-proBNP levels in very old patients with ,en,263,30911,0,0.0,11238,10690,8819,3.505,21.5,True,66,59,358,830,52
+PMC6907272,No increased risk of glucose metabolism disorders in adults with growt,en,282,34444,0,0.0,11195,10418,8831,3.9,21.1,True,84,19,274,1199,31
+PMC3523141,"Serum Lipid Profile of Newly Diagnosed Hypertensive Patients in Nnewi,",en,230,32406,0,0.0,9232,8839,8839,3.666,4.3,False,44,98,399,2869,68
+PMC10548403,Parental History of Hypertension: A Risk for Autonomic Dysfunction and,en,350,32634,0,0.0,11197,10599,8842,3.691,21.0,True,90,82,228,555,91
+PMC9544472,The additive effect of periodontitis with hypertension on risk of syst,en,348,32805,0,0.0,12111,11386,8852,3.706,26.9,True,83,39,212,1094,60
+PMC9657840,Natriuretic Peptides—New Targets for Neurocontrol of Blood Pressure vi,en,266,33173,0,0.0,16769,16136,8854,3.747,47.2,True,58,112,352,650,0
+PMC2801179,Lung Cancer in a U.S. Population with Low to Moderate Arsenic Exposure,en,368,34444,0,0.0,13398,12730,8857,3.889,33.9,True,94,50,273,458,131
+PMC5530523,"Risk factors for type 2 diabetes mellitus among out-patients in Ho, th",en,375,36505,0,0.0,11511,11044,8863,4.119,23.0,True,88,43,225,682,122
+PMC6196770,Acute myocardial infarction hospital admissions and deaths in England:,en,255,36123,0,0.0,12682,12116,8863,4.076,30.1,True,62,111,326,582,21
+PMC10240811,Dual targeting PET tracer [68Ga]Ga-FAPI-RGD in patients with lung neop,en,350,32446,0,0.0,15454,14487,8886,3.651,42.5,True,54,167,331,556,0
+PMC7952797,Preoperative predictors of restoration in quality of life after surger,en,382,34563,0,0.0,12144,11382,8971,3.853,26.1,True,64,94,363,704,132
+PMC11745611,Salvage surgery and conversion surgery for patients with nonsmall cell,en,364,36095,0,0.0,16826,15902,8988,4.016,46.6,True,63,25,363,1440,64
+PMC4660634,Discordant associations of lipid parameters with albuminuria and chron,en,333,32663,0,0.0,12441,11953,8990,3.633,27.7,True,89,17,293,882,60
+PMC5072721,Rare Functional Variant in TM2D3 is Associated with Late-Onset Alzheim,en,450,32521,0,0.0,18530,14968,8991,3.617,51.5,True,57,50,440,634,14
+PMC8060969,Alzheimer's disease medication and outcomes of hospitalisation among p,en,377,35747,0,0.0,15297,14687,8995,3.974,41.2,True,78,34,334,719,74
+PMC10969945,Standard Doses of Cholecalciferol Reduce Glucose and Increase Glutamin,en,332,38281,0,0.0,17296,16142,9000,4.253,48.0,True,61,137,311,557,0
+PMC13265864,"The Association Between Pulmonary Hypertension, End-Stage Kidney Disea",en,375,33218,0,0.0,12116,11568,9008,3.688,25.7,True,81,48,262,1025,86
+PMC5319785,Genome-wide study of resistant hypertension identified from electronic,en,460,35962,0,0.0,21716,18817,9011,3.991,58.5,True,56,168,289,775,23
+PMC9740491,Gender and Renal Insufficiency: Opportunities for Their Therapeutic Ma,en,270,38118,0,0.0,17749,17276,9016,4.228,49.2,True,58,22,520,1033,0
+PMC2275772,Therapeutic strategies to slow chronic kidney disease progression,en,346,38875,0,0.0,17509,17010,9020,4.31,48.5,True,95,18,254,518,0
+PMC5764276,Associations of plasma clusterin and Alzheimer’s disease-related MRI m,en,409,34674,0,0.0,14426,12803,9026,3.842,37.4,True,77,93,222,837,87
+PMC6491556,Hyperuricemia has increased the risk of progression of chronic kidney ,en,265,31984,0,0.0,12433,11665,9027,3.543,27.4,True,48,64,466,1347,69
+PMC5075179,Correction of metabolic acidosis improves insulin resistance in chroni,en,379,33961,0,0.0,12700,11961,9042,3.756,28.8,True,86,44,281,1043,101
+PMC5131697,Comparative Prognostic Utility of Indexes of Microvascular Function Al,en,366,35199,0,0.0,17046,16308,9064,3.883,46.8,True,109,50,218,605,0
+PMC7828659,"Plausible Role of Estrogens in Pathogenesis, Progression and Therapy o",en,292,35944,0,0.0,17454,16693,9071,3.963,48.0,True,67,92,335,778,0
+PMC7700208,The Causes of Insulin Resistance in Type 1 Diabetes Mellitus: Is There,en,251,38033,0,0.0,15133,14638,9072,4.192,40.1,True,58,124,328,1050,13
+PMC10308690,Number of recurrences is significantly associated with the post-acute ,en,405,33029,0,0.0,12392,11526,9082,3.637,26.7,True,116,10,207,1750,70
+PMC9052331,Validation of the myocardial-ischaemic-injury-index machine learning a,en,270,36868,0,0.0,12918,12057,9087,4.057,29.7,True,66,90,316,879,32
+PMC9714776,Metabolite profiling of CKD progression in the chronic renal insuffici,en,305,35339,0,0.0,15032,13378,9092,3.887,39.5,True,58,86,392,1001,0
+PMC3226486,"A Case–Referent Study of Lung Cancer and Incense Smoke, Smoking, and R",en,256,36858,0,0.0,11312,10773,9104,4.049,19.5,True,46,146,410,846,89
+PMC11340942,Tamsulosin use in benign prostatic hyperplasia and risks of Parkinson’,en,552,31218,0,0.0,15325,14024,9111,3.426,40.5,True,82,39,247,1483,80
+PMC5691402,Lower incidence of myocardial infarction after smoke-free legislation ,en,346,37042,369,0.01,13586,12963,9122,4.061,32.9,True,112,38,217,386,12
+PMC2958444,The Relationship between the Transforming Growth Factor β1 T29C Gene P,en,308,32882,0,0.0,9545,9125,9125,3.604,4.4,False,86,43,272,1875,59
+PMC3924195,Determinants of the creatinine clearance to glomerular filtration rate,en,283,32311,0,0.0,9733,9127,9127,3.54,6.2,False,73,62,224,2212,58
+PMC11929527,Implications of a new clinical classification of acute myocardial infa,en,361,36014,0,0.0,13581,12056,9139,3.941,32.7,True,61,67,328,1344,100
+PMC3975839,Acute large-dose exposure to organophosphates in patients with and wit,en,307,33279,0,0.0,9800,9148,9148,3.638,6.7,False,65,65,297,1846,94
+PMC3167747,Stress induced hypertensive response: should it be evaluated more care,en,191,37851,0,0.0,9566,9150,9150,4.137,4.3,False,44,87,268,3958,0
+PMC3673192,Cardiovascular Outcomes and the Physical and Chemical Properties of Me,en,284,35127,0,0.0,13579,12938,9153,3.838,32.6,True,46,116,517,980,73
+PMC2855565,Cardiovascular magnetic resonance of the myocardium at risk in acute r,en,235,33878,0,0.0,9665,9159,9159,3.699,5.2,False,72,79,240,2016,21
+PMC9754908,Epidemiology of myocardial infarction in Korea: hospitalization incide,en,306,38177,0,0.0,11535,10994,9164,4.166,20.6,True,105,64,198,370,24
+PMC11392073,Prediction of the pathological subtypes by intraoperative frozen secti,en,432,32615,0,0.0,12891,11676,9182,3.552,28.8,True,84,32,260,738,137
+PMC3226505,Lung Cancer and Cardiovascular Disease Mortality Associated with Ambie,en,238,38435,0,0.0,12908,12314,9183,4.185,28.9,True,41,219,410,1156,50
+PMC5590153,Low serum vitamin D levels in type 2 diabetes patients are associated ,en,317,34450,0,0.0,12663,12027,9185,3.751,27.5,True,104,23,271,845,15
+PMC3503717,Altered Gene Expression Pattern in Peripheral Blood Mononuclear Cells ,en,416,31535,0,0.0,13103,12343,9191,3.431,29.9,True,69,63,263,2333,146
+PMC12244252,"Effect of Magnesium Supplements on Improving Glucose Control, Blood Pr",en,308,34696,0,0.0,15349,14863,9214,3.766,40.0,True,82,88,294,786,30
+PMC9345691,Identification of Metabolite Markers Associated with Kidney Function,en,234,33389,0,0.0,9650,9219,9219,3.622,4.5,False,66,42,343,2126,22
+PMC10531143,Characterizing the hypertensive cardiovascular phenotype in the UK Bio,en,380,35581,0,0.0,14187,12717,9221,3.859,35.0,True,74,54,293,879,95
+PMC7503359,Physical Activity Programs during Pregnancy Are Effective for the Cont,en,376,36186,0,0.0,13964,13175,9236,3.918,33.9,True,71,59,202,3390,44
+PMC9283055,Silencing lncRNA 93358 Inhibits the Apoptosis of Myocardial Cells in M,en,248,32650,0,0.0,9776,9236,9236,3.535,5.5,False,81,54,229,2051,8
+PMC6394668,Central systolic blood pressure and central pulse pressure predict lef,en,289,34047,0,0.0,13048,12447,9245,3.683,29.1,True,66,61,329,878,65
+PMC7248019,Post-contrast acute kidney injury in a hospitalized population: short-,en,438,34750,0,0.0,13901,13132,9256,3.754,33.4,True,110,9,303,797,94
+PMC9805431,Cardiac magnetic resonance feature tracking global and segmental strai,en,333,34118,0,0.0,12339,11712,9264,3.683,24.9,True,91,13,287,926,57
+PMC3821857,DOK2 Inhibits EGFR-Mutated Lung Adenocarcinoma,en,251,32149,0,0.0,13043,12028,9268,3.469,28.9,True,69,108,322,472,0
+PMC2940768,E-selectin gene polymorphisms are associated with essential hypertensi,en,280,31642,0,0.0,9801,9303,9303,3.401,5.1,False,62,63,317,1652,95
+PMC7772165,Media coverage of prevention and treatment options using the examples ,en,265,41205,0,0.0,9920,9313,9313,4.424,6.1,False,69,61,253,2489,27
+PMC3848873,Prevalence and risk factors for resistant hypertension among hypertens,en,260,37111,0,0.0,9781,9318,9318,3.983,4.7,False,57,67,288,2659,59
+PMC5331721,A mixed-methods needs assessment of adult diabetes mellitus (type II) ,en,433,40982,0,0.0,12436,11876,9332,4.392,25.0,True,110,60,205,353,126
+PMC6337639,Lung Macrophages: Multifunctional Regulator Cells for Metastatic Cells,en,294,35889,0,0.0,16670,16131,9334,3.845,44.0,True,54,153,355,523,62
+PMC7809586,Association of the Estimated Glomerular Filtration Rate With vs Withou,en,359,31927,0,0.0,12494,11367,9346,3.416,25.2,True,85,43,295,900,76
+PMC5342499,Epigenome-wide association study of smoking and DNA methylation in non,en,270,34655,0,0.0,14249,13787,9357,3.704,34.3,True,62,145,326,489,20
+PMC10758752,Association Between Apolipoprotein B and Coronary Artery Disease Among,en,372,37000,0,0.0,11359,10878,9358,3.954,17.6,True,62,24,357,1892,184
+PMC2854758,Reduction in Heart Rate Variability with Traffic and Air Pollution in ,en,356,37238,0,0.0,12660,11963,9367,3.975,26.0,True,86,71,276,490,128
+PMC8875627,Estimated Glomerular Filtration Rate in Chronic Kidney Disease: A Crit,en,317,39091,0,0.0,20864,20221,9371,4.171,55.1,True,64,56,421,805,10
+PMC7072986,Human-Induced Pluripotent Stem Cells and Herbal Small-Molecule Drugs f,en,383,34648,26,0.001,20450,19921,9376,3.695,54.2,True,81,92,295,784,54
+PMC4831797,Positive Impact of Nutritional Interventions on Serum Symmetric Dimeth,en,433,34364,0,0.0,13265,11986,9404,3.654,29.1,True,63,115,292,749,207
+PMC11213983,The effect of diabetes mellitus on perioperative outcomes after colore,en,432,36037,0,0.0,12538,11985,9414,3.828,24.9,True,106,55,195,862,134
+PMC9051153,A novel soluble epoxide hydrolase vaccine protects murine cardiac musc,en,287,34316,0,0.0,12935,12303,9422,3.642,27.2,True,93,66,262,620,7
+PMC11462739,Private provider practices and incentives for hypertension management ,en,454,41283,0,0.0,13777,13021,9423,4.381,31.6,True,170,38,141,372,0
+PMC10552437,Chronic kidney outcomes associated with GLP-1 receptor agonists versus,en,287,35839,0,0.0,13995,13150,9425,3.803,32.7,True,93,12,303,699,6
+PMC6801649,Predictor Factors of Perceived Health in Family Caregivers of People D,en,327,37307,0,0.0,13528,12892,9438,3.953,30.2,True,66,103,331,660,94
+PMC7646193,NEMPD: a network embedding-based method for predicting miRNA-disease a,en,384,33559,0,0.0,13489,12777,9438,3.556,30.0,True,81,18,318,691,127
+PMC11055154,Exploring Lifestyle Factors and Treatment Adherence among Older Adults,en,353,38169,0,0.0,12682,11736,9458,4.036,25.4,True,62,141,327,692,136
+PMC7683166,Risk Factors of Cerebral Infarction and Myocardial Infarction after Ca,en,256,36626,0,0.0,9941,9463,9463,3.87,4.8,False,56,84,436,2674,67
+PMC4898308,Risk prediction to inform surveillance of chronic kidney disease in th,en,297,37832,0,0.0,12882,12272,9470,3.995,26.5,True,70,37,373,953,65
+PMC5457596,Serum uric acid concentration is associated with hypertensive retinopa,en,378,34825,0,0.0,13566,12558,9476,3.675,30.1,True,74,52,357,791,93
+PMC8965715,Hypertension Associated With Hearing Loss and Tinnitus Among Hypertens,en,371,38467,0,0.0,12754,12235,9480,4.058,25.7,True,88,43,311,526,97
+PMC5048479,The pre-synaptic vesicle protein synaptotagmin is a novel biomarker fo,en,319,34555,0,0.0,12997,12093,9502,3.637,26.9,True,83,26,300,843,56
+PMC9330693,Vitamin D and Secondary Hyperparathyroidism in Chronic Kidney Disease:,en,260,36867,0,0.0,16692,16218,9504,3.879,43.1,True,66,87,350,865,0
+PMC7312694,The Emerging Role of Innate Immunity in Chronic Kidney Diseases,en,418,33595,0,0.0,23940,23243,9509,3.533,60.3,True,62,73,420,680,77
+PMC7500018,Trends in the incidence of diabetes mellitus: results from the Global ,en,333,35790,0,0.0,13032,12124,9510,3.763,27.0,True,94,37,261,1309,42
+PMC8484170,Ten-year clinical outcomes of polymer-free versus durable polymer new-,en,331,37101,0,0.0,12748,11792,9516,3.899,25.4,True,86,44,272,748,58
+PMC2432046,The interaction of vasoactive substances during exercise modulates pla,en,252,37503,0,0.0,9936,9528,9528,3.936,4.1,False,80,74,234,2382,12
+PMC6801437,Anti-Myocardial Infarction Effects of Radix Aconiti Lateralis Preparat,en,278,35389,0,0.0,16152,15600,9529,3.714,41.0,True,62,111,398,573,0
+PMC10711082,Excessive weight gain onset-age and risk of developing diabetes mellit,en,400,37129,0,0.0,14041,13183,9535,3.894,32.1,True,87,64,252,685,96
+PMC7732055,Hospitalizations among adults with chronic kidney disease in the Unite,en,820,38408,0,0.0,22841,20063,9538,4.027,58.2,True,81,45,298,740,24
+PMC3559887,"Neurotrophic and Neuroprotective Actions of (−)- and (+)-Phenserine, C",en,257,34961,0,0.0,15068,14006,9539,3.665,36.7,True,62,123,326,570,0
+PMC4579246,Being as an iceberg: hypertensive treatment adherence experiences in s,en,308,44196,0,0.0,12843,12358,9545,4.63,25.7,True,84,61,349,512,41
+PMC8085261,MicroRNA Profiles in Normotensive and Hypertensive South African Indiv,en,285,34619,0,0.0,14519,13765,9561,3.621,34.1,True,55,107,405,1200,41
+PMC6128455,Increases in plasma corin levels following experimental myocardial inf,en,261,34596,0,0.0,15599,14240,9570,3.615,38.6,True,56,61,508,761,16
+PMC3157472,Importance of Suitable Reference Gene Selection for Quantitative Real-,en,279,36845,0,0.0,11801,11243,9577,3.847,18.8,True,59,132,332,657,68
+PMC3414744,Individual-based primary prevention of cardiovascular disease in Cambo,en,429,42433,0,0.0,10065,9606,9606,4.417,4.6,False,121,26,165,1663,157
+PMC6166969,Lack of vitamin D signalling per se does not aggravate cardiac functio,en,276,35607,0,0.0,16144,15179,9637,3.695,40.3,True,54,164,391,870,21
+PMC3261941,Circulating Levels of Persistent Organic Pollutants (POPs) and Carotid,en,307,34635,0,0.0,13592,13028,9665,3.584,28.9,True,64,111,238,1341,86
+PMC10062544,Initial mean arterial blood pressure (MABP) measurement is a risk fact,en,884,31370,0,0.0,19520,18440,9675,3.242,50.4,True,49,42,630,1508,226
+PMC4534050,Extracellular volume quantification in isolated hypertension - changes,en,392,34018,0,0.0,12882,12256,9681,3.514,24.8,True,98,17,286,797,106
+PMC10149997,Application of nanoparticles in the diagnosis and treatment of chronic,en,335,39532,0,0.0,22547,21827,9684,4.082,57.0,True,49,94,509,1279,19
+PMC7565991,Uremic Toxins Affect Erythropoiesis during the Course of Chronic Kidne,en,388,35808,0,0.0,21389,20861,9689,3.696,54.7,True,81,110,255,491,39
+PMC13061220,White matter microstructure disruption associated with PET and cogniti,en,371,35871,0,0.0,16649,14466,9691,3.701,41.8,True,56,161,410,731,113
+PMC7428638,Clinical Potential of Targeting Fibroblast Growth Factor‐23 and αKloth,en,467,35982,0,0.0,30446,29438,9713,3.705,68.1,True,67,41,337,1627,55
+PMC8047269,Risk Factors for Anemia in Patients with Chronic Renal Failure: A Syst,en,271,36666,0,0.0,10154,9719,9719,3.773,4.3,False,52,89,218,4391,48
+PMC4183025,Heart rate variability in children with type 1 diabetes mellitus,en,293,40726,0,0.0,11845,11367,9723,4.189,17.9,True,98,86,233,323,0
+PMC3172237,"CHD5, a Brain-Specific Paralog of Mi2 Chromatin Remodeling Enzymes, Re",en,301,34701,0,0.0,15894,15146,9754,3.558,38.6,True,60,144,351,613,0
+PMC7094867,No clear associations of adult BMI and diabetes mellitus with non-musc,en,460,37765,0,0.0,16102,15176,9768,3.866,39.3,True,80,66,316,671,127
+PMC11349176,Perception and coping mechanisms of patients with diabetes mellitus du,en,1119,44693,0,0.0,23178,22029,9806,4.558,57.7,True,149,39,201,443,16
+PMC3852223,Investigating silent strokes in hypertensives: a magnetic resonance im,en,315,40018,0,0.0,10468,9808,9808,4.08,6.3,False,111,49,155,2445,7
+PMC5016561,LIGHT/TNFSF14 is increased in patients with type 2 diabetes mellitus a,en,372,35820,0,0.0,12230,11449,9810,3.651,19.8,True,97,15,333,992,74
+PMC13532949,Unveiling the role of the venous system in arterial hypertension: A co,en,407,39415,0,0.0,16551,15771,9820,4.014,40.7,True,84,62,274,1202,44
+PMC9433206,Related Factors and Economic Burden Evaluation of Nosocomial Infection,en,265,43195,0,0.0,10296,9838,9838,4.391,4.4,False,88,33,226,1754,21
+PMC6516640,“I can’t get it into my head that I have cancer…”—A qualitative interv,en,409,43957,0,0.0,13694,12864,9890,4.445,27.8,True,132,39,195,666,25
+PMC7376925,American Indian chronic Renal insufficiency cohort study (AI-CRIC stud,en,459,43628,0,0.0,16152,15359,9894,4.41,38.7,True,164,9,191,491,8
+PMC9840603,Lactate dehydrogenase is associated with flow-mediated dilation in hyp,en,322,34722,0,0.0,13540,12752,9922,3.499,26.7,True,51,31,609,1477,124
+PMC12197912,Identification of stable reference genes and differential miRNA expres,en,480,37766,0,0.0,15987,14920,9931,3.803,37.9,True,100,58,253,320,33
+PMC10871577,Differential efficacy of segmentectomy and wedge resection in sublobar,en,440,36046,0,0.0,14828,14158,9941,3.626,33.0,True,99,54,226,1028,119
+PMC11232199,Combined expert-in-the-loop—random forest multiclass segmentation U-ne,en,321,36340,0,0.0,13377,12652,9941,3.656,25.7,True,97,88,246,689,43
+PMC12469920,Hyperuricemia in Chronic Kidney Disease: Emerging Pathophysiology and ,en,312,39282,0,0.0,18075,17611,9953,3.947,44.9,True,59,134,355,701,60
+PMC7315309,Risk Factors of Hypertension among Diabetic Patients from Yaoundé Cent,en,266,38889,0,0.0,10335,9959,9959,3.905,3.6,False,71,101,250,2347,53
+PMC5409713,Vegetarian Diet in Chronic Kidney Disease—A Friend or Foe,en,232,37867,0,0.0,16958,16524,9973,3.797,41.2,True,39,196,457,2154,21
+PMC6289164,"Christmas, national holidays, sport events, and time factors as trigge",en,328,39408,0,0.0,10576,9979,9979,3.949,5.6,False,100,23,264,2154,43
+PMC10791831,Recent progress in metabolic reprogramming in gestational diabetes mel,en,362,40204,0,0.0,20487,19759,9992,4.024,51.2,True,78,60,323,602,21
+PMC12477764,Correlation analysis of ApoB and TyG index levels with residual cardio,en,331,37353,0,0.0,13399,12564,9994,3.738,25.4,True,83,42,365,604,65
+PMC11575783,Genomic variants associated with type 2 diabetes mellitus among Filipi,en,457,39137,0,0.0,16433,15215,9996,3.915,39.2,True,97,83,223,454,116
+PMC4889076,Influence of Coding Variability in APP-Aβ Metabolism Genes in Sporadic,en,389,32142,0,0.0,17232,15597,9996,3.215,42.0,True,55,106,425,934,88
+PMC7827637,Effectively Prescribing Oral Magnesium Therapy for Hypertension: A Cat,en,362,38619,0,0.0,17697,17306,10005,3.86,43.5,True,76,52,318,1275,64
+PMC7954292,Troponin elevation pattern and subsequent cardiac and non-cardiac outc,en,808,38351,0,0.0,23965,22065,10008,3.832,58.2,True,69,55,375,780,48
+PMC4498787,Agreement between Myocardial Infarction Patients and Their Spouses on ,en,363,41819,0,0.0,12597,11749,10080,4.149,20.0,True,103,74,219,465,40
+PMC8476992,Circulating Levels of MicroRNAs Associated With Hypertension: A Cross-,en,307,36050,0,0.0,13561,12821,10087,3.574,25.6,True,58,61,451,948,87
+PMC6903756,Omentin-1 in diabetes mellitus: A systematic review and meta-analysis,en,392,39238,0,0.0,14781,13815,10107,3.882,31.6,True,67,79,287,1613,122
+PMC12202395,Impacts of amino acid supplementation on renal function and nutritiona,en,454,40981,0,0.0,16311,15175,10119,4.05,38.0,True,116,44,217,657,86
+PMC7801646,The interaction between self-care behavior and disease knowledge on th,en,342,38386,0,0.0,12950,12105,10123,3.792,21.8,True,70,29,400,1095,112
+PMC8088439,"Genetic predisposition, Aβ misfolding in blood plasma, and Alzheimer’s",en,350,35400,0,0.0,13637,12842,10140,3.491,25.6,True,84,78,245,859,77
+PMC6801685,Impact of Diabetes Mellitus on Bone Health,en,410,40945,0,0.0,30487,30074,10142,4.037,66.7,True,54,227,355,525,21
+PMC12827185,The latest progression of N6-methyladenosine (m6A) RNA modification in,en,375,37677,0,0.0,21185,20456,10144,3.714,52.1,True,66,142,328,631,60
+PMC5010396,Ambient Fine Particulate Matter and Mortality among Survivors of Myoca,en,360,40704,0,0.0,13925,13162,10146,4.012,27.1,True,79,109,277,533,96
+PMC11357349,Therapeutic Potential of Various Intermittent Fasting Regimens in Alle,en,472,39626,0,0.0,25670,25160,10168,3.897,60.4,True,78,134,280,508,65
+PMC11698444,Disparities in time to treatment initiation of invasive lung cancer am,en,393,43231,0,0.0,15093,13822,10168,4.252,32.6,True,72,43,391,839,104
+PMC7804125,Fast walking is a preventive factor against new-onset diabetes mellitu,en,364,36234,0,0.0,13563,12851,10170,3.563,25.0,True,72,46,302,1433,116
+PMC6287897,Incidence of Hospitalization for Heart Failure and Case-Fatality Among,en,327,44609,0,0.0,13125,12474,10181,4.382,22.4,True,114,76,193,393,0
+PMC6312584,Toxoplasma gondii Infection in Diabetes Mellitus Patients in China: Se,en,384,37872,0,0.0,10732,10181,10181,3.72,5.1,False,55,49,369,2902,185
+PMC3114823,Lung Cancer Incidence and Long-Term Exposure to Air Pollution from Tra,en,331,40533,0,0.0,13029,12479,10210,3.97,21.6,True,87,57,295,974,96
+PMC6211704,Parahippocampal gyrus expression of endothelial and insulin receptor s,en,357,38152,0,0.0,19724,18106,10250,3.722,48.0,True,51,105,517,1423,69
+PMC4786976,Traffic-Related Air Pollution and Dementia Incidence in Northern Swede,en,321,41633,0,0.0,13321,12770,10266,4.055,22.9,True,64,100,376,749,103
+PMC13253839,Exploring the characteristics of gut microbiome changes in lung cancer,en,295,42590,1,0.0,16929,16254,10274,4.145,39.3,True,58,23,506,1081,43
+PMC7833138,Risk factors of heart failure among patients with hypertension attendi,en,376,41777,0,0.0,16448,15167,10276,4.065,37.5,True,58,127,395,975,111
+PMC11720251,Hypertension: A Continuing Public Healthcare Issue,en,297,46186,0,0.0,19923,19419,10277,4.494,48.4,True,63,183,276,464,0
+PMC11260076,Secretomic changes of amyloid beta peptides on Alzheimer’s disease rel,en,324,37639,0,0.0,15717,15085,10282,3.661,34.6,True,92,85,235,808,31
+PMC13143615,"Prognostic nutritional index, Naples prognostic score and Osaka progno",en,391,38182,0,0.0,15844,15206,10284,3.713,35.1,True,77,69,292,847,117
+PMC8335700,Advances in the mechanism and treatment of mitochondrial quality contr,en,322,39355,0,0.0,20726,20051,10292,3.824,50.3,True,68,146,330,439,0
+PMC10341518,Analysis of MMP-2-735C/T (rs2285053) and MMP-9-1562C/T (rs3918242) Pol,en,527,39745,0,0.0,22249,21501,10295,3.861,53.7,True,55,205,329,652,0
+PMC5201285,Phosphocalcic Markers and Calcification Propensity for Assessment of I,en,511,38082,0,0.0,18032,16850,10303,3.696,42.9,True,86,59,296,593,116
+PMC8045338,"Occupational lifting and risk of hypertension, stratified by use of an",en,354,42298,0,0.0,14004,13094,10304,4.105,26.4,True,104,44,340,570,49
+PMC9668925,"Elevated platelet–leukocyte complexes are associated with, but dispens",en,422,37061,0,0.0,15796,14805,10309,3.595,34.7,True,143,11,204,1005,0
+PMC11262345,Physical Activity and Hypertension,en,392,42911,0,0.0,18771,18409,10325,4.156,45.0,True,88,32,285,1695,56
+PMC6888331,Risk of Cancer for Workers Exposed to Antimony Compounds: A Systematic,en,487,41892,0,0.0,23201,22707,10325,4.057,55.5,True,127,58,205,390,0
+PMC4780701,Genome-Wide Association Study for Incident Myocardial Infarction and C,en,519,33995,0,0.0,16543,13405,10336,3.289,37.5,True,59,89,389,2291,103
+PMC10522728,Mindfulness-Based Interventions for Survivors of Lung Cancer and Their,en,541,42322,0,0.0,13206,12445,10347,4.09,21.6,True,217,15,151,383,50
+PMC1090564,Angiotensinogen M235T gene variants and its association with essential,en,291,38591,0,0.0,10812,10353,10353,3.728,4.2,False,98,45,220,2309,62
+PMC7038071,Manifestation of Systemic Toxicity in Rats after a Short-Time Inhalati,en,377,36285,0,0.0,15387,14696,10355,3.504,32.7,True,73,94,239,1899,128
+PMC11924289,Blood biomarker profiles in young-onset neurocognitive disorders: A co,en,353,38866,0,0.0,16139,15278,10364,3.75,35.8,True,91,73,265,515,27
+PMC8375146,Association of sex-specific differences in lipoprotein(a) concentratio,en,403,39794,0,0.0,15774,14466,10379,3.834,34.2,True,102,40,278,806,64
+PMC5409651,Job Strain and Casual Blood Pressure Distribution: Looking beyond the ,en,315,45125,0,0.0,16357,15697,10398,4.34,36.4,True,73,127,301,653,47
+PMC4648559,Iron Chelation Inhibits Osteoclastic Differentiation In Vitro and in T,en,249,35730,0,0.0,13659,13061,10409,3.433,23.8,True,76,130,309,480,0
+PMC4077563,"Cystatin C, a novel indicator of renal function, reflects severity of ",en,416,37453,0,0.0,15017,14484,10428,3.592,30.6,True,75,52,357,913,119
+PMC9274319,Assessment of Oxygen Supply-Demand Imbalance and Outcomes Among Patien,en,430,40124,0,0.0,15500,13680,10428,3.848,32.7,True,104,34,276,1256,74
+PMC7582407,Preconditioned and Genetically Modified Stem Cells for Myocardial Infa,en,274,41084,0,0.0,22734,22225,10429,3.939,54.1,True,47,204,441,1009,0
+PMC6020240,Hematuria as a risk factor for progression of chronic kidney disease a,en,453,38733,0,0.0,14679,13268,10437,3.711,28.9,True,97,28,279,1645,112
+PMC3009734,Loss of Caveolin-1 Accelerates Neurodegeneration and Aging,en,285,36063,0,0.0,16595,15861,10457,3.449,37.0,True,68,99,345,693,0
+PMC11739250,Anti-hypertensive medications and erectile dysfunction: focus on β-blo,en,540,39533,0,0.0,25229,24418,10468,3.777,58.5,True,66,38,436,1509,151
+PMC11093484,Precise and safe pulmonary segmentectomy enabled by visualizing cancer,en,283,37829,0,0.0,14963,14120,10475,3.611,30.0,True,78,103,316,585,0
+PMC2760875,Variations in the transcriptome of Alzheimer's disease reveal molecula,en,465,42278,0,0.0,17389,16968,10481,4.034,39.7,True,99,83,230,462,116
+PMC9120723,The relationship between isolated hypertension with brain volumes in U,en,318,43271,0,0.0,17355,16626,10483,4.128,39.6,True,79,84,347,1141,32
+PMC11163696,Determinants of mortality in hypertensive patients admitted with COVID,en,458,42494,0,0.0,13050,12409,10496,4.049,19.6,True,132,11,256,668,124
+PMC7467615,Serum uric acid and left ventricular hypertrophy in hypertensive patie,en,268,38790,0,0.0,11014,10496,10496,3.696,4.7,False,62,38,389,3401,42
+PMC2223512,Comparative analysis of expression of the proprotein convertases furin,en,75,35952,0,0.0,10923,10500,10500,3.424,3.9,False,6,169,5078,8220,0
+PMC7438828,Current Knowledge Regarding the Interaction Between Oral Bone Metaboli,en,321,44748,0,0.0,21243,20560,10516,4.255,50.5,True,56,126,423,715,7
+PMC2944093,No Association between Arsenic Exposure from Drinking Water and Diabet,en,362,37617,0,0.0,14844,14251,10517,3.577,29.1,True,82,85,299,815,108
+PMC5986147,Myocardial infarction and alcohol consumption: A case-control study,en,383,42014,0,0.0,16239,15147,10517,3.995,35.2,True,74,64,375,799,99
+PMC10857198,Dietary Fibre for the Prevention of Post-Pancreatitis Diabetes Mellitu,en,317,43634,0,0.0,22689,22304,10522,4.147,53.6,True,57,207,442,547,0
+PMC8575250,Unbiased high-content screening reveals Aβ- and tau-independent synapt,en,320,40104,0,0.0,17327,16307,10560,3.798,39.1,True,63,114,379,823,30
+PMC11368228,Diabetes mellitus in patients with heart failure and effect modificati,en,550,41975,0,0.0,14827,13609,10584,3.966,28.6,True,145,24,175,1372,134
+PMC9075491,Deoxycholic Acid and Coronary Artery Calcification in the Chronic Rena,en,494,38226,0,0.0,15689,14301,10593,3.609,32.5,True,147,5,242,620,91
+PMC9038723,The influence of personality on the risk of myocardial infarction in U,en,392,41005,0,0.0,14616,14058,10601,3.868,27.5,True,119,11,265,732,53
+PMC6918019,Guidelines for the nursing management of gestational diabetes mellitus,en,401,46985,0,0.0,14259,13595,10614,4.427,25.6,True,98,64,271,896,96
+PMC3241693,Immunoglobulin E and Mast Cell Proteases Are Potential Risk Factors of,en,373,35312,0,0.0,14520,13795,10652,3.315,26.6,True,60,58,444,938,107
+PMC11036786,Exploring morphological similarity and randomness in Alzheimer’s disea,en,373,45858,0,0.0,18722,17663,10663,4.301,43.0,True,103,14,290,690,6
+PMC9905079,"Rare variant aggregation in 148,508 exomes identifies genes associated",en,244,41857,0,0.0,13589,12989,10687,3.917,21.4,True,66,84,391,708,15
+PMC5747597,The QardioArm App in the Assessment of Blood Pressure and Heart Rate: ,en,516,40423,0,0.0,11347,10724,10724,3.769,5.5,False,147,28,132,3978,169
+PMC7644637,Mapping the genetic basis of diabetes mellitus in the Australian Burme,en,298,39988,0,0.0,17243,16514,10725,3.728,37.8,True,62,174,408,601,21
+PMC13322747,Relationship between medication class and ambulatory blood pressure pr,en,372,41349,0,0.0,16730,15428,10735,3.852,35.8,True,85,52,318,1133,75
+PMC10931599,Placental and Renal Pathways Underlying Pre-Eclampsia,en,320,42644,0,0.0,19705,19046,10763,3.962,45.4,True,79,122,306,774,9
+PMC4610060,Factors Associated with Medication Nonadherence among Hypertensives in,en,295,42067,0,0.0,11488,10782,10782,3.902,6.1,False,49,140,335,3355,97
+PMC11410575,Cardiovascular risk assessment using non-laboratory based WHO CVD risk,en,360,41792,0,0.0,14474,13775,10787,3.874,25.5,True,72,108,309,1523,108
+PMC11063022,Expression patterns of novel immunotherapy targets in intermediate- an,en,394,41301,0,0.0,17611,16017,10817,3.818,38.6,True,83,22,406,890,50
+PMC5360226,Association between fatty acid metabolism in the brain and Alzheimer d,en,555,39837,0,0.0,19198,17815,10817,3.683,43.7,True,87,44,317,1069,82
+PMC9678479,New Onset of Diabetes Mellitus and Associated Factors among COVID-19 P,en,371,40081,0,0.0,11360,10830,10830,3.701,4.7,False,96,37,240,2826,98
+PMC3871568,Growth Pattern Analysis of Murine Lung Neoplasms by Advanced Semi-Auto,en,316,45528,0,0.0,16078,15452,10847,4.197,32.5,True,69,117,301,598,7
+PMC10660456,A Machine Learning Model Based on microRNAs for the Diagnosis of Essen,en,357,44802,0,0.0,19215,18405,10860,4.125,43.5,True,61,194,426,581,0
+PMC6598737,Longitudinal neuroanatomical and cognitive progression of posterior co,en,269,45152,0,0.0,16413,15487,10860,4.158,33.8,True,47,196,546,761,17
+PMC11445359,Adherence to the dietary approaches to stop hypertension diet reduces ,en,365,42058,0,0.0,19685,19142,10861,3.872,44.8,True,85,20,410,841,50
+PMC12634942,The future of biomarkers for vascular contributions to cognitive impai,en,310,47223,0,0.0,17740,15873,10899,4.333,38.6,True,77,44,419,672,0
+PMC6998275,Effects of gestational diabetes mellitus on risk of adverse maternal o,en,501,42238,0,0.0,17155,16493,10922,3.867,36.3,True,105,24,279,813,151
+PMC10163802,Diabetes mellitus-related hospital admissions and prescriptions of ant,en,302,47744,0,0.0,15114,14502,10923,4.371,27.7,True,93,28,252,2661,21
+PMC12630314,The role of renal denervation for the treatment of hypertension in pat,en,464,46594,0,0.0,23544,22318,10941,4.259,53.5,True,115,38,208,1040,56
+PMC3779177,Joint Modeling of Transitional Patterns of Alzheimer's Disease,en,408,45489,0,0.0,13863,13204,10960,4.15,20.9,True,65,103,409,679,179
+PMC13036687,Preoperative Contrast-enhanced CT Features Associated with Occult Lymp,en,450,40502,0,0.0,15205,14387,10962,3.695,27.9,True,113,35,271,621,124
+PMC9163811,Allograft Function as Endpoint for Clinical Trials in Kidney Transplan,en,361,44208,0,0.0,17148,16278,11015,4.013,35.8,True,101,66,233,857,21
+PMC4016297,Predictors of high sensitivity cardiac troponin T in chronic kidney di,en,293,37210,0,0.0,11841,11016,11016,3.378,7.0,False,54,87,349,3354,81
+PMC11407953,Missed opportunities for hypertension screening of older people in the,en,403,45978,0,0.0,14968,14528,11026,4.17,26.3,True,93,94,231,1304,116
+PMC10542184,U-shaped association between triglyceride and risk of incident diabete,en,303,41835,0,0.0,11818,11038,11038,3.79,6.6,False,64,60,312,3384,57
+PMC8688977,Chronic limb threatening ischemia and diabetes mellitus: the severity ,en,374,39637,0,0.0,14327,13713,11046,3.588,22.9,True,105,66,279,511,68
+PMC9692622,Essential Hypertension and Oxidative Stress: Novel Future Perspectives,en,507,40837,0,0.0,16477,15730,11076,3.687,32.8,True,125,65,163,528,119
+PMC6952872,18F-FDG PET-Based Imaging of Myocardial Inflammation Predicts a Functi,en,296,40410,0,0.0,14448,13563,11086,3.645,23.3,True,92,83,270,562,25
+PMC1559700,Prevalence of self-reported hypertension and its relation to dietary h,en,277,44816,0,0.0,11527,11103,11103,4.036,3.7,False,62,71,320,3653,61
+PMC4829998,"Radon Exposure, IL-6 Promoter Variants, and Lung Squamous Cell Carcino",en,259,41946,0,0.0,14490,13936,11136,3.767,23.1,True,61,138,412,601,42
+PMC3413657,Mood Disorders and Risk of Lung Cancer in the EAGLE Case-Control Study,en,507,42134,0,0.0,15560,14604,11150,3.779,28.3,True,96,53,320,832,148
+PMC9375274,Perspectives and challenges in patient stratification in Alzheimer’s d,en,350,47175,0,0.0,17241,16287,11167,4.225,35.2,True,104,12,333,1162,5
+PMC7268748,The cascade of care in managing hypertension in the Arab world: a syst,en,509,44412,0,0.0,17742,17119,11284,3.936,36.4,True,132,39,194,897,106
+PMC10800050,Obesity-and lipid-related indices as a risk factor of hypertension in ,en,492,38912,0,0.0,15121,13977,11291,3.446,25.3,True,124,18,217,1381,132
+PMC12140463,P-glycoprotein and Alzheimer’s Disease: Threats and Opportunities,en,352,43578,0,0.0,25785,25109,11308,3.854,56.1,True,81,129,282,594,0
+PMC5833374,Monoglyceride lipase gene knockout in mice leads to increased incidenc,en,242,41186,0,0.0,13724,13172,11343,3.631,17.3,True,70,137,384,603,17
+PMC2855324,Admixture Mapping Scans Identify a Locus Affecting Retinal Vascular Ca,en,380,45531,0,0.0,16926,16061,11362,4.007,32.9,True,85,98,340,470,42
+PMC6383235,"Insulin resistance and chronic kidney disease progression, cardiovascu",en,447,40457,0,0.0,15650,14504,11364,3.56,27.4,True,98,29,303,1573,118
+PMC5164907,The Markers of Glutamate Metabolism in Peripheral Blood Mononuclear Ce,en,282,39876,0,0.0,11949,11384,11384,3.503,4.7,False,83,63,226,3817,32
+PMC8480850,Transcriptome analyses reveal tau isoform-driven changes in transposab,en,297,45713,0,0.0,17605,16138,11394,4.012,35.3,True,70,145,348,600,0
+PMC3454385,Plasma Based Markers of [11C] PiB-PET Brain Amyloid Burden,en,322,42009,0,0.0,17809,15936,11397,3.686,36.0,True,63,159,406,532,34
+PMC7966641,Morphologic and molecular classification of lung neuroendocrine neopla,en,328,42083,0,0.0,21302,20132,11412,3.688,46.4,True,65,84,449,850,42
+PMC4666664,Can Genetic Analysis of Putative Blood Alzheimer’s Disease Biomarkers ,en,394,41365,0,0.0,19234,17360,11415,3.624,40.7,True,70,115,334,1205,111
+PMC11357982,Markers of imminent myocardial infarction,en,390,46587,0,0.0,17221,15567,11424,4.078,33.7,True,114,59,235,599,0
+PMC4283145,Effects of aerobic exercise on cognition and hippocampal volume in Alz,en,527,48444,0,0.0,16872,16244,11448,4.232,32.1,True,156,13,247,520,74
+PMC9942303,A generalized covariate-adjusted top-scoring pair algorithm with appli,en,306,43656,0,0.0,15063,13767,11454,3.811,24.0,True,85,93,323,786,20
+PMC11241132,Resistance Exercise Training as a New Trend in Alzheimer’s Disease Res,en,359,46863,0,0.0,23290,22622,11528,4.065,50.5,True,55,154,397,2676,62
+PMC9175339,Neuropathological and behavioral features of an APP/PS1/MAPT (6xTg) tr,en,378,42050,0,0.0,16745,15950,11532,3.646,31.1,True,129,41,221,571,0
+PMC8046536,Prevalence and Risk Factors of Gestational Diabetes Mellitus among Wom,en,538,46675,0,0.0,11922,11534,11534,4.047,3.3,False,161,33,152,2158,133
+PMC2777188,Accumulation of neutral lipids in peripheral blood mononuclear cells a,en,296,42923,0,0.0,12138,11535,11535,3.721,5.0,False,87,35,278,2374,39
+PMC6974975,"Road proximity, air pollution, noise, green space and neurologic disea",en,542,44730,0,0.0,17474,16971,11547,3.874,33.9,True,149,8,236,1016,130
+PMC12111827,Effect of KLF15-Mediated Circadian Rhythm on Myocardial Infarction: A ,en,304,42890,0,0.0,19142,18514,11576,3.705,39.5,True,62,61,415,2631,48
+PMC9576679,Generalizable deep learning model for early Alzheimer’s disease detect,en,434,45929,0,0.0,16048,15041,11588,3.963,27.8,True,138,11,236,1202,53
+PMC2966442,Cigarette Smoke Induces C/EBP-β-Mediated Activation of miR-31 in Norma,en,330,42032,0,0.0,16275,15584,11591,3.626,28.8,True,89,96,325,486,12
+PMC8235104,Altered Cardiovascular Reactivity to and Recovery from Cold Face Test-,en,339,44051,0,0.0,16323,15656,11610,3.794,28.9,True,105,74,264,461,11
+PMC11006741,Metabolic acidosis in chronic kidney disease: mere consequence or also,en,340,47109,0,0.0,21762,21112,11611,4.057,46.6,True,80,84,362,771,0
+PMC12451019,Chronic kidney disease and valvular heart disease: State of the art,en,281,45191,0,0.0,21519,20808,11618,3.89,46.0,True,74,108,355,936,0
+PMC12810801,Quality of life in hypertensive patients using the WHOQOL-BREF instrum,en,1163,47433,0,0.0,30684,29674,11633,4.077,62.1,True,69,116,355,816,98
+PMC10339634,Bibliometric and visual analysis of diabetes mellitus and pyroptosis f,en,372,47104,0,0.0,19246,18604,11647,4.044,39.5,True,87,25,325,1407,44
+PMC8422353,Cardiovascular brain impulses in Alzheimer’s disease,en,312,47647,0,0.0,16138,15146,11659,4.087,27.8,True,80,166,258,474,9
+PMC5349685,Microstructural white matter alterations in preclinical Alzheimer’s di,en,486,42499,0,0.0,21622,19036,11665,3.643,46.1,True,92,65,286,834,114
+PMC11801730,"The impact of apolipoprotein E, type ∊4 allele on Alzheimer’s disease ",en,253,43049,0,0.0,17605,16461,11675,3.687,33.7,True,65,160,391,681,12
+PMC1479320,Chronic renal insufficiency among Asian Indians with type 2 diabetes: ,en,374,40354,0,0.0,12277,11685,11685,3.453,4.8,False,57,96,443,3186,104
+PMC5659028,Endothelin A receptor blocker and calcimimetic in the adenine rat mode,en,360,42857,0,0.0,16201,15327,11697,3.664,27.8,True,110,32,301,699,20
+PMC8759265,Plasma Lipocalin 2 in Alzheimer’s disease: potential utility in the di,en,377,43169,0,0.0,16222,15221,11713,3.686,27.8,True,105,13,348,835,48
+PMC7179879,Self-reported health behaviors and longitudinal cognitive performance ,en,372,46823,0,0.0,16941,15232,11752,3.984,30.6,True,83,87,341,1164,62
+PMC12645157,A systems immunology analysis of Alzheimer's disease reveals an age‐ a,en,356,46764,0,0.0,16522,15503,11763,3.976,28.8,True,85,76,367,476,36
+PMC10965088,A deeply supervised adaptable neural network for diagnosis and classif,en,944,48150,0,0.0,27052,25700,11764,4.093,56.5,True,111,40,290,766,32
+PMC11849043,Qing-Xin-Jie-Yu Granule attenuates myocardial infarction-induced infla,en,288,42686,0,0.0,17738,16931,11767,3.628,33.7,True,72,138,366,713,9
+PMC5078799,Racial differences in microRNA and gene expression in hypertensive wom,en,280,45823,0,0.0,18495,18035,11789,3.887,36.3,True,55,238,429,543,0
+PMC4668678,Progenitor-like cells derived from mouse kidney protect against renal ,en,285,43003,0,0.0,14592,13995,11790,3.647,19.2,True,98,22,321,854,0
+PMC12802613,From fragmented to integrated healthcare managing hypertension post-st,en,378,56902,0,0.0,15066,14314,11837,4.807,21.4,True,106,102,209,931,66
+PMC13437241,Phosphate homeostasis and apparent treatment-resistant hypertension in,en,405,40582,0,0.0,21406,20065,11843,3.427,44.7,True,70,79,370,1293,83
+PMC4544563,Peri-operative kidney injury and long-term chronic kidney disease foll,en,448,48718,0,0.0,18675,18239,11845,4.113,36.6,True,152,19,239,581,18
+PMC8235611,"Demographic, socioeconomic, and biological correlates of hypertension ",en,454,50021,0,0.0,19123,18371,11849,4.222,38.0,True,113,67,253,905,109
+PMC8539280,Metabolic Profiling and Metabolites Fingerprints in Human Hypertension,en,279,50774,0,0.0,19689,19227,11876,4.275,39.7,True,54,177,444,1885,31
+PMC8795812,The Spectrum of Malignant Neoplasms among Liver Transplant Recipients:,en,358,44619,0,0.0,12391,11902,11902,3.749,3.9,False,74,72,365,1827,136
+PMC9360537,Follow-up management service and health outcomes of hypertensive patie,en,478,52545,0,0.0,16541,15949,11936,4.402,27.8,True,72,77,465,815,212
+PMC6388331,Oxidative Stress in Animal Models of Acute and Chronic Renal Failure,en,234,41470,0,0.0,12464,11940,11940,3.473,4.2,False,58,121,364,4122,13
+PMC4050398,KNOW-CKD (KoreaN cohort study for Outcome in patients With Chronic Kid,en,376,41468,0,0.0,12825,11943,11943,3.472,6.9,False,84,57,294,2408,112
+PMC10239144,KATZNCP: a miRNA–disease association prediction model integrating KATZ,en,443,43832,0,0.0,17674,17079,12023,3.646,32.0,True,106,44,346,714,104
+PMC11221832,Overview of global healthcare policies for patients with chronic kidne,en,594,54313,0,0.0,16394,15731,12034,4.513,26.6,True,214,45,107,388,105
+PMC8275379,The Potential Benefits of Nanotechnology in Treating Alzheimer's Disea,en,267,45596,0,0.0,12459,12037,12037,3.788,3.4,False,73,91,210,5015,0
+PMC11643159,Alzheimer’s Disease Sequencing Project Release 4 Whole Genome Sequenci,en,576,45128,0,0.0,30644,29109,12113,3.726,60.5,True,108,99,253,415,0
+PMC3236837,Validation of an arterial tortuosity measure with application to hyper,en,347,48275,0,0.0,12792,12129,12129,3.98,5.2,False,116,85,213,1559,41
+PMC10854423,"Prevalence, Risk Factors and Cardiovascular Comorbidities of Resistant",en,361,44260,0,0.0,12868,12155,12155,3.641,5.5,False,133,25,155,4307,131
+PMC13115799,Predictive Biomarkers for Coronary Collateral Circulation Development ,en,465,45679,0,0.0,23331,22619,12155,3.758,47.9,True,85,78,349,1019,127
+PMC3664075,"The natural history of, and risk factors for, progressive Chronic Kidn",en,483,51553,0,0.0,24296,23686,12161,4.239,49.9,True,103,99,238,762,50
+PMC9777169,Prevalence and Predictors of Renal Disease in a National Representativ,en,368,41559,0,0.0,19053,18255,12200,3.406,36.0,True,53,40,498,2970,126
+PMC4872999,ABCG1 and ABCG4 Suppress γ-Secretase Activity and Amyloid β Production,en,360,42921,0,0.0,19689,18394,12224,3.511,37.9,True,77,84,416,798,0
+PMC7296682,White-coat hypertension and incident end-stage renal disease in patien,en,430,41342,0,0.0,16080,14775,12234,3.379,23.9,True,110,16,307,1140,116
+PMC11157728,Minimisation of dialysis risk in hospital patients with chronic kidney,en,715,54115,0,0.0,17815,16709,12269,4.411,31.1,True,258,17,119,727,80
+PMC2914741,Genetic Variation and Antioxidant Response Gene Expression in the Bron,en,319,46943,0,0.0,15909,15238,12301,3.816,22.7,True,78,102,371,1297,49
+PMC9831930,Hypertension and cardiomyopathy associated with chronic kidney disease,en,614,49163,0,0.0,38969,38361,12318,3.991,68.4,True,100,99,269,447,0
+PMC4739105,Markers of increased atherosclerotic risk in patients with chronic kid,en,399,46036,0,0.0,19711,19022,12340,3.731,37.4,True,67,116,485,676,104
+PMC6022660,Genetic study of multimodal imaging Alzheimer’s disease progression sc,en,339,47192,0,0.0,19766,18747,12342,3.824,37.6,True,79,121,386,591,15
+PMC10955738,Investigation of the involvement of platelet-activating factor in the ,en,324,45346,0,0.0,17460,16710,12402,3.656,29.0,True,75,107,428,832,62
+PMC10269592,Improvement in Zebrafish with Diabetes and Alzheimer's Disease Treated,en,271,46840,0,0.0,17888,17223,12421,3.771,30.6,True,73,38,411,1160,0
+PMC13078772,"Profile, follow-up adherence and progression of people with advanced c",en,472,52004,0,0.0,13578,12436,12436,4.182,8.4,False,148,75,143,1810,74
+PMC11835506,Myocardial Fibroblast Activation After Acute Myocardial Infarction: A ,en,392,46385,0,0.0,15407,14517,12507,3.709,18.8,True,100,75,287,660,66
+PMC5817724,KRAS oncogene in non-small cell lung cancer: clinical perspectives on ,en,445,46148,0,0.0,23136,22350,12507,3.69,45.9,True,86,106,339,1212,69
+PMC3826736,Alzheimer's Disease Risk Assessment Using Large-Scale Machine Learning,en,391,49748,0,0.0,17394,16454,12533,3.969,27.9,True,79,128,398,607,119
+PMC3283716,A Novel Classification of Lung Cancer into Molecular Subtypes,en,501,49225,0,0.0,20193,19480,12572,3.915,37.7,True,162,46,197,407,16
+PMC4055118,Myocardial transfection of hypoxia-inducible factor-1α and co-transpla,en,323,43515,0,0.0,17907,17326,12574,3.461,29.8,True,91,138,290,574,24
+PMC11012052,Iron Metabolism and Inflammatory Mediators in Patients with Renal Dysf,en,428,46561,0,0.0,28210,27740,12628,3.687,55.2,True,99,112,293,450,0
+PMC11561119,Multi-trait association analysis reveals shared genetic loci between A,en,430,49321,0,0.0,22604,21658,12670,3.893,43.9,True,100,99,301,814,23
+PMC12626506,Pan-cancer multi-omics profiling of MS4A2 unveils its functional lands,en,276,46861,0,0.0,15713,14994,12670,3.699,19.4,True,94,49,390,915,0
+PMC8320299,Systemic infection exacerbates cerebrovascular dysfunction in Alzheime,en,346,49325,0,0.0,19312,18590,12746,3.87,34.0,True,85,120,338,616,21
+PMC13132715,Metabolic syndrome and kidney dysfunction: emerging molecular and cell,en,487,52436,0,0.0,24887,24263,12750,4.113,48.8,True,132,88,172,511,12
+PMC10323925,Low concentrations of medium-sized HDL particles predict incident CVD ,en,328,46543,0,0.0,18083,17118,12824,3.629,29.1,True,58,188,544,764,50
+PMC10782608,Family planning behaviours among women with diabetes mellitus: a scopi,en,787,58399,0,0.0,18186,17441,12841,4.548,29.4,True,294,8,112,3198,122
+PMC9386961,Prevalence and risk factors of prehypertension and hypertension in Alg,en,649,50374,0,0.0,18230,17476,12861,3.917,29.5,True,157,49,153,1671,213
+PMC6214001,The Proposal of Molecular Mechanisms of Weak Organic Acids Intake-Indu,en,324,47908,0,0.0,27413,26918,12869,3.723,53.1,True,41,157,953,1529,22
+PMC12221810,Genetically determined Alzheimer's disease research advances: The Down,en,526,55001,0,0.0,20499,18319,12877,4.271,37.2,True,139,71,185,989,9
+PMC12542130,Hypertension prevalence and associated factors among bank workers in A,en,583,51070,0,0.0,20788,20073,12900,3.959,37.9,True,180,23,173,2099,60
+PMC8395801,Hipertensão Arterial e Ácido Úrico Sérico em Idosos - Estudo SEPHAR II,en,452,50456,0,0.0,13661,12990,12990,3.884,4.9,False,124,71,219,2522,97
+PMC4404276,Rodent models of neuroinflammation for Alzheimer’s disease,en,443,51191,0,0.0,24961,24469,12992,3.94,48.0,True,106,97,301,720,14
+PMC5842784,Metabolic brain networks in aging and preclinical Alzheimer's disease,en,343,53476,0,0.0,20992,20506,13113,4.078,37.5,True,92,34,372,1038,26
+PMC7028821,Diagnosis of myocardial infarction at autopsy: AECVP reappraisal in th,en,426,51769,0,0.0,20264,19371,13129,3.943,35.2,True,119,18,318,669,46
+PMC13224957,Diabetes mellitus with inadequate blood sugar control increases mortal,en,334,51784,0,0.0,14131,13153,13153,3.937,6.9,False,73,113,297,3576,72
+PMC5854359,Cost-effectiveness analysis of elbasvir-grazoprevir regimen for treati,en,539,49401,0,0.0,18650,16821,13189,3.746,29.3,True,133,57,270,547,138
+PMC9816180,Single-cell-led drug repurposing for Alzheimer’s disease,en,350,51492,0,0.0,18494,17933,13223,3.894,28.5,True,87,86,470,894,52
+PMC3900389,"A Neurotoxic Glycerophosphocholine Impacts PtdIns-4, 5-Bisphosphate an",en,325,46200,0,0.0,21607,20743,13287,3.477,38.5,True,69,86,459,1123,0
+PMC11135165,Alcohol Use Disorder and Dementia: A Review,en,610,51272,0,0.0,39925,39510,13361,3.837,66.5,True,80,130,367,597,21
+PMC3124550,Amitriptyline-Mediated Cognitive Enhancement in Aged 3×Tg Alzheimer's ,en,252,49536,0,0.0,18687,17880,13363,3.707,28.5,True,50,86,746,1748,0
+PMC7037353,Unfavorable Reduction in the Ratio of Endothelin B to A Receptors in E,en,332,47573,0,0.0,18492,17883,13391,3.553,27.6,True,82,138,322,865,58
+PMC13083371,Short-Term Safety and Healthcare Utilization Following Intragastric Ba,en,448,52779,0,0.0,20052,19224,13454,3.923,32.9,True,102,74,368,610,108
+PMC9329413,Myeloid leukocytes’ diverse effects on cardiovascular and systemic inf,en,333,50883,0,0.0,26441,25615,13495,3.771,49.0,True,59,175,533,1155,0
+PMC9842641,Exploring the mechanism of active components from ginseng to manage di,en,400,49457,0,0.0,17641,16956,13517,3.659,23.4,True,110,13,360,1102,68
+PMC8932168,Association between total and leisure time physical activity and risk ,en,591,49745,0,0.0,17250,16423,13548,3.672,21.5,True,99,47,271,1567,284
+PMC13249244,Proteome-wide genetic study identified therapeutic targets for early-o,en,314,50147,0,0.0,19046,18413,13601,3.687,28.6,True,90,39,425,882,14
+PMC10855633,From Acute to Chronic: Unraveling the Pathophysiological Mechanisms of,en,402,50146,0,0.0,29053,28405,13622,3.681,53.1,True,72,135,467,1014,23
+PMC4719699,Genome-wide12 DNA methylation profiling in the superior temporal gyrus,en,346,50417,0,0.0,21413,20745,13706,3.678,36.0,True,81,103,404,930,26
+PMC9821184,The Role of the JAK/STAT Signaling Pathway in the Pathogenesis of Alzh,en,390,51710,0,0.0,24639,24146,13728,3.767,44.3,True,87,133,343,568,30
+PMC6885231,Atorvastatin Improves Hepatic Lipid Metabolism and Protects Renal Dama,en,280,47901,0,0.0,14217,13770,13770,3.479,3.1,False,76,41,431,3634,31
+PMC5992611,A guide to using functional magnetic resonance imaging to study Alzhei,en,385,56646,0,0.0,27022,26527,13837,4.094,48.8,True,98,89,336,700,0
+PMC10815764,Focus on Mitochondrial Respiratory Chain: Potential Therapeutic Target,en,474,53472,0,0.0,33750,33180,13881,3.852,58.9,True,82,93,375,1737,47
+PMC5316179,Formulation of evidence-based messages to promote the use of physical ,en,543,63798,0,0.0,18615,17666,13889,4.593,25.4,True,127,59,229,1553,105
+PMC13204155,MicroRNAs in Pediatric Primary Hypertension: Promising Biomarkers or C,en,403,56393,0,0.0,23934,23464,13913,4.053,41.9,True,104,108,287,1047,30
+PMC6706224,Sarcopenia and sarcopenic obesity as prognostic predictors in hospital,en,679,54304,0,0.0,19304,18836,13915,3.903,27.9,True,146,76,223,393,262
+PMC6980611,Redefining transcriptional regulation of the APOE gene and its associa,en,755,50772,0,0.0,27325,25895,13949,3.64,49.0,True,78,154,402,653,37
+PMC5888938,Left frontal hub connectivity delays cognitive impairment in autosomal,en,468,53941,0,0.0,22135,20259,14009,3.85,36.7,True,77,145,469,778,55
+PMC10917100,Emotional dampening in hypertension: Impaired recognition of implicit ,en,328,60235,0,0.0,18482,17859,14321,4.206,22.5,True,91,95,393,635,42
+PMC2663557,Gene therapy by electroporation for the treatment of chronic renal fai,en,866,50666,0,0.0,14740,14352,14352,3.53,2.6,False,101,67,288,2930,305
+PMC5983168,Pericardial application as a new route for implanting stem‐cell cardio,en,367,53846,0,0.0,18394,17503,14394,3.741,21.7,True,113,40,369,733,34
+PMC10572926,Mitochondria and Oxidative Stress as a Link between Alzheimer’s Diseas,en,395,56452,0,0.0,30030,29447,14396,3.921,52.1,True,84,134,372,785,0
+PMC8215706,Fractalkine (CX3CL1) and Its Receptor CX3CR1: A Promising Therapeutic ,en,292,53702,0,0.0,24082,23447,14416,3.725,40.1,True,53,257,529,720,19
+PMC13205020,Ultra-Processed Foods and Chronic Kidney Disease: Is Inflammaging the ,en,367,57043,0,0.0,23273,22722,14454,3.947,37.9,True,80,141,338,1265,24
+PMC4132648,A data-driven model of biomarker changes in sporadic Alzheimer's disea,en,392,57347,0,0.0,18917,18342,14517,3.95,23.3,True,95,105,399,767,62
+PMC1594582,"A randomized, double blind, cross-over, placebo-controlled clinical tr",en,474,53987,0,0.0,15018,14521,14521,3.718,3.3,False,155,19,203,4864,60
+PMC11313584,Incident heart failure in chronic kidney disease: proteomics informs b,en,469,50901,0,0.0,21202,19547,14552,3.498,31.4,True,96,42,390,1718,81
+PMC12820519,Proprotein Convertase Subtilisin/Kexin Type 9 Induces Platelet‐Derived,en,383,48139,0,0.0,15309,14585,14585,3.301,4.7,False,142,6,274,4411,0
+PMC8347098,Acute Stress-Induced Blood Lipid Reactivity in Hypertensive and Normot,en,393,52520,0,0.0,18892,18177,14599,3.598,22.7,True,101,87,395,995,90
+PMC12238016,Chronic kidney disease as a catalyst for cerebral microbleeds: underst,en,510,60334,0,0.0,27320,26540,14672,4.112,46.3,True,138,17,319,730,18
+PMC12678194,Identification of an Exosomal miRNA Signature in Newly Diagnosed Essen,en,505,57244,0,0.0,21015,20143,14693,3.896,30.1,True,130,88,237,927,96
+PMC11852269,Propionate and butyrate counteract renal damage and progression to chr,en,420,53808,0,0.0,21509,20191,14705,3.659,31.6,True,97,120,351,931,55
+PMC5224976,Maysin and Its Flavonoid Derivative from Centipedegrass Attenuates Amy,en,265,52427,0,0.0,20344,19245,14720,3.562,27.6,True,64,184,568,975,0
+PMC10994526,Uncovering the distinct macro-scale anatomy of dysexecutive and behavi,en,411,59515,0,0.0,21033,19896,14751,4.035,29.9,True,78,133,499,1345,79
+PMC8422756,"Association of plasma and CSF cytochrome P450, soluble epoxide hydrola",en,436,56219,0,0.0,22306,21116,14791,3.801,33.7,True,100,68,473,921,91
+PMC13361392,"Food-Derived Multi-Target Antihypertensive Peptides: Sources, Mechanis",en,341,60561,0,0.0,24414,23526,14811,4.089,39.3,True,77,90,466,840,25
+PMC11017426,Neurological and metabolic related pathophysiologies and treatment of ,en,523,58744,0,0.0,34899,33874,14842,3.958,57.5,True,92,92,395,857,32
+PMC12280795,Diagnosis of Early Alzheimer's Disease: Clinical Practice in 2021,en,452,64826,0,0.0,24358,23907,14845,4.367,39.1,True,116,108,291,663,63
+PMC8301937,The Relationship between Diabetes Mellitus and Gastric Cancer and the ,en,768,59053,0,0.0,34783,34307,14852,3.976,57.3,True,197,32,182,678,86
+PMC12561165,Data Augmentation-Enhanced Myocardial Infarction Classification and Lo,en,526,61038,0,0.0,18925,18208,15000,4.069,20.7,True,166,68,219,495,105
+PMC6126877,MDHGI: Matrix Decomposition and Heterogeneous Graph Inference for miRN,en,495,53398,0,0.0,22399,21471,15197,3.514,32.2,True,93,70,453,818,113
+PMC13170013,Hypertension is a marker of the micro-epidemiologic transition in agei,en,470,53648,0,0.0,20347,19418,15225,3.524,25.2,True,128,30,252,1779,88
+PMC10151197,"Educational attainment, structural brain reserve and Alzheimer’s disea",en,423,65662,0,0.0,26563,25655,15412,4.26,42.0,True,75,166,454,747,46
+PMC10368642,Compilation of reported protein changes in the brain in Alzheimer’s di,en,379,62349,0,0.0,21154,20397,15432,4.04,27.0,True,100,73,357,1542,48
+PMC4454597,Neuronal Cx3cr1 Deficiency Protects against Amyloid β-Induced Neurotox,en,430,53676,0,0.0,22037,21215,15602,3.44,29.2,True,107,92,355,653,88
+PMC13218652,Subsequent Hypertension’s Mediation of the Association Between Sleep D,en,454,63480,0,0.0,19650,18870,15885,3.996,19.2,True,98,36,386,1409,104
+PMC8965260,Renal biomarkers in cats: A review of the current status in chronic ki,en,626,59490,0,0.0,35394,34616,15885,3.745,55.1,True,143,29,294,517,26
+PMC9376240,Circular RNAs in diabetes mellitus and its complications,en,445,57995,0,0.0,27963,27389,16143,3.593,42.3,True,72,87,428,3156,102
+PMC10564759,Proteomics of CKD progression in the chronic renal insufficiency cohor,en,400,63011,0,0.0,21814,20377,16147,3.902,26.0,True,104,121,364,1250,33
+PMC12104544,Uncovering Novel Anti-Lung Cancer Compounds: Insights from Marine Spon,en,463,58105,0,0.0,20243,19452,16260,3.573,19.7,True,123,89,240,1339,116
+PMC6679484,The neuropathological diagnosis of Alzheimer’s disease,en,430,62997,0,0.0,27031,26552,16284,3.869,39.8,True,102,10,555,1027,37
+PMC8646025,Managing Severe Dysgeusia and Dysosmia in Lung Cancer Patients: A Syst,en,587,67784,0,0.0,21411,20518,16307,4.157,23.8,True,153,59,160,2366,113
+PMC13189452,Bioinformatics Combined With Biological Experiments to Explore the Pro,en,330,53981,0,0.0,17276,16350,16350,3.302,5.4,False,102,82,246,5607,20
+PMC3296233,From Brain to Behavior: Hypertension's Modulation of Cognition and Aff,en,257,69594,0,0.0,16720,16394,16394,4.245,1.9,False,49,156,515,6393,5
+PMC13481201,Chronic obstructive pulmonary disease and diabetes mellitus: a bidirec,en,487,68998,0,0.0,22017,21309,16410,4.205,25.5,True,156,61,188,3505,32
+PMC9587068,Characterization of microtubule-associated protein tau isoforms and Al,en,416,60813,0,0.0,24090,23458,16428,3.702,31.8,True,127,12,430,904,12
+PMC8699079,Mitochondrial Bioenergetic and Proteomic Phenotyping Reveals Organ-Spe,en,281,59827,0,0.0,22450,21958,16455,3.636,26.7,True,85,95,493,1429,0
+PMC10341567,Investigation of Potential Drug Targets for Cholesterol Regulation to ,en,418,66344,0,0.0,27084,26666,16888,3.928,37.6,True,79,121,567,698,89
+PMC11892870,Kaempferia parviflora extract and its methoxyflavones as potential ant,en,434,65334,0,0.0,25037,23685,16964,3.851,32.2,True,123,53,384,743,13
+PMC13190168,Association between hypertension and risk of respiratory failure and m,en,600,63414,0,0.0,22297,21551,17031,3.723,23.6,True,127,38,319,1648,222
+PMC9973389,Smoking-associated Downregulation of FILIP1L Enhances Lung Adenocarcin,en,354,62225,0,0.0,25808,24984,17142,3.63,33.6,True,81,166,542,772,0
+PMC4834151,Role of Myeloperoxidase in Patients with Chronic Kidney Disease,en,226,61626,0,0.0,17567,17179,17179,3.587,2.2,False,45,236,448,7603,0
+PMC9704759,Dosing time optimization of antihypertensive medications by including ,en,449,65032,0,0.0,25365,24260,17476,3.721,31.1,True,118,84,372,819,56
+PMC12669179,γδ T cells in diabetes mellitus: dual roles and therapeutic implicatio,en,477,65093,0,0.0,29755,29172,17507,3.718,41.2,True,116,16,511,1156,44
+PMC11583597,"Brain uptake pharmacokinetics of albiglutide, dulaglutide, tirzepatide",en,460,61942,0,0.0,26157,25349,17620,3.515,32.6,True,129,95,319,659,48
+PMC11980039,Metabolomics for the Identification of Biomarkers in Kidney Diseases,en,368,62153,0,0.0,18066,17648,17648,3.522,2.3,False,94,89,199,9164,19
+PMC8018890,Zinc Status Alters Alzheimer's Disease Progression through NLRP3-Depen,en,301,63702,0,0.0,22898,21794,17736,3.592,22.5,True,79,203,494,832,18
+PMC2519786,Mechanisms of Hybrid Oligomer Formation in the Pathogenesis of Combine,en,426,64606,0,0.0,26752,25977,17791,3.631,33.5,True,89,198,452,750,29
+PMC11546175,Epigenetic DNA Methylation and Protein Homocysteinylation: Key Players,en,493,68720,0,0.0,34269,33636,18198,3.776,46.9,True,124,137,351,467,0
+PMC4593589,"Oral TNFα Modulation Alters Neutrophil Infiltration, Improves Cognitio",en,396,65245,0,0.0,24902,24096,18474,3.532,25.8,True,109,147,373,645,12
+PMC10202804,Machine learning for diagnosis of myocardial infarction using cardiac ,en,535,76017,0,0.0,24885,22576,18492,4.111,25.7,True,159,37,300,884,39
+PMC11634311,Osteoprotegerina e Disfunção Vascular em Pacientes com Doença Renal Cr,en,552,67325,0,0.0,19601,18687,18687,3.603,4.7,False,146,93,206,3693,138
+PMC8391392,New Insights on Old Biomarkers Involved in Tumor Microenvironment Chan,en,602,62890,0,0.0,23496,22791,18817,3.342,19.9,True,104,114,403,1424,293
+PMC5059654,An Analysis of Anthropometric Indicators and Modifiable Lifestyle Para,en,401,64147,0,0.0,19419,18821,18821,3.408,3.1,False,89,85,282,6231,96
+PMC4422728,Characterization of a Novel Mouse Model of Alzheimer’s Disease—Amyloid,en,368,64115,0,0.0,25140,24369,18839,3.403,25.1,True,107,105,461,1103,0
+PMC10426223,"Cathepsin B abundance, activity and microglial localisation in Alzheim",en,455,68438,0,0.0,22900,21954,18851,3.63,17.7,True,144,21,413,1192,59
+PMC6980402,Dysregulation of multiple metabolic networks related to brain transmet,en,725,71478,0,0.0,30220,28721,19045,3.753,37.0,True,142,53,363,1395,93
+PMC12185656,New insights into imaging of pulmonary metastases from extra-thoracic ,en,1212,72140,0,0.0,33796,33090,19376,3.723,42.7,True,451,15,99,820,108
+PMC10532649,Therapeutic Potentials of Microalgae and Their Bioactive Compounds on ,en,1107,68921,0,0.0,42988,42456,19606,3.515,54.4,True,200,12,345,679,301
+PMC11484852,National trends in type 2 diabetes mellitus stratified by central adip,en,537,65516,0,0.0,28897,27905,19826,3.305,31.4,True,81,68,263,5984,189
+PMC12133462,Gut-associated metabolites and diabetes pathology: a systematic review,en,811,72193,0,0.0,26410,25660,20013,3.607,24.2,True,78,88,290,6351,442
+PMC6203969,Identifying associations between diabetes and acute respiratory distre,en,515,76513,0,0.0,28002,22899,20346,3.761,27.3,True,168,44,283,1039,64
+PMC13073800,Chronic Kidney Disease and Cellular Senescence,en,712,78081,0,0.0,43385,42849,20392,3.829,53.0,True,131,120,368,1203,147
+PMC3966409,Role of Methylglyoxal in Alzheimer's Disease,en,384,70554,0,0.0,21018,20649,20649,3.417,1.8,False,88,23,310,12017,0
+PMC5784884,Brain and blood metabolite signatures of pathology and progression in ,en,766,82324,0,0.0,30566,28091,20948,3.93,31.5,True,140,69,399,1039,66
+PMC2453232,iTRAQ Analysis of Complex Proteome Alterations in 3xTgAD Alzheimer's M,en,605,73907,0,0.0,25815,25188,21087,3.505,18.3,True,75,79,568,3839,320
+PMC12585095,Green synthesis of silver nanoparticles from Brownlowia tersa leaf ext,en,2026,75916,0,0.0,47505,46447,21266,3.57,55.2,True,185,45,263,1851,139
+PMC10980014,An integrative systems-biology approach defines mechanisms of Alzheime,en,761,83027,0,0.0,40087,38977,21749,3.818,45.7,True,123,165,437,685,0
+PMC12820609,Collagen XV preserves heart function and protects from pathological re,en,399,74794,0,0.0,26683,25685,21822,3.427,18.2,True,110,161,500,799,34
+PMC11193202,"Age, sex and Alzheimer’s disease: a longitudinal study of 3xTg-AD mice",en,415,84231,0,0.0,30913,29901,22018,3.826,28.8,True,125,25,449,1126,3
+PMC3741956,Genetics of Alzheimer's Disease,en,387,77345,0,0.0,22560,22179,22179,3.487,1.7,False,60,146,347,13795,30
+PMC13314499,SASP-mediated cellular senescence following myocardial infarction: fro,en,499,86930,0,0.0,38721,38046,22253,3.906,42.5,True,111,154,418,1121,12
+PMC12953007,Mutations in ammonia transporter RhBG that impair NH3/NH4 + transport ,en,719,82002,0,0.0,33432,32732,23320,3.516,30.2,True,195,30,331,739,80
+PMC10341681,Therapeutic Candidates for Alzheimer’s Disease: Saponins,en,616,78186,0,0.0,46683,45936,23370,3.346,49.9,True,57,272,684,5986,193
+PMC4987477,Systemic Redox Imbalance in Chronic Kidney Disease: A Systematic Revie,en,604,81633,0,0.0,24024,23424,23424,3.485,2.5,False,108,137,296,8074,174
+PMC11349294,Disentangling the relationship between cancer mortality and COVID-19 i,en,812,98094,0,0.0,29096,28455,24039,4.081,17.4,True,221,54,297,1004,262
+PMC5966768,Guidelines for experimental models of myocardial ischemia and infarcti,en,789,104211,0,0.0,58353,57033,25120,4.149,57.0,True,138,165,398,723,84
+PMC7787774,Oxidative Storm Induced by Tryptophan Metabolites: Missing Link betwee,en,424,90663,0,0.0,26442,25868,25868,3.505,2.2,False,109,13,511,13081,0
+PMC11526289,Use of Telenursing in the conservative treatment of patients with chro,en,1025,111923,0,0.0,29980,29062,26494,4.224,11.6,True,263,72,176,1311,99
+PMC10542192,Human umbilical cord mesenchymal stem cells in diabetes mellitus and i,en,613,95900,0,0.0,28338,27788,27788,3.451,1.9,False,178,10,348,14499,16
+PMC5709852,Renal association clinical practice guideline on Anaemia of Chronic Ki,en,1326,114881,0,0.0,40241,39705,28182,4.076,30.0,True,545,27,135,634,3
+PMC11765393,Associations Between Diabetes Mellitus and Neurodegenerative Diseases,en,795,114961,0,0.0,67722,67315,29217,3.935,56.9,True,128,73,724,1376,12
+PMC11242587,Associations between Diabetes Mellitus and Selected Cancers,en,808,116570,0,0.0,62603,62185,30018,3.883,52.1,True,159,79,521,1329,39
+PMC11190273,Gliovascular transcriptional perturbations in Alzheimer’s disease reve,en,676,125607,0,0.0,46189,43298,34158,3.677,26.0,True,190,123,460,1126,0
+PMC8074411,Investigation of candidate genes and mechanisms underlying obesity ass,en,1568,117400,0,0.0,55779,55001,40330,2.911,27.7,True,89,20,342,22467,1169
+PMC12316839,Post-myocardial Infarction Cardiac Remodeling: Multidimensional Mechan,en,1503,228900,0,0.0,126168,125444,58744,3.897,53.4,True,316,130,456,1089,46
