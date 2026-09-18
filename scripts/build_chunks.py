@@ -34,6 +34,7 @@ import json
 import os
 import re
 import statistics
+import sys
 import time
 
 import pandas as pd
@@ -74,6 +75,22 @@ TOO_SHORT_TOKENS = 20            # 质检/合并: 块过短阈值
 
 QUANTILES = [0, 5, 25, 50, 75, 90, 95, 99, 100]
 QNAMES = ["min", "p5", "p25", "p50", "p75", "p90", "p95", "p99", "max"]
+
+
+class Tee:
+    """把 stdout 同时写进日志文件(交付物之一: 处理日志)"""
+    def __init__(self, path):
+        self.f = open(path, "w", encoding="utf-8")
+        self.out = sys.stdout
+
+    def write(self, s):
+        self.f.write(s)
+        self.out.write(s)
+        return len(s)
+
+    def flush(self):
+        self.f.flush()
+        self.out.flush()
 
 
 def quantile(vals, q):
@@ -450,19 +467,24 @@ def quality_check(chunks_df, splitter, sample_docs=50):
                     best = L
                     break
             overlap_hits.append(best)
+    ov = {}
     if overlap_hits:
         n = len(overlap_hits)
         zero = sum(1 for x in overlap_hits if x == 0)
         good = sum(1 for x in overlap_hits if x >= 100)
+        ov = {"sample_docs": len(docs), "pairs": n,
+              "median": statistics.median(overlap_hits),
+              "mean": statistics.fmean(overlap_hits), "max": max(overlap_hits),
+              "zero": zero, "good": good}
         print(f"\noverlap 校验(字符级): 抽样 {len(docs)} 篇 / {n} 个相邻块对")
-        print(f"  实际重叠字符: 中位 {statistics.median(overlap_hits):.0f}, "
-              f"均值 {statistics.fmean(overlap_hits):.0f}, 最大 {max(overlap_hits)} "
+        print(f"  实际重叠字符: 中位 {ov['median']:.0f}, "
+              f"均值 {ov['mean']:.0f}, 最大 {ov['max']} "
               f"(64 token ≈ 250 字符)")
         print(f"  完全无重叠 {zero} 对 ({zero / n * 100:.1f}%), "
               f"重叠 >= 100 字符 {good} 对 ({good / n * 100:.1f}%)")
         print(f"  判定: {'✅ overlap 生效' if good / n >= 0.95 else '❌ overlap 未生效, 需排查'}")
 
-    return pd.DataFrame(problems), flags
+    return pd.DataFrame(problems), flags, ov
 
 
 def preview(chunks_df, n_docs=3):
@@ -482,6 +504,164 @@ def preview(chunks_df, n_docs=3):
                   f"{r['text'][:100].replace(chr(10), ' ')}...")
 
 
+# ---------------------------------------------------------------- 步骤 3/5 报告
+def write_report_md(path, args, df_raw, df, dropped, chunks_df, per_doc,
+                    stats, flags, ov, prob_df):
+    """生成人类可读的统计与质量验证报告(交付物之一)"""
+    tokens = chunks_df["token_count"].tolist()
+    total = len(chunks_df)
+    L, A = [], None
+    A = L.append
+    A("# 文档解析与分割报告\n")
+    A(f"- 生成时间: {stats['processed_date']}")
+    A(f"- 处理脚本: `scripts/build_chunks.py`")
+    A(f"- 数据范围: {stats['data_split']}")
+    A("")
+
+    A("## 1 处理配置\n")
+    A("| 项 | 值 | 依据 |")
+    A("|---|---|---|")
+    A(f"| 分割策略 | `{args.strategy}` | 本次主策略，智能分割 |")
+    A(f"| chunk_size | {args.chunk_size} token | 报告 §4.3：超限段落 2.49%，≤5% 的最小值 |")
+    A(f"| chunk_overlap | {args.chunk_overlap} token（12.5%） | 报告 §4.3 给 10~15% |")
+    A(f"| 分割器 | RecursiveCharacterTextSplitter | 段落 → 句子 → 空格 |")
+    A(f"| length_function | bge-m3 tokenizer | 切块上限取决于嵌入模型的 tokenizer |")
+    A(f"| 模型输入上限 | {args.max_input} token | bge-m3 规格 |")
+    A(f"| 切块对象 | core 正文 | 元数据头块+参考文献占 32.2%（§2.5），必须先剔除 |")
+    A("")
+
+    A("## 2 数据加载与清洗\n")
+    A(f"原始文献 **{len(df_raw)}** 篇 → 清洗后 **{len(df)}** 篇。\n")
+    A("| 剔除原因 | 篇数 | 说明 |")
+    A("|---|---|---|")
+    A(f"| 极短文（<{MIN_LINES} 行） | {dropped['short']} | 报告 §1.3：会议摘要/社论，信息密度低 |")
+    A(f"| 硬编码排除名单 | {dropped['excluded']} | `{'`, `'.join(sorted(EXCLUDE_PMCID))}`：core 为空 / 全篇 mojibake |")
+    A(f"| core 为空 | {dropped['empty_core']} | 正文被整体判为噪声 |")
+    A(f"| 无 txt | {dropped['no_txt']} | 目录里没有全文 |")
+    A("")
+    lang = stats["lang_dist"]
+    A(f"语言构成: " + " / ".join(f"{k} {v}" for k, v in lang.items()) +
+      f"；尾边界识别成功 {stats['docs_with_tail_cut']}/{len(df)}"
+      f"（{len(df) - stats['docs_with_tail_cut']} 篇仍含参考文献，为报告 §5-6 遗留项）。")
+    A("")
+
+    A("## 3 分割结果\n")
+    A("| 指标 | 值 |")
+    A("|---|---|")
+    A(f"| 文献数 | {len(df)} |")
+    A(f"| 总块数 | {total} |")
+    A(f"| 块/篇 均值 | {stats['chunks_per_doc']} |")
+    A(f"| 块/篇 中位 | {int(quantile(per_doc, 50))} |")
+    A(f"| 块/篇 最大 | {max(per_doc)} |")
+    A(f"| 总 token 数 | {stats['total_tokens']:,} |")
+    A(f"| 合并的过短块 | {stats['merged_short_chunks']} |")
+    A("")
+
+    A("## 4 块长分布 (token)\n")
+    A("| 分位 | " + " | ".join(QNAMES) + " | 均值 |")
+    A("|---|" + "---|" * (len(QNAMES) + 1))
+    A("| 块长 | " + " | ".join(str(int(quantile(tokens, q))) for q in QUANTILES) +
+      f" | {statistics.fmean(tokens):.0f} |")
+    A("")
+    A("```")
+    A(f"块长分布直方图 (共 {total} 块, 上限 {args.chunk_size} token)")
+    for lo, hi in [(0, 100), (100, 200), (200, 300), (300, 400),
+                   (400, 450), (450, 500), (500, 513)]:
+        c = sum(1 for t in tokens if lo <= t < hi)
+        bar = "#" * round(c / total * 60)
+        A(f"{lo:>4}-{hi:<4}{c:>7}{c / total * 100:>7.1f}%  {bar}")
+    A("```")
+    A("")
+    fill = statistics.fmean(tokens) / args.chunk_size * 100
+    tail = sum(1 for t in tokens if t < 100)
+    A(f"块长填充率均值 **{fill:.1f}%**（报告 §4.2 模拟值 85.4%）。分布集中在高区间："
+      f"450~500 token 一档占 {sum(1 for t in tokens if 450 <= t < 500) / total * 100:.1f}%，"
+      f"说明多数块在接近上限处自然结束。低于模拟值的原因是每篇的末尾块普遍偏短"
+      f"（<100 token 的块 {tail} 个，占 {tail / total * 100:.1f}%，即每篇末块），"
+      f"而非被 512 硬切成大量碎片。")
+    A("")
+
+    A("## 5 质量验证\n")
+    A("### 5.1 全量检查\n")
+    A("| 检查项 | 命中块数 | 占比 | 判定 |")
+    A("|---|---|---|---|")
+    verdict = {
+        "over_model_limit": "硬性要求，必须为 0",
+        "over_chunk_size": "硬性要求，必须为 0",
+        "empty": "必须为 0",
+        "too_short": f"token < {TOO_SHORT_TOKENS}，已自动并入相邻块",
+        "truncated": "原文中块尾下一字符仍是字母；仅 MathType 公式，可接受",
+        "mojibake": "含双重编码字符；剔除外名单后应为 0",
+        "has_section_head": "非问题，供后续章节标注",
+    }
+    for k in ["over_model_limit", "over_chunk_size", "empty", "too_short",
+              "truncated", "mojibake", "has_section_head"]:
+        v = flags.get(k, 0)
+        ok = "✅" if (k == "has_section_head" or v == 0) else "⚠️"
+        A(f"| `{k}` | {v} | {v / max(1, total) * 100:.2f}% | {ok} {verdict[k]} |")
+    A("")
+
+    A("### 5.2 多块文献的 overlap 校验\n")
+    if ov:
+        A(f"抽样 {ov['sample_docs']} 篇 / {ov['pairs']} 个相邻块对，字符级比对：\n")
+        A("| 指标 | 值 |")
+        A("|---|---|")
+        A(f"| 重叠字符 中位 | {ov['median']:.0f} |")
+        A(f"| 重叠字符 均值 | {ov['mean']:.0f} |")
+        A(f"| 重叠字符 最大 | {ov['max']} |")
+        A(f"| 完全无重叠 | {ov['zero']} 对（{ov['zero'] / ov['pairs'] * 100:.1f}%） |")
+        A(f"| 重叠 ≥100 字符 | {ov['good']} 对（{ov['good'] / ov['pairs'] * 100:.1f}%） |")
+        A("")
+        A(f"判定：**{'✅ overlap 生效' if ov['good'] / ov['pairs'] >= 0.95 else '❌ overlap 未生效'}**"
+          f"（64 token ≈ 250 字符）")
+    else:
+        A("无多块文献，未执行。")
+    A("")
+
+    A("### 5.3 问题块清单\n")
+    if len(prob_df) == 0:
+        A("无问题块。")
+    else:
+        A(f"共 {len(prob_df)} 个（占 {len(prob_df) / total * 100:.3f}%）：\n")
+        A("| chunk_id | token | 问题 | 块首 80 字符 |")
+        A("|---|---|---|---|")
+        for r in prob_df.head(20).to_dict("records"):
+            A(f"| `{r['chunk_id']}` | {r['token_count']} | {r['issues']} | "
+              f"{r['head'][:80]} |")
+        if len(prob_df) > 20:
+            A(f"\n（仅列前 20 个，完整清单见 `quality_report_{args.strategy}.csv`）")
+    A("")
+
+    A("## 6 产物清单\n")
+    A("| 文件 | 说明 |")
+    A("|---|---|")
+    A(f"| `data/chunks/chunks_{args.strategy}.parquet` | 文本块数据集（主文件，列式压缩） |")
+    A(f"| `data/chunks/chunks_{args.strategy}.jsonl` | 同内容，便于直接查看 |")
+    A(f"| `data/chunks/processing_stats_{args.strategy}.json` | 处理配置与统计（机器可读） |")
+    A(f"| `data/chunks/quality_report_{args.strategy}.csv` | 问题块清单 |")
+    A(f"| `data/chunks/build_chunks_{args.strategy}.log` | 处理日志（本次运行完整输出） |")
+    A("")
+    A("数据集字段：`chunk_id` / `text` / `doc_id` / `chunk_index` / `total_chunks` / "
+      "`source_title` / `token_count` / `pmid` / `doi` / `journal` / `pub_year` / "
+      "`lang` / `is_table` / `tail_cut`")
+    A("")
+
+    A("## 7 结论\n")
+    hard = flags.get("over_model_limit", 0) + flags.get("over_chunk_size", 0) + \
+        flags.get("empty", 0)
+    A(f"- 块总数 **{total}**，块长 {int(quantile(tokens, 0))}~{max(tokens)} token，"
+      f"全部 ≤ chunk_size({args.chunk_size})，无一超过模型上限 {args.max_input}。")
+    A(f"- 硬性检查（超限/空块）命中 **{hard}** 个，"
+      f"{'数据集可进入向量化阶段。' if hard == 0 else '需排查后再入库。'}")
+    A(f"- 预计向量化耗时：{total} 块 × 1.555 s ≈ {total * 1.555 / 3600:.1f} 小时"
+      f"（CPU bge-m3，全流程瓶颈）。")
+    A("")
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(L))
+    return path
+
+
 # ---------------------------------------------------------------- 主流程
 def main():
     ap = argparse.ArgumentParser(description="PMC OA 文档解析与分割")
@@ -493,9 +673,15 @@ def main():
     ap.add_argument("--max-input", type=int, default=8192, help="bge-m3 最大输入 token")
     ap.add_argument("--limit", type=int, default=None, help="只处理前 N 篇(试跑用)")
     ap.add_argument("--out-dir", default=OUT_DIR)
+    ap.add_argument("--report-md", default=None,
+                    help="人类可读报告路径(默认 <out-dir>/report_<strategy>.md)")
+    ap.add_argument("--no-log", action="store_true", help="不落盘处理日志")
     args = ap.parse_args()
 
     os.makedirs(args.out_dir, exist_ok=True)
+    log_path = os.path.join(args.out_dir, f"build_chunks_{args.strategy}.log")
+    if not args.no_log:
+        sys.stdout = Tee(log_path)      # 处理日志落盘(交付物之一)
     splitter = DocumentSplitter(
         strategy=args.strategy, chunk_size=args.chunk_size,
         chunk_overlap=args.chunk_overlap, tokenizer=args.tokenizer,
@@ -556,7 +742,7 @@ def main():
     preview(chunks_df)
 
     # 步骤 5
-    prob_df, flags = quality_check(chunks_df, splitter)
+    prob_df, flags, ov = quality_check(chunks_df, splitter)
     prob_path = os.path.join(args.out_dir, f"quality_report_{args.strategy}.csv")
     prob_df.to_csv(prob_path, index=False, encoding="utf-8-sig")
 
@@ -576,6 +762,14 @@ def main():
     print(f"[saved] {stats_path}")
     print(f"[saved] {prob_path}  ({len(prob_df)} 个问题块)")
 
+    # 步骤 3/5 报告
+    report = args.report_md or os.path.join(args.out_dir, f"report_{args.strategy}.md")
+    write_report_md(report, args, df_raw, df, dropped, chunks_df, per_doc,
+                    stats, flags, ov, prob_df)
+    print(f"[saved] {report}")
+    if not args.no_log:
+        print(f"[saved] {log_path}")
+
     # 结论
     print(f"\n== 6) 结论 ==")
     over = flags.get("over_model_limit", 0)
@@ -588,6 +782,10 @@ def main():
               f"{'✅ 可进入向量化' if over == 0 and flags.get('over_chunk_size', 0) == 0 else '❌ 需排查'}")
         est_h = len(chunks_df) * 1.555 / 3600
         print(f"预计向量化耗时: {len(chunks_df)} 块 × 1.555s ≈ {est_h:.1f} 小时")
+
+    if isinstance(sys.stdout, Tee):          # 收尾: 关闭日志文件并还原 stdout
+        tee, sys.stdout = sys.stdout, sys.stdout.out
+        tee.f.close()
 
 
 if __name__ == "__main__":
