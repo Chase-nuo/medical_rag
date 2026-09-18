@@ -65,9 +65,12 @@ CJK_RANGE = ("\u4e00", "\u9fff")
 
 WS_RE = re.compile(r"\s+")       # 空白归一化: 表格里的 \t 会被 tokenizer 归一成空格
 
-EXCLUDE_PMCID = {"PMC5444287"}   # §1.3: core 为空(剔除比例 100%)
+# 硬编码排除名单:
+#   PMC5444287  §1.3: core 为空(剔除比例 100%), 无正文可切
+#   PMC4616690  质检发现: 连续 5 个块整段为 mojibake, 全篇编码损坏无法修复
+EXCLUDE_PMCID = {"PMC5444287", "PMC4616690"}
 MIN_LINES = 100                  # §1.3: 极短文阈值(13 篇)
-TOO_SHORT_TOKENS = 20            # 质检: 块过短阈值
+TOO_SHORT_TOKENS = 20            # 质检/合并: 块过短阈值
 
 QUANTILES = [0, 5, 25, 50, 75, 90, 95, 99, 100]
 QNAMES = ["min", "p5", "p25", "p50", "p75", "p90", "p95", "p99", "max"]
@@ -290,6 +293,48 @@ class DocumentSplitter:
             prev_text = self._overlap_text(ids) if self.chunk_overlap else ""
         return out
 
+    def merge_short_chunks(self, chunks):
+        """把过短块(token < TOO_SHORT_TOKENS)并入相邻块, 消除无检索价值的碎片。
+
+        并入方向:
+          1) 优先并入前一块尾部(保持阅读顺序);
+          2) 首块没有前一块 -> 并入后一块开头。实测 4 个短块全部是首块,
+             内容为孤立的 "Abstract" 标题, 前置到摘要正文语义更完整;
+          3) 并入后会超过 chunk_size 则不并入, 直接丢弃该短块
+             (宁可丢 1~10 token 的标题, 也不产出超限块)。
+        最后重排 chunk_index / total_chunks / chunk_id, 保证编号连续。
+        """
+        out, merged = [], 0
+        for c in chunks:
+            if out and c["token_count"] < TOO_SHORT_TOKENS:
+                prev = out[-1]
+                cand = f"{prev['text']}\n\n{c['text']}"
+                if self._count_tokens(cand) <= self.chunk_size:
+                    prev.update(text=cand, token_count=self._count_tokens(cand),
+                                is_table="\t" in cand,
+                                next_char=c.get("next_char", ""))
+                    merged += 1
+                    continue
+                merged += 1                      # 超限: 丢弃
+                continue
+            out.append(dict(c))
+
+        if len(out) > 1 and out[0]["token_count"] < TOO_SHORT_TOKENS:
+            head, nxt = out[0], out[1]
+            cand = f"{head['text']}\n\n{nxt['text']}"
+            if self._count_tokens(cand) <= self.chunk_size:
+                nxt.update(text=cand, token_count=self._count_tokens(cand),
+                           is_table="\t" in cand)
+                out = out[1:]
+            merged += 1
+
+        n = len(out)
+        for i, c in enumerate(out):
+            c["chunk_index"] = i
+            c["total_chunks"] = n
+            c["chunk_id"] = f"{c['doc_id']}_{i:04d}"
+        return out, merged
+
     # ---- 策略 b: 整体不分割 ----
     def no_split_document(self, document):
         d = {
@@ -314,13 +359,19 @@ class DocumentSplitter:
     def run(self, df):
         t0 = time.time()
         chunks, per_doc = [], []
+        self.n_merged = 0
         for doc in df.to_dict("records"):
             got = (self.split_document(doc) if self.strategy == "length"
                    else self.no_split_document(doc))
+            if self.strategy == "length":
+                got, merged = self.merge_short_chunks(got)
+                self.n_merged += merged
             chunks.extend(got)
             per_doc.append(len(got))
         print(f"切块耗时 {time.time() - t0:.1f}s  "
               f"(块/篇 均值 {statistics.fmean(per_doc):.1f}, max {max(per_doc)})")
+        if self.n_merged:
+            print(f"合并过短块: {self.n_merged} 个 (token < {TOO_SHORT_TOKENS})")
         return pd.DataFrame(chunks), per_doc
 
 
@@ -482,6 +533,8 @@ def main():
         "original_documents": len(df_raw),
         "documents_after_clean": len(df),
         "dropped": dropped,
+        "excluded_pmcid": sorted(EXCLUDE_PMCID),
+        "merged_short_chunks": getattr(splitter, "n_merged", 0),
         "total_chunks": len(chunks_df),
         "chunks_per_doc": round(len(chunks_df) / len(df), 2),
         "chunk_size": args.chunk_size,
