@@ -1,0 +1,51 @@
+{
+  "processed_date": "2026-09-18T17:46:35.137546",
+  "data_split": "full",
+  "strategy": "length",
+  "original_documents": 1020,
+  "documents_after_clean": 1006,
+  "dropped": {
+    "empty_core": 0,
+    "short": 12,
+    "no_txt": 0,
+    "excluded": 2
+  },
+  "excluded_pmcid": [
+    "PMC4616690",
+    "PMC5444287"
+  ],
+  "merged_short_chunks": 4,
+  "total_chunks": 27349,
+  "chunks_per_doc": 27.19,
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "tokenizer": "bge-m3",
+  "max_input": 8192,
+  "token_quantiles": {
+    "min": 32,
+    "p5": 152,
+    "p25": 324,
+    "p50": 417,
+    "p75": 469,
+    "p90": 492,
+    "p95": 500,
+    "p99": 507,
+    "max": 509
+  },
+  "total_tokens": 10488326,
+  "docs_with_tail_cut": 888,
+  "lang_dist": {
+    "en": 997,
+    "zh": 9
+  },
+  "output_file": "d:\\medical_rag\\data\\chunks\\chunks_length.parquet",
+  "quality_flags": {
+    "empty": 0,
+    "over_model_limit": 0,
+    "over_chunk_size": 0,
+    "too_short": 0,
+    "truncated": 1,
+    "mojibake": 0,
+    "has_section_head": 3922
+  }
+}

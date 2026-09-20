@@ -31,3 +31,6 @@ data/chunks/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# ---------- 打包产物 ----------
+*.zip
