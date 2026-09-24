@@ -63,6 +63,25 @@
 
 嵌入与索引**分两步**、中间落 npy，正是为了让"昂贵的向量（4.5 h）"与"便宜的索引（2 min）"解耦：换 collection 名、改元数据、换距离度量都不必重算向量。
 
+### 向量文件的获取（GitHub Release）
+
+`embeddings_bge-m3.npy` 是唯一"贵且不可现场生成"的资产（重跑需约 4.5 h），已作为 Release 资产发布：
+
+| 项 | 值 |
+|---|---|
+| Release | `v0.2-embeddings-bge-m3` |
+| 下载地址 | https://github.com/Chase-nuo/medical_rag/releases/tag/v0.2-embeddings-bge-m3 |
+| 文件名 | `embeddings_bge-m3.npy` |
+| 大小 | 112 021 632 字节（106.8 MB） |
+| SHA256 | `1dcc2201b852a2b8e2b102ced02d73d98db293b62d4205d701163493b9f6e5bf` |
+
+下载后放入 `data/chunks/`，执行 `python scripts/embed_chunks.py --skip-embed` 约 2 min 即可重建完整索引，**无需重跑嵌入**。校验完整性：
+
+```bash
+python -c "import hashlib;h=hashlib.sha256();f=open('data/chunks/embeddings_bge-m3.npy','rb');[h.update(c) for c in iter(lambda:f.read(1<<20),b'')];print(h.hexdigest())"
+# 应输出 1dcc2201b852a2b8e2b102ced02d73d98db293b62d4205d701163493b9f6e5bf
+```
+
 ## 四、选型与参数依据
 
 | 参数 | 取值 | 依据 |
