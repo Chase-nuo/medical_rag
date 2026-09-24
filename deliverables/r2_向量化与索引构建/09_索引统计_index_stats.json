@@ -1,0 +1,29 @@
+{
+  "collection_name": "medical_chunks",
+  "total_chunks": 27349,
+  "embedding_model": "bge-m3",
+  "embedding_dimension": 1024,
+  "index_built_at": "2026-09-22T00:10:27",
+  "chunk_size_stats": {
+    "mean": 383.5,
+    "max": 509,
+    "min": 32
+  },
+  "metadata_fields": [
+    "doc_id",
+    "chunk_index",
+    "total_chunks",
+    "source_title",
+    "token_count",
+    "pmid",
+    "doi",
+    "journal",
+    "pub_year",
+    "lang",
+    "is_table",
+    "tail_cut"
+  ],
+  "documents": 1006,
+  "hnsw_space": "cosine",
+  "persist_dir": "D:\\medical_rag\\data\\chroma"
+}

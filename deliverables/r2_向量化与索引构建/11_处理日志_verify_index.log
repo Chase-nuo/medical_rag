@@ -1,0 +1,88 @@
+========================================================================
+1) 基础统计
+========================================================================
+  collection      medical_chunks   metadata={'hnsw:space': 'cosine'}
+  向量总数        27349
+  期望            27349   -> PASS
+  样本0  id=PMC10010752_0000
+          {"pmid": "36893045", "is_table": false, "total_chunks": "24", "token_count": "429", "chunk_index": "0", "pub_year": "2023", "journal": "MMWR Morb Mortal Wkly Re
+  样本1  id=PMC10010752_0001
+          {"pub_year": "2023", "source_title": "Racial and Ethnic Differences in Subjective Cognitive Decline — United States, 2015–2020", "doc_id": "PMC10010752", "journ
+
+========================================================================
+2) 语义检索 (无指令前缀)
+========================================================================
+
+  查询: Does metformin reduce cardiovascular mortality in type 2 diabetes?
+  耗时: 2.47s
+    [0] sim=0.7422 PMC11219383_0001
+        Genetically Proxied Therapeutic Effect of Metformin Use, Blood P (2023, en)
+    [1] sim=0.7040 PMC3464381_0001
+        Metformin in non-Diabetic Patients Presenting with ST Elevation  (2012, en)
+    [2] sim=0.7003 PMC3464381_0003
+        Metformin in non-Diabetic Patients Presenting with ST Elevation  (2012, en)
+
+  查询: What is the recommended first-line treatment for heart failure with re
+  耗时: 2.50s
+    [0] sim=0.6834 PMC10133371_0021
+        Diabetes mellitus, coronary artery disease and heart disease (Up (2023, en)
+    [1] sim=0.6724 PMC9339419_0016
+        Empagliflozin in the treatment of heart failure and type 2 diabe (2022, en)
+    [2] sim=0.6461 PMC9339419_0007
+        Empagliflozin in the treatment of heart failure and type 2 diabe (2022, en)
+
+  查询: 抗生素治疗社区获得性肺炎的疗程
+  耗时: 2.52s
+    [0] sim=0.5509 PMC6000097_0004
+        Radiofrequency Ablation for Lung Neoplasms with Isolated Postsur (2014, zh)
+    [1] sim=0.5489 PMC8973653_0011
+        Metformin is associated with favorable outcomes in patients with (2022, en)
+    [2] sim=0.5437 PMC10532649_0060
+        Therapeutic Potentials of Microalgae and Their Bioactive Compoun (2023, en)
+
+========================================================================
+3) 指令前缀对比 (bge-m3 是否需要查询前缀)
+========================================================================
+  查询: Does metformin reduce cardiovascular mortality in type 2 diabetes?
+  无指令 top1: PMC11219383_0001  sim=0.7422
+  加指令 top1: PMC10133371_0021  sim=0.6833
+  top1 相似度变化: -0.0589   无指令更好 -> 默认关闭 --instruction
+
+========================================================================
+4) 自相似性 (取库中原文作查询, top1 应命中本块或同篇)
+========================================================================
+  [0] PMC10010752_0000 -> top1 PMC10010752_0000 sim=0.9884  exact
+  [1] PMC11190273_0007 -> top1 PMC11190273_0007 sim=0.9617  exact
+  [2] PMC12316839_0098 -> top1 PMC12316839_0098 sim=0.9511  exact
+  [3] PMC2855324_0013 -> top1 PMC2855324_0013 sim=1.0000  exact
+  [4] PMC4498787_0011 -> top1 PMC4498787_0011 sim=0.9601  exact
+  [5] PMC5571705_0006 -> top1 PMC5571705_0006 sim=0.9451  exact
+  [6] PMC6930276_0005 -> top1 PMC6930276_0005 sim=0.9669  exact
+  [7] PMC8500622_0001 -> top1 PMC8500622_0001 sim=0.9791  exact
+  exact 8/8   同篇 8/8   跨篇 0/8   平均自相似 0.9690
+
+========================================================================
+5) 元数据过滤
+========================================================================
+  where={"lang": "en"}           返回 2 条  字段值=['en', 'en']  sim=0.7422  PASS
+  where={"lang": "zh"}           返回 2 条  字段值=['zh', 'zh']  sim=0.4565  PASS
+  where={"is_table": true}       返回 2 条  字段值=[True, True]  sim=0.6946  PASS
+  where={"pub_year": "2023"}     返回 2 条  字段值=['2023', '2023']  sim=0.7422  PASS
+
+========================================================================
+6) 边界情况
+========================================================================
+  空查询                    -> OK  sim=0.6215 id=PMC1594582_0026
+  纯空格                    -> OK  sim=0.6215 id=PMC1594582_0026
+  超长查询(约6000字符)          -> OK  sim=0.5925 id=PMC4605027_0001
+  无意义串                   -> OK  sim=0.4754 id=PMC9587068_0056
+
+  注: 空查询仍能返回结果 —— Ollama 对空串也给出非零向量, Chroma 照常检索。
+      不崩溃即可, 但上层(r3 生成)应加非空校验, 避免空查询污染上下文。
+
+========================================================================
+汇总
+========================================================================
+  向量数量        PASS (27349)
+  自相似性        PASS (exact 8/8, 同篇 8/8, 跨篇 0/8)
+  元数据过滤      PASS

@@ -1,0 +1,82 @@
+== 配置 ==
+model=bge-m3  batch=64  collection=medical_chunks
+待处理: 27349 块 / 1006 篇
+
+== 1) 嵌入 ==
+断点续跑: 已完成 14080/27349, 从 14080 继续
+  14400/27349  1.54 块/s  已用 3.5min  ETA 140.0min
+  14720/27349  1.61 块/s  已用 6.6min  ETA 130.9min
+  15040/27349  1.64 块/s  已用 9.8min  ETA 125.4min
+  15360/27349  1.64 块/s  已用 13.0min  ETA 121.7min
+  15680/27349  1.64 块/s  已用 16.2min  ETA 118.5min
+  16000/27349  1.64 块/s  已用 19.5min  ETA 115.4min
+  16320/27349  1.49 块/s  已用 25.0min  ETA 123.2min
+  16640/27349  1.39 块/s  已用 30.8min  ETA 128.6min
+  16960/27349  1.35 块/s  已用 35.6min  ETA 128.4min
+  17280/27349  1.37 块/s  已用 39.0min  ETA 122.6min
+  17600/27349  1.38 块/s  已用 42.4min  ETA 117.6min
+  17920/27349  1.40 块/s  已用 45.7min  ETA 112.2min
+  18240/27349  1.41 块/s  已用 49.0min  ETA 107.3min
+  18560/27349  1.40 块/s  已用 53.4min  ETA 104.8min
+  18880/27349  1.36 块/s  已用 59.0min  ETA 104.1min
+  19200/27349  1.32 块/s  已用 64.7min  ETA 103.0min
+  19520/27349  1.28 块/s  已用 70.6min  ETA 101.6min
+  19840/27349  1.25 块/s  已用 76.7min  ETA 100.0min
+  20160/27349  1.26 块/s  已用 80.4min  ETA 95.0min
+  20480/27349  1.24 块/s  已用 86.0min  ETA 92.3min
+  20800/27349  1.22 块/s  已用 91.6min  ETA 89.2min
+  21120/27349  1.21 块/s  已用 97.4min  ETA 86.1min
+  21440/27349  1.19 块/s  已用 103.2min  ETA 82.9min
+  21760/27349  1.17 块/s  已用 109.3min  ETA 79.5min
+  22080/27349  1.16 块/s  已用 115.2min  ETA 75.9min
+  22400/27349  1.15 块/s  已用 120.7min  ETA 71.8min
+  22720/27349  1.14 块/s  已用 126.4min  ETA 67.7min
+  23040/27349  1.13 块/s  已用 132.5min  ETA 63.7min
+  23360/27349  1.12 块/s  已用 138.2min  ETA 59.4min
+  23680/27349  1.11 块/s  已用 144.0min  ETA 55.0min
+  24000/27349  1.11 块/s  已用 149.5min  ETA 50.5min
+  24320/27349  1.10 块/s  已用 155.1min  ETA 45.9min
+  24640/27349  1.10 块/s  已用 160.6min  ETA 41.2min
+  24960/27349  1.09 块/s  已用 166.1min  ETA 36.5min
+  25280/27349  1.09 块/s  已用 171.7min  ETA 31.7min
+  25600/27349  1.08 块/s  已用 177.4min  ETA 26.9min
+  25920/27349  1.08 块/s  已用 183.1min  ETA 22.1min
+  26240/27349  1.07 块/s  已用 188.9min  ETA 17.2min
+    [retry 1/3] ResponseError:  (status code: 502)
+  26560/27349  1.07 块/s  已用 195.1min  ETA 12.3min
+  26880/27349  1.06 块/s  已用 201.1min  ETA 7.4min
+  27200/27349  1.06 块/s  已用 206.5min  ETA 2.3min
+  27349/27349  1.06 块/s  已用 209.5min  ETA 0.0min
+嵌入完成: 27349 块, 用时 209.5 min
+零向量行数: 0 
+
+== 2) 建索引 ==
+  已入库 2048/27349
+  已入库 4096/27349
+  已入库 6144/27349
+  已入库 8192/27349
+  已入库 10240/27349
+  已入库 12288/27349
+  已入库 14336/27349
+  已入库 16384/27349
+  已入库 18432/27349
+  已入库 20480/27349
+  已入库 22528/27349
+  已入库 24576/27349
+  已入库 26624/27349
+  已入库 27349/27349
+入库完成: 27349 条, 用时 2.1 min
+
+== 3) 索引统计 ==
+  collection_name      medical_chunks
+  total_chunks         27349
+  embedding_model      bge-m3
+  embedding_dimension  1024
+  index_built_at       2026-09-22T00:10:27
+  chunk_size_stats     {'mean': 383.5, 'max': 509, 'min': 32}
+  metadata_fields      ['doc_id', 'chunk_index', 'total_chunks', 'source_title', 'token_count', 'pmid', 'doi', 'journal', 'pub_year', 'lang', 'is_table', 'tail_cut']
+  documents            1006
+  hnsw_space           cosine
+  persist_dir          D:\medical_rag\data\chroma
+
+[saved] D:\medical_rag\data\chroma\index_stats.json
