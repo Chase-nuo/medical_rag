@@ -1,0 +1,148 @@
+[
+  {
+    "query": "二甲双胍对心血管疾病有何影响？",
+    "lang": "zh",
+    "vector_query": "二甲双胍对心血管疾病有何影响?",
+    "best_variant": "cardiovascular disease metformin",
+    "n_variants": 2,
+    "filters": {},
+    "filter_notes": [],
+    "baseline_top1": 0.5953,
+    "enhanced_top1": 0.6943,
+    "baseline_topn_mean": 0.5811,
+    "enhanced_topn_mean": 0.6719,
+    "filter_compliance_baseline": null,
+    "filter_compliance_enhanced": null,
+    "term_hit_baseline": true,
+    "term_hit_enhanced": true,
+    "top1_title_baseline": "Genetically Proxied Therapeutic Effect of Metformin Use, Blo",
+    "top1_title_enhanced": "Genetically Proxied Therapeutic Effect of Metformin Use, Blo",
+    "seconds": 8.7
+  },
+  {
+    "query": "MI 患者的死亡率 2020年以后的研究",
+    "lang": "zh",
+    "vector_query": "MI 患者的死亡率 2020年以后的研究",
+    "best_variant": "mortality myocardial infarction",
+    "n_variants": 2,
+    "filters": {
+      "pub_year": {
+        "$in": [
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    },
+    "filter_notes": [
+      "发表年份 ≥ 2020"
+    ],
+    "baseline_top1": 0.6513,
+    "enhanced_top1": 0.7032,
+    "baseline_topn_mean": 0.6288,
+    "enhanced_topn_mean": 0.6969,
+    "filter_compliance_baseline": 0.8,
+    "filter_compliance_enhanced": 1.0,
+    "term_hit_baseline": true,
+    "term_hit_enhanced": true,
+    "top1_title_baseline": "In-hospital outcomes among patients admitted for myocardial ",
+    "top1_title_enhanced": "Troponin elevation pattern and subsequent cardiac and non-ca",
+    "seconds": 7.7
+  },
+  {
+    "query": "Does metformin reduce cardiovascular mortality in type 2 diabetes?",
+    "lang": "en",
+    "vector_query": "Does metformin reduce cardiovascular mortality in type 2 diabetes?",
+    "best_variant": "Does metformin reduce cardiovascular death in type 2 diabetes?",
+    "n_variants": 3,
+    "filters": {},
+    "filter_notes": [],
+    "baseline_top1": 0.7422,
+    "enhanced_top1": 0.7499,
+    "baseline_topn_mean": 0.707,
+    "enhanced_topn_mean": 0.7135,
+    "filter_compliance_baseline": null,
+    "filter_compliance_enhanced": null,
+    "term_hit_baseline": true,
+    "term_hit_enhanced": true,
+    "top1_title_baseline": "Genetically Proxied Therapeutic Effect of Metformin Use, Blo",
+    "top1_title_enhanced": "Genetically Proxied Therapeutic Effect of Metformin Use, Blo",
+    "seconds": 10.2
+  },
+  {
+    "query": "SGLT2 inhibitor heart failure hospitalization",
+    "lang": "en",
+    "vector_query": "SGLT2 inhibitor heart failure hospitalization",
+    "best_variant": "SGLT2 inhibitor hf hospitalization",
+    "n_variants": 3,
+    "filters": {},
+    "filter_notes": [],
+    "baseline_top1": 0.6053,
+    "enhanced_top1": 0.6122,
+    "baseline_topn_mean": 0.5861,
+    "enhanced_topn_mean": 0.5677,
+    "filter_compliance_baseline": null,
+    "filter_compliance_enhanced": null,
+    "term_hit_baseline": true,
+    "term_hit_enhanced": true,
+    "top1_title_baseline": "Hypertension and cardiomyopathy associated with chronic kidn",
+    "top1_title_enhanced": "Empagliflozin in the treatment of heart failure and type 2 d",
+    "seconds": 10.3
+  },
+  {
+    "query": "近五年关于慢性肾病eGFR的随机对照试验",
+    "lang": "zh",
+    "vector_query": "近五年关于慢性肾病eGFR的随机对照试验",
+    "best_variant": "chronic kidney disease egfr randomized controlled trial",
+    "n_variants": 3,
+    "filters": {
+      "pub_year": {
+        "$in": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ]
+      }
+    },
+    "filter_notes": [
+      "近 5 年 → 发表年份 ≥ 2022"
+    ],
+    "baseline_top1": 0.6545,
+    "enhanced_top1": 0.701,
+    "baseline_topn_mean": 0.6359,
+    "enhanced_topn_mean": 0.6885,
+    "filter_compliance_baseline": 0.2,
+    "filter_compliance_enhanced": 1.0,
+    "term_hit_baseline": true,
+    "term_hit_enhanced": true,
+    "top1_title_baseline": "Association of the Estimated Glomerular Filtration Rate With",
+    "top1_title_enhanced": "Minimisation of dialysis risk in hospital patients with chro",
+    "seconds": 10.5
+  },
+  {
+    "query": "抗生素治疗社区获得性肺炎的疗程",
+    "lang": "zh",
+    "vector_query": "抗生素治疗社区获得性肺炎的疗程",
+    "best_variant": "抗生素治疗社区获得性肺炎的疗程",
+    "n_variants": 2,
+    "filters": {},
+    "filter_notes": [],
+    "baseline_top1": 0.5509,
+    "enhanced_top1": 0.5509,
+    "baseline_topn_mean": 0.5447,
+    "enhanced_topn_mean": 0.5447,
+    "filter_compliance_baseline": null,
+    "filter_compliance_enhanced": null,
+    "term_hit_baseline": true,
+    "term_hit_enhanced": true,
+    "top1_title_baseline": "Radiofrequency Ablation for Lung Neoplasms with Isolated Pos",
+    "top1_title_enhanced": "Radiofrequency Ablation for Lung Neoplasms with Isolated Pos",
+    "seconds": 7.7
+  }
+]
