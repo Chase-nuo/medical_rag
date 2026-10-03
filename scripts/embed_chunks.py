@@ -35,6 +35,13 @@ import time
 import numpy as np
 import pandas as pd
 
+# Windows 的系统代理存在注册表里(而非环境变量), httpx 默认 trust_env=True 会
+# 把 localhost 请求也发往代理, 于是 ollama 客户端报 WinError 10061
+# "目标计算机积极拒绝" —— 但同一时刻 urllib 直连却是通的。
+# 显式声明本机地址不走代理; 必须在创建 ollama.Client 之前设置。
+for _k in ("NO_PROXY", "no_proxy"):
+    os.environ[_k] = "localhost,127.0.0.1,::1"
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHUNKS_PARQUET = os.path.join(ROOT, "data", "chunks", "chunks_length.parquet")
 EMB_PATH = os.path.join(ROOT, "data", "chunks", "embeddings_{model}.npy")
