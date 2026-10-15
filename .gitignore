@@ -22,6 +22,12 @@ env/
 data/chroma/
 data/vectordb/
 data/chunks/
+# BM25 倒排索引（29 MB，可由 scripts/bm25_index.py --build 重建；
+# 统计信息 bm25_meta.json 仍纳入版本管理，作为索引规模凭证）
+data/bm25/*.pkl
+
+# ---------- 重排序模型权重（阶段⑥，1.1 GB，可从 ModelScope 重新下载） ----------
+models/
 
 # ---------- IDE / 工具 ----------
 .idea/
