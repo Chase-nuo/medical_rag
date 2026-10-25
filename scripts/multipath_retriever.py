@@ -85,11 +85,15 @@ class MultiPathRetriever:
 
         # --- BM25 路: 用第一部分生成的英文关键词串 ---
         kw = getattr(query_info, "keyword_query", "") or query_info.cleaned
-        idxs, scores = self.bm25.query(kw, top_k=top_k_keyword)
+        # 先多取再过滤(over-fetch): BM25 没有 where 能力, 只能后置过滤。
+        # 若直接取 top_k 再过滤, 实测会损失 45%~60% 的候选
+        # (年份过滤下 20 条只剩 8~11 条), 等于变相削弱了这一路。
+        n_fetch = top_k_keyword * (5 if where else 1)
+        idxs, scores = self.bm25.query(kw, top_k=n_fetch)
         bm25_pairs = [(self.bm25.chunk_ids[i], s) for i, s in zip(idxs, scores)]
         if bm25_pairs:
             # 元数据过滤: BM25 没有 where, 用 DataFrame 补齐后剔除
-            bm25_pairs = self._apply_filter(bm25_pairs, where)
+            bm25_pairs = self._apply_filter(bm25_pairs, where)[:top_k_keyword]
             paths.append(("bm25", "keyword", bm25_pairs))
 
         fused = self._fuse(paths, fusion_strategy, rrf_k, weights)
