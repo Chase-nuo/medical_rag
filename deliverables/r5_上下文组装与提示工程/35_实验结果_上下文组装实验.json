@@ -1,0 +1,106 @@
+{
+  "dedup": [
+    {
+      "case": "完全相同",
+      "jaccard": 1.0,
+      "dropped": true
+    },
+    {
+      "case": "仅差标点空格",
+      "jaccard": 1.0,
+      "dropped": true
+    },
+    {
+      "case": "轻微改写字序",
+      "jaccard": 0.6462,
+      "dropped": false
+    },
+    {
+      "case": "不同内容",
+      "jaccard": 0.0052,
+      "dropped": false
+    },
+    {
+      "end_to_end": "4->1"
+    }
+  ],
+  "diversity": {
+    "n_in": 5,
+    "n_out": 4,
+    "rank_of_other_doc": 2,
+    "order": [
+      "PMC11111111_0001",
+      "PMC22222222_0001",
+      "PMC11111111_0002",
+      "PMC11111111_0003"
+    ]
+  },
+  "budget": [
+    {
+      "budget": 400,
+      "chunks_selected": 3,
+      "estimated_tokens": 348,
+      "dropped_by_dedup": 0,
+      "dropped_by_diversity": 3,
+      "dropped_by_budget": 34
+    },
+    {
+      "budget": 800,
+      "chunks_selected": 7,
+      "estimated_tokens": 797,
+      "dropped_by_dedup": 0,
+      "dropped_by_diversity": 3,
+      "dropped_by_budget": 30
+    },
+    {
+      "budget": 1500,
+      "chunks_selected": 13,
+      "estimated_tokens": 1477,
+      "dropped_by_dedup": 0,
+      "dropped_by_diversity": 3,
+      "dropped_by_budget": 24
+    },
+    {
+      "budget": 2500,
+      "chunks_selected": 21,
+      "estimated_tokens": 2448,
+      "dropped_by_dedup": 0,
+      "dropped_by_diversity": 3,
+      "dropped_by_budget": 16
+    },
+    {
+      "budget": 4000,
+      "chunks_selected": 34,
+      "estimated_tokens": 3962,
+      "dropped_by_dedup": 0,
+      "dropped_by_diversity": 3,
+      "dropped_by_budget": 3
+    }
+  ],
+  "truncate": [
+    {
+      "budget": 100,
+      "tokens": 123,
+      "tail": ".",
+      "ends_at_sentence": true
+    },
+    {
+      "budget": 200,
+      "tokens": 248,
+      "tail": ".",
+      "ends_at_sentence": true
+    },
+    {
+      "budget": 400,
+      "tokens": 515,
+      "tail": ".",
+      "ends_at_sentence": true
+    }
+  ],
+  "token_accuracy": {
+    "estimated": 2448,
+    "actual": 2451,
+    "error_pct": -0.1,
+    "chars": 9379
+  }
+}
