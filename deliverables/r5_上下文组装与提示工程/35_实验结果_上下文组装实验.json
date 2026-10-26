@@ -47,7 +47,7 @@
     {
       "budget": 800,
       "chunks_selected": 7,
-      "estimated_tokens": 797,
+      "estimated_tokens": 781,
       "dropped_by_dedup": 0,
       "dropped_by_diversity": 3,
       "dropped_by_budget": 30
@@ -80,23 +80,30 @@
   "truncate": [
     {
       "budget": 100,
-      "tokens": 123,
+      "tokens": 88,
       "tail": ".",
       "ends_at_sentence": true
     },
     {
       "budget": 200,
-      "tokens": 248,
+      "tokens": 194,
       "tail": ".",
       "ends_at_sentence": true
     },
     {
       "budget": 400,
-      "tokens": 515,
+      "tokens": 390,
       "tail": ".",
       "ends_at_sentence": true
     }
   ],
+  "dedup_real": {
+    "docs": 29,
+    "multi_chunk_docs": 5,
+    "pairs": 23,
+    "max": 0.1618,
+    "ge_0_7": 0
+  },
   "token_accuracy": {
     "estimated": 2448,
     "actual": 2451,

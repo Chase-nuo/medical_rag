@@ -240,8 +240,12 @@ class ContextAssembler:
             return text
         # 先按平均比例粗估能留多少字符
         zh_ratio = len(_ZH.findall(text)) / max(len(text), 1)
-        chars_per_token = (self.CHARS_PER_TOKEN_ZH * zh_ratio
-                           + self.CHARS_PER_TOKEN_OTHER * (1 - zh_ratio))
+        # 必须除以安全系数: estimate_tokens 是"保守估算"(乘了 safety_factor),
+        # 这里若按不含系数的真实比例去截, 截出来的文本用保守估算一量就会超出
+        # 预算 —— 实测过: 预算 100 会截出 123 token, 等于截了个寂寞, 照样超窗。
+        chars_per_token = ((self.CHARS_PER_TOKEN_ZH * zh_ratio
+                            + self.CHARS_PER_TOKEN_OTHER * (1 - zh_ratio))
+                           / self.safety_factor)
         keep = int(budget_tokens * chars_per_token)
         if keep <= 0:
             return ""
