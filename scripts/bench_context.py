@@ -247,7 +247,8 @@ def main() -> None:
     if args.log:
         sys.stdout = Tee(LOG_PATH)
     if args.all:
-        for k in ("dedup", "diversity", "budget", "truncate", "token_accuracy"):
+        for k in ("dedup", "diversity", "budget", "truncate", "dedup_real",
+                  "token_accuracy"):
             setattr(args, k, True)
     if not any([args.dedup, args.diversity, args.budget, args.truncate,
                 args.token_accuracy]):
