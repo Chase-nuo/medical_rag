@@ -167,6 +167,48 @@ def exp_truncate(docs: list) -> dict:
     return {"truncate": rows}
 
 
+# ------------------------------------------------- 6 真实数据上的去重行为
+def exp_dedup_real(docs: list) -> dict:
+    """真实候选中, 同一文献的相邻块到底有多像 —— 判断阈值 0.7 该不该调。
+
+    §2.3 的端到端样例是我造的, 而预算表里"去重丢 0 条"是真实的。两者对不上,
+    必须回答: 是真实数据里本来就没有重复, 还是阈值定得太松漏掉了。
+    """
+    from collections import defaultdict
+    _hdr("6) 真实候选的去重行为 —— 同篇块相似度分布")
+    asm = ContextAssembler()
+    chunks = asm.convert(docs)
+    by_doc: dict = defaultdict(list)
+    for c in chunks:
+        by_doc[c.doc_id].append(c)
+
+    pairs = []
+    for cs in by_doc.values():
+        if len(cs) < 2:
+            continue
+        for i in range(len(cs)):
+            for j in range(i + 1, len(cs)):
+                pairs.append((asm.jaccard(cs[i].text, cs[j].text),
+                              cs[i].chunk_id, cs[j].chunk_id))
+    pairs.sort(reverse=True)
+
+    multi = sum(1 for cs in by_doc.values() if len(cs) >= 2)
+    print(f"40 条候选来自 {len(by_doc)} 篇, 其中 {multi} 篇贡献了 >=2 块")
+    print(f"同篇块对 {len(pairs)} 组")
+    if pairs:
+        vals = [p[0] for p in pairs]
+        print(f"  相似度: max {max(vals):.4f}  均值 {sum(vals) / len(vals):.4f}")
+        for thr in (0.3, 0.5, 0.7):
+            print(f"  >= {thr}: {sum(1 for v in vals if v >= thr)} 组")
+        print("\n最相似的 5 组:")
+        for v, a, b in pairs[:5]:
+            print(f"  {v:.4f}  {a} vs {b}")
+    return {"dedup_real": {"docs": len(by_doc), "multi_chunk_docs": multi,
+                           "pairs": len(pairs),
+                           "max": round(pairs[0][0], 4) if pairs else None,
+                           "ge_0_7": sum(1 for v, _, _ in pairs if v >= 0.7)}}
+
+
 # ---------------------------------------------------------------- 5 估算精度
 def exp_token_accuracy(docs: list) -> dict:
     _hdr("5) token 估算精度 —— 估算值 vs LLM 实际计入的 token 数")
@@ -196,6 +238,7 @@ def main() -> None:
     ap.add_argument("--diversity", action="store_true")
     ap.add_argument("--budget", action="store_true")
     ap.add_argument("--truncate", action="store_true")
+    ap.add_argument("--dedup-real", action="store_true", help="真实候选上的去重行为")
     ap.add_argument("--token-accuracy", action="store_true", help="需调用 LLM, 较慢")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--log", action="store_true")
@@ -212,8 +255,8 @@ def main() -> None:
         args.dedup = args.diversity = args.budget = args.truncate = True
         args.token_accuracy = False
 
-    # 只有这两个实验需要真实检索结果; truncate 用构造的长文本, 不必等 30 秒检索
-    need_docs = args.budget or args.token_accuracy
+    # 只有这三个实验需要真实检索结果; truncate 用构造的长文本, 不必等 30 秒检索
+    need_docs = args.budget or args.token_accuracy or args.dedup_real
     docs = []
     if need_docs:
         from retrieval_pipeline import RetrievalPipeline
@@ -230,6 +273,8 @@ def main() -> None:
         out.update(exp_budget(docs))
     if args.truncate:
         out.update(exp_truncate(docs))
+    if args.dedup_real:
+        out.update(exp_dedup_real(docs))
     if args.token_accuracy:
         out.update(exp_token_accuracy(docs))
 
