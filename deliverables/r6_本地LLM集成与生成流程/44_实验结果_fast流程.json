@@ -1,0 +1,173 @@
+{
+  "query": "二甲双胍对心血管疾病有何影响？",
+  "answer": "二甲双胍对心血管疾病具有积极影响，主要通过以下机制实现：\n\n1. **降糖作用**：二甲双胍通过降低糖化血红蛋白水平，改善糖尿病患者的血糖控制，从而降低心血管疾病的风险。这在糖尿病患者中尤为显著，因为血糖控制对心血管健康至关重要 [5]。\n\n2. **抗高血压作用**：研究表明，二甲双胍可能在抗高血压方面发挥重要作用，特别是对MG3-和MCI相关的患者。高血压是心血管疾病的主要危险因素，因此降血压对改善心血管健康至关重要 [1]。\n\n3. **改善心血管功能**：二甲双胍可能通过改善心肌功能和血管 remodel，降低心血管疾病的风险。例如，在某些研究中，二甲双胍已被证明可以改善心肌功能，从而降低心血管事件的发生率 [6]。\n\n4. **降低坏血病风险**：二甲双胍通过降低高密度脂蛋白胆固醇和提高低密度脂蛋白胆固醇水平，有助于降低坏血病风险，从而间接降低心血管疾病的风险 [6]。\n\n5. **戒烟辅助**：二甲双胍可能通过促进烟酒戒除，降低心血管疾病的发生率。吸烟是心血管疾病的重要危险因素，因此戒烟对改善心血管健康至关重要 [11]。\n\n综上所述，二甲双胍通过降糖、抗高血压、改善心血管功能和降低坏血病风险等多种机制，对预防和治疗心血管疾病具有重要意义。\n\n参考来源：\n[1] PMC11219383（2023 / J Cardiovasc Transl Res）\n[2] PMC8301937（2021 / Biomolecules）\n[3] PMC8347098（2021 / J Clin Med）\n[4] PMC11410575（2024 / Front Public Health）\n[5] PMC3464381（2012 / Cardiovasc Drugs Ther）\n[6] PMC11918843（1992 / Rev Assoc Med Bras (1992)）\n[7] PMC3226505（2011 / Environ Health Perspect）\n[8] PMC9339419（2022 / Int J Med Sci）\n[9] PMC13451477（2026 / Iran J Med Sci）\n[10] PMC2432046（2008 / BMC Cardiovasc Disord）\n[11] PMC11410575（2024 / Front Public Health）\n[12] PMC3464381（2012 / Cardiovasc Drugs Ther）\n\n免责声明：\n以上回答基于检索到的文献片段生成，仅供学习与研究参考，不构成临床诊断或治疗建议；具体诊疗请以临床医师判断为准。",
+  "answer_length": 1121,
+  "context_metadata": {
+    "total_chunks_retrieved": 12,
+    "unique_chunks_after_dedup": 12,
+    "chunks_selected": 12,
+    "estimated_tokens": 1406,
+    "chunk_sources": {
+      "unique_docs": 10,
+      "per_doc": {
+        "PMC11410575": 2,
+        "PMC3464381": 2,
+        "PMC11219383": 1,
+        "PMC8301937": 1,
+        "PMC8347098": 1,
+        "PMC11918843": 1,
+        "PMC3226505": 1,
+        "PMC9339419": 1,
+        "PMC13451477": 1,
+        "PMC2432046": 1
+      },
+      "year_range": [
+        "1992",
+        "2026"
+      ]
+    },
+    "token_budget": 2500,
+    "dropped_by_dedup": 0,
+    "dropped_by_diversity": 0,
+    "dropped_by_budget": 0
+  },
+  "generation_metrics": {
+    "total_time_seconds": 280.9,
+    "stage_times": {
+      "retrieve_and_assemble": 177.8,
+      "draft_answer": 103.1
+    },
+    "token_counts": {
+      "draft_answer": 572
+    },
+    "stage_success": {
+      "retrieve_and_assemble": true,
+      "evidence_evaluation": false,
+      "draft_answer": true,
+      "critical_review": false,
+      "final_assembly": false
+    }
+  },
+  "intermediate_results": {
+    "evidence_evaluation": "",
+    "draft_answer": "二甲双胍对心血管疾病具有积极影响，主要通过以下机制实现：\n\n1. **降糖作用**：二甲双胍通过降低糖化血红蛋白水平，改善糖尿病患者的血糖控制，从而降低心血管疾病的风险。这在糖尿病患者中尤为显著，因为血糖控制对心血管健康至关重要 [5]。\n\n2. **抗高血压作用**：研究表明，二甲双胍可能在抗高血压方面发挥重要作用，特别是对MG3-和MCI相关的患者。高血压是心血管疾病的主要危险因素，因此降血压对改善心血管健康至关重要 [1]。\n\n3. **改善心血管功能**：二甲双胍可能通过改善心肌功能和血管 remodel，降低心血管疾病的风险。例如，在某些研究中，二甲双胍已被证明可以改善心肌功能，从而降低心血管事件的发生率 [6]。\n\n4. **降低坏血病风险**：二甲双胍通过降低高密度脂蛋白胆固醇和提高低密度脂蛋白胆固醇水平，有助于降低坏血病风险，从而间接降低心血管疾病的风险 [6]。\n\n5. **戒烟辅助**：二甲双胍可能通过促进烟酒戒除，降低心血管疾病的发生率。吸烟是心血管疾病的重要危险因素，因此戒烟对改善心血管健康至关重要 [11]。\n\n综上所述，二甲双胍通过降糖、抗高血压、改善心血管功能和降低坏血病风险等多种机制，对预防和治疗心血管疾病具有重要意义。",
+    "review_feedback": ""
+  },
+  "sources": [
+    {
+      "ref": 1,
+      "chunk_id": "PMC11219383_0001",
+      "doc_id": "PMC11219383",
+      "pmid": "38012470",
+      "journal": "J Cardiovasc Transl Res",
+      "pub_year": "2023",
+      "score": 0.0479
+    },
+    {
+      "ref": 2,
+      "chunk_id": "PMC8301937_0027",
+      "doc_id": "PMC8301937",
+      "pmid": "34356646",
+      "journal": "Biomolecules",
+      "pub_year": "2021",
+      "score": 0.0315
+    },
+    {
+      "ref": 3,
+      "chunk_id": "PMC8347098_0001",
+      "doc_id": "PMC8347098",
+      "pmid": "34362177",
+      "journal": "J Clin Med",
+      "pub_year": "2021",
+      "score": 0.0274
+    },
+    {
+      "ref": 4,
+      "chunk_id": "PMC11410575_0003",
+      "doc_id": "PMC11410575",
+      "pmid": "39301516",
+      "journal": "Front Public Health",
+      "pub_year": "2024",
+      "score": 0.0164
+    },
+    {
+      "ref": 5,
+      "chunk_id": "PMC3464381_0004",
+      "doc_id": "PMC3464381",
+      "pmid": "22968678",
+      "journal": "Cardiovasc Drugs Ther",
+      "pub_year": "2012",
+      "score": 0.0161
+    },
+    {
+      "ref": 6,
+      "chunk_id": "PMC11918843_0001",
+      "doc_id": "PMC11918843",
+      "pmid": "40105548",
+      "journal": "Rev Assoc Med Bras (1992)",
+      "pub_year": "1992",
+      "score": 0.0161
+    },
+    {
+      "ref": 7,
+      "chunk_id": "PMC3226505_0004",
+      "doc_id": "PMC3226505",
+      "pmid": "21768054",
+      "journal": "Environ Health Perspect",
+      "pub_year": "2011",
+      "score": 0.0161
+    },
+    {
+      "ref": 8,
+      "chunk_id": "PMC9339419_0010",
+      "doc_id": "PMC9339419",
+      "pmid": "35919809",
+      "journal": "Int J Med Sci",
+      "pub_year": "2022",
+      "score": 0.0159
+    },
+    {
+      "ref": 9,
+      "chunk_id": "PMC13451477_0002",
+      "doc_id": "PMC13451477",
+      "pmid": "42571075",
+      "journal": "Iran J Med Sci",
+      "pub_year": "2026",
+      "score": 0.0156
+    },
+    {
+      "ref": 10,
+      "chunk_id": "PMC2432046_0022",
+      "doc_id": "PMC2432046",
+      "pmid": "18505546",
+      "journal": "BMC Cardiovasc Disord",
+      "pub_year": "2008",
+      "score": 0.0154
+    },
+    {
+      "ref": 11,
+      "chunk_id": "PMC11410575_0028",
+      "doc_id": "PMC11410575",
+      "pmid": "39301516",
+      "journal": "Front Public Health",
+      "pub_year": "2024",
+      "score": 0.0159
+    },
+    {
+      "ref": 12,
+      "chunk_id": "PMC3464381_0001",
+      "doc_id": "PMC3464381",
+      "pmid": "22968678",
+      "journal": "Cardiovasc Drugs Ther",
+      "pub_year": "2012",
+      "score": 0.0156
+    }
+  ],
+  "warnings": [],
+  "config": {
+    "use_evaluation": false,
+    "use_review": false,
+    "top_k": 12
+  },
+  "timestamp": "2026-11-09 10:37:07"
+}
