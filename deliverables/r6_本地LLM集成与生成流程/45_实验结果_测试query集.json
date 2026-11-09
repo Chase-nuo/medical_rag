@@ -1,0 +1,493 @@
+{
+  "mode": "fast(仅草稿)",
+  "top_k": 12,
+  "timestamp": "2026-11-09 11:20:47",
+  "results": [
+    {
+      "query": "二甲双胍对心血管疾病有何影响？",
+      "answer": "二甲双胍对心血管疾病的影响如下：\n\n1. **潜在的保护作用**：二甲双胍在改善血糖控制的同时，可能通过降低某些心血管事件的风险。例如，在急性心肌梗死（STEMI）患者中，二甲双胍可能减少Carotid Intima-Media Thickness（CIMT）的增加，从而降低心血管事件的风险。这种潜在的保护作用需要进一步的临床试验和长期随访数据来确认。\n\n2. **与心血管危险因素的管理**：二甲双胍在控制血糖方面的作用可能间接影响心血管健康。例如，通过改善血糖控制，二甲双胍可能减少心血管事件的发生率。然而，这种影响需要结合其他心血管危险因素（如高血压、糖尿病、吸烟等）的管理来综合评估。\n\n3. **与心血管疾病的关系**：虽然现有证据主要集中在Metformin对心血管疾病的影响，但二甲双胍作为一种降糖药物，其潜在的保护作用可能通过类似机制实现。例如，Metformin通过减少心肌重构来保护心肌，这种机制可能也适用于二甲双胍。\n\n4. **需要更多的研究支持**：目前的证据主要来自观察性研究和动物实验，这些研究可能无法完全反映二甲双胍在真实临床环境中对心血管疾病的影响。因此，进一步的随机对照试验（RCT）和长期随访研究是必要的。\n\n综上所述，二甲双胍可能对预防心血管事件有一定的保护作用，但这种作用需要结合其他心血管危险因素的管理，并通过更多的研究来确认。\n\n参考来源：\n[1] PMC11219383（2023 / J Cardiovasc Transl Res）\n[2] PMC8301937（2021 / Biomolecules）\n[3] PMC8347098（2021 / J Clin Med）\n[4] PMC11410575（2024 / Front Public Health）\n[5] PMC3464381（2012 / Cardiovasc Drugs Ther）\n[6] PMC11918843（1992 / Rev Assoc Med Bras (1992)）\n[7] PMC3226505（2011 / Environ Health Perspect）\n[8] PMC9339419（2022 / Int J Med Sci）\n[9] PMC13451477（2026 / Iran J Med Sci）\n[10] PMC2432046（2008 / BMC Cardiovasc Disord）\n[11] PMC11410575（2024 / Front Public Health）\n[12] PMC3464381（2012 / Cardiovasc Drugs Ther）\n\n免责声明：\n以上回答基于检索到的文献片段生成，仅供学习与研究参考，不构成临床诊断或治疗建议；具体诊疗请以临床医师判断为准。",
+      "answer_length": 1174,
+      "context_metadata": {
+        "total_chunks_retrieved": 12,
+        "unique_chunks_after_dedup": 12,
+        "chunks_selected": 12,
+        "estimated_tokens": 1406,
+        "chunk_sources": {
+          "unique_docs": 10,
+          "per_doc": {
+            "PMC11410575": 2,
+            "PMC3464381": 2,
+            "PMC11219383": 1,
+            "PMC8301937": 1,
+            "PMC8347098": 1,
+            "PMC11918843": 1,
+            "PMC3226505": 1,
+            "PMC9339419": 1,
+            "PMC13451477": 1,
+            "PMC2432046": 1
+          },
+          "year_range": [
+            "1992",
+            "2026"
+          ]
+        },
+        "token_budget": 2500,
+        "dropped_by_dedup": 0,
+        "dropped_by_diversity": 0,
+        "dropped_by_budget": 0
+      },
+      "generation_metrics": {
+        "total_time_seconds": 243.7,
+        "stage_times": {
+          "retrieve_and_assemble": 69.8,
+          "draft_answer": 173.9
+        },
+        "token_counts": {
+          "draft_answer": 1151
+        },
+        "stage_success": {
+          "retrieve_and_assemble": true,
+          "evidence_evaluation": false,
+          "draft_answer": true,
+          "critical_review": false,
+          "final_assembly": false
+        }
+      },
+      "intermediate_results": {
+        "evidence_evaluation": "",
+        "draft_answer": "二甲双胍对心血管疾病的影响如下：\n\n1. **潜在的保护作用**：二甲双胍在改善血糖控制的同时，可能通过降低某些心血管事件的风险。例如，在急性心肌梗死（STEMI）患者中，二甲双胍可能减少Carotid Intima-Media Thickness（CIMT）的增加，从而降低心血管事件的风险。这种潜在的保护作用需要进一步的临床试验和长期随访数据来确认。\n\n2. **与心血管危险因素的管理**：二甲双胍在控制血糖方面的作用可能间接影响心血管健康。例如，通过改善血糖控制，二甲双胍可能减少心血管事件的发生率。然而，这种影响需要结合其他心血管危险因素（如高血压、糖尿病、吸烟等）的管理来综合评估。\n\n3. **与心血管疾病的关系**：虽然现有证据主要集中在Metformin对心血管疾病的影响，但二甲双胍作为一种降糖药物，其潜在的保护作用可能通过类似机制实现。例如，Metformin通过减少心肌重构来保护心肌，这种机制可能也适用于二甲双胍。\n\n4. **需要更多的研究支持**：目前的证据主要来自观察性研究和动物实验，这些研究可能无法完全反映二甲双胍在真实临床环境中对心血管疾病的影响。因此，进一步的随机对照试验（RCT）和长期随访研究是必要的。\n\n综上所述，二甲双胍可能对预防心血管事件有一定的保护作用，但这种作用需要结合其他心血管危险因素的管理，并通过更多的研究来确认。",
+        "review_feedback": ""
+      },
+      "sources": [
+        {
+          "ref": 1,
+          "chunk_id": "PMC11219383_0001",
+          "doc_id": "PMC11219383",
+          "pmid": "38012470",
+          "journal": "J Cardiovasc Transl Res",
+          "pub_year": "2023",
+          "score": 0.0479
+        },
+        {
+          "ref": 2,
+          "chunk_id": "PMC8301937_0027",
+          "doc_id": "PMC8301937",
+          "pmid": "34356646",
+          "journal": "Biomolecules",
+          "pub_year": "2021",
+          "score": 0.0315
+        },
+        {
+          "ref": 3,
+          "chunk_id": "PMC8347098_0001",
+          "doc_id": "PMC8347098",
+          "pmid": "34362177",
+          "journal": "J Clin Med",
+          "pub_year": "2021",
+          "score": 0.0274
+        },
+        {
+          "ref": 4,
+          "chunk_id": "PMC11410575_0003",
+          "doc_id": "PMC11410575",
+          "pmid": "39301516",
+          "journal": "Front Public Health",
+          "pub_year": "2024",
+          "score": 0.0164
+        },
+        {
+          "ref": 5,
+          "chunk_id": "PMC3464381_0004",
+          "doc_id": "PMC3464381",
+          "pmid": "22968678",
+          "journal": "Cardiovasc Drugs Ther",
+          "pub_year": "2012",
+          "score": 0.0161
+        },
+        {
+          "ref": 6,
+          "chunk_id": "PMC11918843_0001",
+          "doc_id": "PMC11918843",
+          "pmid": "40105548",
+          "journal": "Rev Assoc Med Bras (1992)",
+          "pub_year": "1992",
+          "score": 0.0161
+        },
+        {
+          "ref": 7,
+          "chunk_id": "PMC3226505_0004",
+          "doc_id": "PMC3226505",
+          "pmid": "21768054",
+          "journal": "Environ Health Perspect",
+          "pub_year": "2011",
+          "score": 0.0161
+        },
+        {
+          "ref": 8,
+          "chunk_id": "PMC9339419_0010",
+          "doc_id": "PMC9339419",
+          "pmid": "35919809",
+          "journal": "Int J Med Sci",
+          "pub_year": "2022",
+          "score": 0.0159
+        },
+        {
+          "ref": 9,
+          "chunk_id": "PMC13451477_0002",
+          "doc_id": "PMC13451477",
+          "pmid": "42571075",
+          "journal": "Iran J Med Sci",
+          "pub_year": "2026",
+          "score": 0.0156
+        },
+        {
+          "ref": 10,
+          "chunk_id": "PMC2432046_0022",
+          "doc_id": "PMC2432046",
+          "pmid": "18505546",
+          "journal": "BMC Cardiovasc Disord",
+          "pub_year": "2008",
+          "score": 0.0154
+        },
+        {
+          "ref": 11,
+          "chunk_id": "PMC11410575_0028",
+          "doc_id": "PMC11410575",
+          "pmid": "39301516",
+          "journal": "Front Public Health",
+          "pub_year": "2024",
+          "score": 0.0159
+        },
+        {
+          "ref": 12,
+          "chunk_id": "PMC3464381_0001",
+          "doc_id": "PMC3464381",
+          "pmid": "22968678",
+          "journal": "Cardiovasc Drugs Ther",
+          "pub_year": "2012",
+          "score": 0.0156
+        }
+      ],
+      "warnings": [],
+      "config": {
+        "use_evaluation": false,
+        "use_review": false,
+        "top_k": 12
+      },
+      "timestamp": "2026-11-09 11:16:16"
+    },
+    {
+      "query": "SGLT2 inhibitor heart failure hospitalization",
+      "answer": "SGLT2抑制剂可能降低糖尿病患者发生心力衰竭（HF）的住院率。这一结论基于多个证据片段的支持，具体分析如下：\n\n1. **SGLT2抑制剂与心力衰竭的联合治疗效果**\n   SGLT2抑制剂与心力衰竭和糖尿病的联合治疗方案在现有研究中显示出 promise [1]。然而，具体疗效数据尚需进一步验证。\n\n2. **改善心肌重构和心衰住院率**\n   SGLT2抑制剂已被证明能够改善心肌重构和降低心衰住院率。研究表明，SGLT2抑制剂能够改善心肌的左心室（LV）功能，包括LV diastolic dysfunction [2,6]。\n\n3. **机制：血管结构改善**\n   SGLT2抑制剂通过改善血管结构，减少心肌重构，从而降低心衰住院率。这种机制在多个研究中得到支持，例如empagliflozin在糖尿病伴有心衰患者中的应用 [4,6]。\n\n4. **机制：血压调节**\n   SGLT2抑制剂通过降低血压来减少心衰风险。研究显示，SGLT2抑制剂在糖尿病伴有心衰患者中具有显著的血压降低作用 [6]。\n\n5. **机制：肾脏保护作用**\n   SGLT2抑制剂在急性肾功能不全事件方面表现出保护作用，可能与其对肾脏血流动力学的影响有关 [3,6]。\n\n6. **机制：血糖控制**\n   SGLT2抑制剂通过改善糖尿病患者的血糖控制，间接降低心血管风险，从而可能减少心衰住院率 [5]。\n\n7. **机制：抗排斥反应**\n   在肾移植患者中，SGLT2抑制剂已被报道具有抗排斥反应，这可能与其在心衰患者中的应用相关 [9]。\n\n综上所述，SGLT2抑制剂通过多种机制（包括改善心肌重构、降低血压、保护肾脏功能、改善血糖控制和抗排斥反应）可能降低糖尿病患者发生心力衰竭的住院率。然而，具体疗效和安全性仍需进一步研究验证。\n\n参考来源：\n[1] PMC9339419（2022 / Int J Med Sci）\n[2] PMC9831930（2022 / J Hum Hypertens）\n[3] PMC5485046（2017 / Diabetes Obes Metab）\n[4] PMC13451477（2026 / Iran J Med Sci）\n[5] PMC9339419（2022 / Int J Med Sci）\n[6] PMC10133371（2023 / Wien Klin Wochenschr）\n[7] PMC9831930（2022 / J Hum Hypertens）\n[8] PMC9339419（2022 / Int J Med Sci）\n[9] PMC9831930（2022 / J Hum Hypertens）\n\n免责声明：\n以上回答基于检索到的文献片段生成，仅供学习与研究参考，不构成临床诊断或治疗建议；具体诊疗请以临床医师判断为准。",
+      "answer_length": 1192,
+      "context_metadata": {
+        "total_chunks_retrieved": 12,
+        "unique_chunks_after_dedup": 12,
+        "chunks_selected": 9,
+        "estimated_tokens": 1046,
+        "chunk_sources": {
+          "unique_docs": 5,
+          "per_doc": {
+            "PMC9339419": 3,
+            "PMC9831930": 3,
+            "PMC5485046": 1,
+            "PMC13451477": 1,
+            "PMC10133371": 1
+          },
+          "year_range": [
+            "2017",
+            "2026"
+          ]
+        },
+        "token_budget": 2500,
+        "dropped_by_dedup": 0,
+        "dropped_by_diversity": 3,
+        "dropped_by_budget": 0
+      },
+      "generation_metrics": {
+        "total_time_seconds": 141.3,
+        "stage_times": {
+          "retrieve_and_assemble": 10.5,
+          "draft_answer": 130.8
+        },
+        "token_counts": {
+          "draft_answer": 897
+        },
+        "stage_success": {
+          "retrieve_and_assemble": true,
+          "evidence_evaluation": false,
+          "draft_answer": true,
+          "critical_review": false,
+          "final_assembly": false
+        }
+      },
+      "intermediate_results": {
+        "evidence_evaluation": "",
+        "draft_answer": "SGLT2抑制剂可能降低糖尿病患者发生心力衰竭（HF）的住院率。这一结论基于多个证据片段的支持，具体分析如下：\n\n1. **SGLT2抑制剂与心力衰竭的联合治疗效果**  \n   SGLT2抑制剂与心力衰竭和糖尿病的联合治疗方案在现有研究中显示出 promise [1]。然而，具体疗效数据尚需进一步验证。\n\n2. **改善心肌重构和心衰住院率**  \n   SGLT2抑制剂已被证明能够改善心肌重构和降低心衰住院率。研究表明，SGLT2抑制剂能够改善心肌的左心室（LV）功能，包括LV diastolic dysfunction [2,6]。\n\n3. **机制：血管结构改善**  \n   SGLT2抑制剂通过改善血管结构，减少心肌重构，从而降低心衰住院率。这种机制在多个研究中得到支持，例如empagliflozin在糖尿病伴有心衰患者中的应用 [4,6]。\n\n4. **机制：血压调节**  \n   SGLT2抑制剂通过降低血压来减少心衰风险。研究显示，SGLT2抑制剂在糖尿病伴有心衰患者中具有显著的血压降低作用 [6]。\n\n5. **机制：肾脏保护作用**  \n   SGLT2抑制剂在急性肾功能不全事件方面表现出保护作用，可能与其对肾脏血流动力学的影响有关 [3,6]。\n\n6. **机制：血糖控制**  \n   SGLT2抑制剂通过改善糖尿病患者的血糖控制，间接降低心血管风险，从而可能减少心衰住院率 [5]。\n\n7. **机制：抗排斥反应**  \n   在肾移植患者中，SGLT2抑制剂已被报道具有抗排斥反应，这可能与其在心衰患者中的应用相关 [9]。\n\n综上所述，SGLT2抑制剂通过多种机制（包括改善心肌重构、降低血压、保护肾脏功能、改善血糖控制和抗排斥反应）可能降低糖尿病患者发生心力衰竭的住院率。然而，具体疗效和安全性仍需进一步研究验证。",
+        "review_feedback": ""
+      },
+      "sources": [
+        {
+          "ref": 1,
+          "chunk_id": "PMC9339419_0000",
+          "doc_id": "PMC9339419",
+          "pmid": "35919809",
+          "journal": "Int J Med Sci",
+          "pub_year": "2022",
+          "score": 0.0621
+        },
+        {
+          "ref": 2,
+          "chunk_id": "PMC9831930_0028",
+          "doc_id": "PMC9831930",
+          "pmid": "36138105",
+          "journal": "J Hum Hypertens",
+          "pub_year": "2022",
+          "score": 0.0487
+        },
+        {
+          "ref": 3,
+          "chunk_id": "PMC5485046_0001",
+          "doc_id": "PMC5485046",
+          "pmid": "28083972",
+          "journal": "Diabetes Obes Metab",
+          "pub_year": "2017",
+          "score": 0.0469
+        },
+        {
+          "ref": 4,
+          "chunk_id": "PMC13451477_0000",
+          "doc_id": "PMC13451477",
+          "pmid": "42571075",
+          "journal": "Iran J Med Sci",
+          "pub_year": "2026",
+          "score": 0.0397
+        },
+        {
+          "ref": 5,
+          "chunk_id": "PMC9339419_0001",
+          "doc_id": "PMC9339419",
+          "pmid": "35919809",
+          "journal": "Int J Med Sci",
+          "pub_year": "2022",
+          "score": 0.062
+        },
+        {
+          "ref": 6,
+          "chunk_id": "PMC10133371_0010",
+          "doc_id": "PMC10133371",
+          "pmid": "37101042",
+          "journal": "Wien Klin Wochenschr",
+          "pub_year": "2023",
+          "score": 0.0286
+        },
+        {
+          "ref": 7,
+          "chunk_id": "PMC9831930_0027",
+          "doc_id": "PMC9831930",
+          "pmid": "36138105",
+          "journal": "J Hum Hypertens",
+          "pub_year": "2022",
+          "score": 0.045
+        },
+        {
+          "ref": 8,
+          "chunk_id": "PMC9339419_0011",
+          "doc_id": "PMC9339419",
+          "pmid": "35919809",
+          "journal": "Int J Med Sci",
+          "pub_year": "2022",
+          "score": 0.046
+        },
+        {
+          "ref": 9,
+          "chunk_id": "PMC9831930_0029",
+          "doc_id": "PMC9831930",
+          "pmid": "36138105",
+          "journal": "J Hum Hypertens",
+          "pub_year": "2022",
+          "score": 0.0419
+        }
+      ],
+      "warnings": [],
+      "config": {
+        "use_evaluation": false,
+        "use_review": false,
+        "top_k": 12
+      },
+      "timestamp": "2026-11-09 11:18:37"
+    },
+    {
+      "query": "MI 患者的死亡率 2020年以后的研究",
+      "answer": "MI患者死亡率在2020年以后的研究显示，MI仍是导致死亡的主要原因之一，尤其是围手术期MI患者。以下是对相关研究的总结：\n\n1. **MI仍是主要死因**：MI是导致死亡的主要原因，尤其是在围手术期。研究表明，围手术期MI患者的死亡率显著高于非围手术期患者，这与术后并发症如急性心衰、心律失常和死亡密切相关 [8]。\n\n2. **诊断准确性提高**：通过改进诊断方法和治疗策略，MI的诊断准确性显著提高，从而能够早期识别高危患者并采取针对性治疗，这有助于降低MI患者的死亡率 [4]。\n\n3. **治疗干预效果显著**：多种治疗手段，如WCD（电除颤）、BMMNCs（骨髓间充质干细胞）和抗凝药物等，已被证明在改善MI患者的预后方面具有显著效果。例如，BMMNCs治疗已被证明可以在短期内提高LVEF（左心室射影面积），并降低MI、死亡和再血管化的发生率 [11]。\n\n4. **生活方式干预和预防性治疗**：通过生活方式干预（如戒烟、控制体重）和预防性治疗（如抗凝药物和 heparin）可以显著降低MI患者的死亡率。这些措施有助于减少MI的发生率，并降低术后并发症的风险 [8]。\n\n综上所述，MI患者的死亡率在2020年以后通过提高诊断准确性、优化治疗手段和加强生活方式干预等方面取得了显著改善。\n\n参考来源：\n[1] PMC12316839（2025 / Stem Cell Rev Rep）\n[2] PMC8702745（2021 / Front Public Health）\n[3] PMC9754908（2022 / Epidemiol Health）\n[4] PMC9052331（2022 / Lancet Digit Health）\n[5] PMC10803342（2024 / Sci Rep）\n[6] PMC13452781（2026 / Intern Emerg Med）\n[7] PMC7954292（2021 / PLoS One）\n[8] PMC11510088（2024 / Medicina (Kaunas)）\n[9] PMC9754908（2022 / Epidemiol Health）\n[10] PMC8789717（2021 / Cardiovasc Interv Ther）\n[11] PMC12316839（2025 / Stem Cell Rev Rep）\n[12] PMC9754908（2022 / Epidemiol Health）\n\n免责声明：\n以上回答基于检索到的文献片段生成，仅供学习与研究参考，不构成临床诊断或治疗建议；具体诊疗请以临床医师判断为准。",
+      "answer_length": 1108,
+      "context_metadata": {
+        "total_chunks_retrieved": 12,
+        "unique_chunks_after_dedup": 12,
+        "chunks_selected": 12,
+        "estimated_tokens": 1398,
+        "chunk_sources": {
+          "unique_docs": 9,
+          "per_doc": {
+            "PMC9754908": 3,
+            "PMC12316839": 2,
+            "PMC8702745": 1,
+            "PMC9052331": 1,
+            "PMC10803342": 1,
+            "PMC13452781": 1,
+            "PMC7954292": 1,
+            "PMC11510088": 1,
+            "PMC8789717": 1
+          },
+          "year_range": [
+            "2021",
+            "2026"
+          ]
+        },
+        "token_budget": 2500,
+        "dropped_by_dedup": 0,
+        "dropped_by_diversity": 0,
+        "dropped_by_budget": 0
+      },
+      "generation_metrics": {
+        "total_time_seconds": 130.1,
+        "stage_times": {
+          "retrieve_and_assemble": 9.3,
+          "draft_answer": 120.7
+        },
+        "token_counts": {
+          "draft_answer": 738
+        },
+        "stage_success": {
+          "retrieve_and_assemble": true,
+          "evidence_evaluation": false,
+          "draft_answer": true,
+          "critical_review": false,
+          "final_assembly": false
+        }
+      },
+      "intermediate_results": {
+        "evidence_evaluation": "",
+        "draft_answer": "MI患者死亡率在2020年以后的研究显示，MI仍是导致死亡的主要原因之一，尤其是围手术期MI患者。以下是对相关研究的总结：\n\n1. **MI仍是主要死因**：MI是导致死亡的主要原因，尤其是在围手术期。研究表明，围手术期MI患者的死亡率显著高于非围手术期患者，这与术后并发症如急性心衰、心律失常和死亡密切相关 [8]。\n\n2. **诊断准确性提高**：通过改进诊断方法和治疗策略，MI的诊断准确性显著提高，从而能够早期识别高危患者并采取针对性治疗，这有助于降低MI患者的死亡率 [4]。\n\n3. **治疗干预效果显著**：多种治疗手段，如WCD（电除颤）、BMMNCs（骨髓间充质干细胞）和抗凝药物等，已被证明在改善MI患者的预后方面具有显著效果。例如，BMMNCs治疗已被证明可以在短期内提高LVEF（左心室射影面积），并降低MI、死亡和再血管化的发生率 [11]。\n\n4. **生活方式干预和预防性治疗**：通过生活方式干预（如戒烟、控制体重）和预防性治疗（如抗凝药物和 heparin）可以显著降低MI患者的死亡率。这些措施有助于减少MI的发生率，并降低术后并发症的风险 [8]。\n\n综上所述，MI患者的死亡率在2020年以后通过提高诊断准确性、优化治疗手段和加强生活方式干预等方面取得了显著改善。",
+        "review_feedback": ""
+      },
+      "sources": [
+        {
+          "ref": 1,
+          "chunk_id": "PMC12316839_0001",
+          "doc_id": "PMC12316839",
+          "pmid": "40323498",
+          "journal": "Stem Cell Rev Rep",
+          "pub_year": "2025",
+          "score": 0.0479
+        },
+        {
+          "ref": 2,
+          "chunk_id": "PMC8702745_0001",
+          "doc_id": "PMC8702745",
+          "pmid": "34957040",
+          "journal": "Front Public Health",
+          "pub_year": "2021",
+          "score": 0.0451
+        },
+        {
+          "ref": 3,
+          "chunk_id": "PMC9754908_0015",
+          "doc_id": "PMC9754908",
+          "pmid": "35843602",
+          "journal": "Epidemiol Health",
+          "pub_year": "2022",
+          "score": 0.0311
+        },
+        {
+          "ref": 4,
+          "chunk_id": "PMC9052331_0018",
+          "doc_id": "PMC9052331",
+          "pmid": "35461689",
+          "journal": "Lancet Digit Health",
+          "pub_year": "2022",
+          "score": 0.0296
+        },
+        {
+          "ref": 5,
+          "chunk_id": "PMC10803342_0004",
+          "doc_id": "PMC10803342",
+          "pmid": "38253721",
+          "journal": "Sci Rep",
+          "pub_year": "2024",
+          "score": 0.0288
+        },
+        {
+          "ref": 6,
+          "chunk_id": "PMC13452781_0006",
+          "doc_id": "PMC13452781",
+          "pmid": "41917518",
+          "journal": "Intern Emerg Med",
+          "pub_year": "2026",
+          "score": 0.0164
+        },
+        {
+          "ref": 7,
+          "chunk_id": "PMC7954292_0019",
+          "doc_id": "PMC7954292",
+          "pmid": "33711079",
+          "journal": "PLoS One",
+          "pub_year": "2021",
+          "score": 0.0164
+        },
+        {
+          "ref": 8,
+          "chunk_id": "PMC11510088_0002",
+          "doc_id": "PMC11510088",
+          "pmid": "39459382",
+          "journal": "Medicina (Kaunas)",
+          "pub_year": "2024",
+          "score": 0.0161
+        },
+        {
+          "ref": 9,
+          "chunk_id": "PMC9754908_0023",
+          "doc_id": "PMC9754908",
+          "pmid": "35843602",
+          "journal": "Epidemiol Health",
+          "pub_year": "2022",
+          "score": 0.0267
+        },
+        {
+          "ref": 10,
+          "chunk_id": "PMC8789717_0008",
+          "doc_id": "PMC8789717",
+          "pmid": "34195951",
+          "journal": "Cardiovasc Interv Ther",
+          "pub_year": "2021",
+          "score": 0.0159
+        },
+        {
+          "ref": 11,
+          "chunk_id": "PMC12316839_0161",
+          "doc_id": "PMC12316839",
+          "pmid": "40323498",
+          "journal": "Stem Cell Rev Rep",
+          "pub_year": "2025",
+          "score": 0.0161
+        },
+        {
+          "ref": 12,
+          "chunk_id": "PMC9754908_0024",
+          "doc_id": "PMC9754908",
+          "pmid": "35843602",
+          "journal": "Epidemiol Health",
+          "pub_year": "2022",
+          "score": 0.0265
+        }
+      ],
+      "warnings": [],
+      "config": {
+        "use_evaluation": false,
+        "use_review": false,
+        "top_k": 12
+      },
+      "timestamp": "2026-11-09 11:20:47"
+    }
+  ]
+}

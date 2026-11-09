@@ -229,6 +229,18 @@ class LLMGenerator:
                 return json.loads(v)
             except Exception:                            # noqa: BLE001
                 continue
+        try:
+            import json5                                  # 容错解析(尾逗号/单引号/注释)
+        except ImportError:
+            json5 = None
+        if json5 is not None:
+            for v in variants:
+                try:
+                    obj = json5.loads(v)
+                    if isinstance(obj, (dict, list)):
+                        return obj
+                except Exception:                        # noqa: BLE001
+                    continue
         for v in variants:                               # 兼容单引号/True/False
             try:
                 obj = ast.literal_eval(v)
